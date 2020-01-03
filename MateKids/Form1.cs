@@ -25,9 +25,7 @@ namespace MateKids
 
         private void iniciar_minijuego( )
         {
-            #region
-                string minijuego_1 = "C://Users//wwwda//Desktop//ISOW//ISOW_4_C//PrograVisual//U2//juegoMultiplica//bin//Debug//juegoMultiplicar.exe";
-            #endregion
+            
             // Process.Start(minijuego_1);
             Minijuego1 minijuego = new Minijuego1();
             minijuego.ShowDialog();

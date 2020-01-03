@@ -133,6 +133,9 @@
   <data name="d5" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\d5.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="multipractis_juego_icono" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\multipractis_juego_icono.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="matekids_nombre" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\matekids_nombre.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -148,11 +151,11 @@
   <data name="m13" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\m1.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="shooterex" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Minijuego_4\shooterex.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="m1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\m1.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="m3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\bin\Debug\m3.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="multipractis_juego" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\multipractis_juego.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -163,17 +166,14 @@
   <data name="multiplicax_juego_icono" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\multiplicax_juego_icono.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="m11" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\bin\Debug\m1.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="multiplicax_juego" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\multiplicax_juego.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="d2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\d2.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="m5" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\bin\Debug\m5.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="m3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\m3.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="d7" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\d7.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -196,8 +196,11 @@
   <data name="m7" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\m7.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="d9" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\bin\Debug\d9.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="m5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\m5.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="m11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\m1.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="divipractis_juego_icono" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\divipractis_juego_icono.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -214,6 +217,9 @@
   <data name="d10" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\d10.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="d9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\d9.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="m8" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\m8.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -223,7 +229,7 @@
   <data name="d4" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\d4.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="multipractis_juego_icono" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\bin\Debug\multipractis_juego_icono.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="divshooter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Minijuego_9\divshooter.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
