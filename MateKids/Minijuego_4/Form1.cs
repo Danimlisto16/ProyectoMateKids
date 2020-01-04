@@ -22,7 +22,7 @@ namespace MateKids.Minijuego_4
         private void Form1_Load(object sender, EventArgs e)
         {
             //patoControl1.Parent = pictureBox1;
-            xuiButton1.Parent = pictureBox1;
+            patoControl1.Parent = pictureBox1;
             //patoControl2.Parent = pictureBox1;
         }
 
@@ -39,13 +39,23 @@ namespace MateKids.Minijuego_4
             int x, y , x1, y1;
             x = r.Next(3,740);
             y = r.Next(3,540);
-            xuiButton1.Location = new Point(x,y);
+            patoControl1.Location = new Point(x,y);
 
             x1 = r.Next(3, 740);
             y1 = r.Next(3, 540);
            
         }
 
-      
+        private void patoControl2_Load(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void patoControl2_Click(object sender, EventArgs e)
+        {
+            puntaje++;
+            lblMarcador.Text = puntaje.ToString();
+        }
+        
     }
 }

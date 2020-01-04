@@ -31,14 +31,16 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Minijuego_4));
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
-            this.metroButton2 = new MetroFramework.Controls.MetroButton();
-            this.metroButton1 = new MetroFramework.Controls.MetroButton();
+            this.btnReiniciar = new MetroFramework.Controls.MetroButton();
+            this.btnIniciar = new MetroFramework.Controls.MetroButton();
             this.lblMarcador = new System.Windows.Forms.Label();
             this.lblMarcador_titulo = new System.Windows.Forms.Label();
-            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.titulo_minijuego_4 = new System.Windows.Forms.PictureBox();
+            this.patoControl2 = new controlPersonalizado.patoControl();
+            this.patoControl1 = new controlPersonalizado.patoControl();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.xuiButton1 = new XanderUI.XUIButton();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
@@ -55,36 +57,37 @@
             // 
             // splitContainer1.Panel1
             // 
-            this.splitContainer1.Panel1.Controls.Add(this.metroButton2);
-            this.splitContainer1.Panel1.Controls.Add(this.metroButton1);
+            this.splitContainer1.Panel1.Controls.Add(this.btnReiniciar);
+            this.splitContainer1.Panel1.Controls.Add(this.btnIniciar);
             this.splitContainer1.Panel1.Controls.Add(this.lblMarcador);
             this.splitContainer1.Panel1.Controls.Add(this.lblMarcador_titulo);
             this.splitContainer1.Panel1.Controls.Add(this.titulo_minijuego_4);
             // 
             // splitContainer1.Panel2
             // 
-            this.splitContainer1.Panel2.Controls.Add(this.xuiButton1);
+            this.splitContainer1.Panel2.Controls.Add(this.patoControl2);
+            this.splitContainer1.Panel2.Controls.Add(this.patoControl1);
             this.splitContainer1.Panel2.Controls.Add(this.pictureBox1);
             this.splitContainer1.Size = new System.Drawing.Size(1266, 686);
             this.splitContainer1.SplitterDistance = 356;
             this.splitContainer1.TabIndex = 0;
             // 
-            // metroButton2
+            // btnReiniciar
             // 
-            this.metroButton2.Location = new System.Drawing.Point(97, 504);
-            this.metroButton2.Name = "metroButton2";
-            this.metroButton2.Size = new System.Drawing.Size(120, 49);
-            this.metroButton2.TabIndex = 72;
-            this.metroButton2.Text = "metroButton2";
+            this.btnReiniciar.Location = new System.Drawing.Point(97, 504);
+            this.btnReiniciar.Name = "btnReiniciar";
+            this.btnReiniciar.Size = new System.Drawing.Size(120, 49);
+            this.btnReiniciar.TabIndex = 72;
+            this.btnReiniciar.Text = "REINICIAR";
             // 
-            // metroButton1
+            // btnIniciar
             // 
-            this.metroButton1.Location = new System.Drawing.Point(97, 428);
-            this.metroButton1.Name = "metroButton1";
-            this.metroButton1.Size = new System.Drawing.Size(120, 49);
-            this.metroButton1.TabIndex = 71;
-            this.metroButton1.Text = "metroButton1";
-            this.metroButton1.Click += new System.EventHandler(this.metroButton1_Click);
+            this.btnIniciar.Location = new System.Drawing.Point(97, 428);
+            this.btnIniciar.Name = "btnIniciar";
+            this.btnIniciar.Size = new System.Drawing.Size(120, 49);
+            this.btnIniciar.TabIndex = 71;
+            this.btnIniciar.Text = "INICIAR";
+            this.btnIniciar.Click += new System.EventHandler(this.metroButton1_Click);
             // 
             // lblMarcador
             // 
@@ -106,12 +109,6 @@
             this.lblMarcador_titulo.TabIndex = 69;
             this.lblMarcador_titulo.Text = "Marcador";
             // 
-            // timer1
-            // 
-            this.timer1.Enabled = true;
-            this.timer1.Interval = 1000;
-            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
-            // 
             // titulo_minijuego_4
             // 
             this.titulo_minijuego_4.Image = global::MateKids.Properties.Resources.shooterex;
@@ -121,6 +118,24 @@
             this.titulo_minijuego_4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.titulo_minijuego_4.TabIndex = 67;
             this.titulo_minijuego_4.TabStop = false;
+            // 
+            // patoControl2
+            // 
+            this.patoControl2.BackColor = System.Drawing.Color.Transparent;
+            this.patoControl2.Location = new System.Drawing.Point(53, 314);
+            this.patoControl2.Name = "patoControl2";
+            this.patoControl2.Size = new System.Drawing.Size(99, 142);
+            this.patoControl2.TabIndex = 2;
+            this.patoControl2.Load += new System.EventHandler(this.patoControl2_Load);
+            this.patoControl2.Click += new System.EventHandler(this.patoControl2_Click);
+            // 
+            // patoControl1
+            // 
+            this.patoControl1.BackColor = System.Drawing.Color.Transparent;
+            this.patoControl1.Location = new System.Drawing.Point(53, 314);
+            this.patoControl1.Name = "patoControl1";
+            this.patoControl1.Size = new System.Drawing.Size(99, 142);
+            this.patoControl1.TabIndex = 1;
             // 
             // pictureBox1
             // 
@@ -133,33 +148,29 @@
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
-            // xuiButton1
+            // timer1
             // 
-            this.xuiButton1.BackgroundColor = System.Drawing.Color.Transparent;
-            this.xuiButton1.ButtonImage = ((System.Drawing.Image)(resources.GetObject("xuiButton1.ButtonImage")));
-            this.xuiButton1.ButtonStyle = XanderUI.XUIButton.Style.MaterialRounded;
-            this.xuiButton1.ButtonText = "98";
-            this.xuiButton1.ClickBackColor = System.Drawing.Color.Transparent;
-            this.xuiButton1.ClickTextColor = System.Drawing.Color.Transparent;
-            this.xuiButton1.CornerRadius = 5;
-            this.xuiButton1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F);
-            this.xuiButton1.Horizontal_Alignment = System.Drawing.StringAlignment.Center;
-            this.xuiButton1.HoverBackgroundColor = System.Drawing.Color.Transparent;
-            this.xuiButton1.HoverTextColor = System.Drawing.Color.Transparent;
-            this.xuiButton1.ImagePosition = XanderUI.XUIButton.imgPosition.Left;
-            this.xuiButton1.Location = new System.Drawing.Point(167, 275);
-            this.xuiButton1.Name = "xuiButton1";
-            this.xuiButton1.Size = new System.Drawing.Size(201, 106);
-            this.xuiButton1.TabIndex = 1;
-            this.xuiButton1.TextColor = System.Drawing.Color.Black;
-            this.xuiButton1.Vertical_Alignment = System.Drawing.StringAlignment.Center;
+            this.timer1.Enabled = true;
+            this.timer1.Interval = 1000;
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
+            // label1
+            // 
+            this.label1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(771, 10);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(179, 47);
+            this.label1.TabIndex = 73;
             // 
             // Minijuego_4
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1306, 766);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.splitContainer1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Minijuego_4";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.splitContainer1.Panel1.ResumeLayout(false);
@@ -177,11 +188,13 @@
         private System.Windows.Forms.SplitContainer splitContainer1;
         private System.Windows.Forms.PictureBox titulo_minijuego_4;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private MetroFramework.Controls.MetroButton metroButton2;
-        private MetroFramework.Controls.MetroButton metroButton1;
+        private MetroFramework.Controls.MetroButton btnReiniciar;
+        private MetroFramework.Controls.MetroButton btnIniciar;
         private System.Windows.Forms.Label lblMarcador;
         private System.Windows.Forms.Label lblMarcador_titulo;
         private System.Windows.Forms.Timer timer1;
-        private XanderUI.XUIButton xuiButton1;
+        private controlPersonalizado.patoControl patoControl1;
+        private controlPersonalizado.patoControl patoControl2;
+        private System.Windows.Forms.Label label1;
     }
 }
