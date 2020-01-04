@@ -22,8 +22,9 @@ namespace MateKids.Minijuego_2
             if (nventana == 5 || intento == 0)
             {
                 Minijuego2 Ventana = new Minijuego2();
+                this.Hide();
+                Ventana.ShowDialog();
                 this.Close();
-                Ventana.Show();
             }
             else
             {
@@ -38,14 +39,18 @@ namespace MateKids.Minijuego_2
             if (numeros[num] == 1)
             {
                 Form2_1 Ventana = new Form2_1(numeros, intento, nventana, puntaje);
+                //Ventana.ShowDialog();
+                this.Hide();
                 Ventana.ShowDialog();
                 this.Close();
+                //this.Close();
 
             }
             if (numeros[num] == 2)
             {
                 Form2_2 Ventana = new Form2_2(numeros, intento, nventana, puntaje);
 
+                this.Hide();
                 Ventana.ShowDialog();
                 this.Close();
 
@@ -54,6 +59,7 @@ namespace MateKids.Minijuego_2
             {
                 Form2_3 Ventana = new Form2_3(numeros, intento, nventana, puntaje);
 
+                this.Hide();
                 Ventana.ShowDialog();
                 this.Close();
 
@@ -62,6 +68,7 @@ namespace MateKids.Minijuego_2
             {
                 Form2_4 Ventana = new Form2_4(numeros, intento, nventana, puntaje);
 
+                this.Hide();
                 Ventana.ShowDialog();
                 this.Close();
 
@@ -70,6 +77,7 @@ namespace MateKids.Minijuego_2
             {
                 Form2_5 Ventana = new Form2_5(numeros, intento, nventana, puntaje);
 
+                this.Hide();
                 Ventana.ShowDialog();
                 this.Close();
 
@@ -78,6 +86,7 @@ namespace MateKids.Minijuego_2
             {
                 Form2_6 Ventana = new Form2_6(numeros, intento, nventana, puntaje);
 
+                this.Hide();
                 Ventana.ShowDialog();
                 this.Close();
 
@@ -86,6 +95,7 @@ namespace MateKids.Minijuego_2
             {
                 Form2_7 Ventana = new Form2_7(numeros, intento, nventana, puntaje);
 
+                this.Hide();
                 Ventana.ShowDialog();
                 this.Close();
 
@@ -94,6 +104,7 @@ namespace MateKids.Minijuego_2
             {
                 Form2_8 Ventana = new Form2_8(numeros, intento, nventana, puntaje);
 
+                this.Hide();
                 Ventana.ShowDialog();
                 this.Close();
 
@@ -102,6 +113,7 @@ namespace MateKids.Minijuego_2
             {
                 Form2_9 Ventana = new Form2_9(numeros, intento, nventana, puntaje);
 
+                this.Hide();
                 Ventana.ShowDialog();
                 this.Close();
 
@@ -110,6 +122,7 @@ namespace MateKids.Minijuego_2
             {
                 Form2_10 Ventana = new Form2_10(numeros, intento, nventana, puntaje);
 
+                this.Hide();
                 Ventana.ShowDialog();
                 this.Close();
 

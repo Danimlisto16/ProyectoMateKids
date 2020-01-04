@@ -302,7 +302,9 @@
             this.Controls.Add(this.mtb_res1);
             this.Controls.Add(this.TerminarDivision);
             this.Controls.Add(this.imagendivision);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "Form_1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.imagenlinea2)).EndInit();
