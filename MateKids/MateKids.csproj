@@ -36,6 +36,9 @@
     <Reference Include="controlPersonalizado">
       <HintPath>..\..\controlPersonalizado\bin\Debug\controlPersonalizado.dll</HintPath>
     </Reference>
+    <Reference Include="globoControl">
+      <HintPath>..\..\globoControl\bin\Debug\globoControl.dll</HintPath>
+    </Reference>
     <Reference Include="MetroFramework, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
       <HintPath>packages\MetroFramework.RunTime.1.2.0.3\lib\net40-Client\MetroFramework.dll</HintPath>
     </Reference>
@@ -324,6 +327,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Minijuego_4\letrero.png" />
     <None Include="Minijuego_4\pajaro.png" />
     <None Include="Minijuego_4\SHOOTEREXicono.png" />
     <None Include="Minijuego_4\fondo.png" />

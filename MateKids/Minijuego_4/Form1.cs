@@ -24,15 +24,16 @@ namespace MateKids.Minijuego_4
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            //patoControl1.Parent = pictureBox1;
-            
-            
-            //patoControl2.Parent = pictureBox1;
+            pictureBox2.Parent = pictureBox1;
+            userControl11.Parent = pictureBox1;   
         }
+      
+    
 
-        
         private void metroButton1_Click(object sender, EventArgs e)
         {
+            this.lblError.Visible = true;
+            this.lblRespuesta.Visible = true;
             int valora = r.Next(1, 10);
             int valorb = r.Next(1, 10);
             label1.Text = valora + " x " + valorb;
@@ -50,21 +51,17 @@ namespace MateKids.Minijuego_4
             y = r.Next(3,540);
 
             x1 = r.Next(3, 740);
-            y1 = r.Next(3, 540);
+            y1 = r.Next(107, 540);
 
             while (x == x1 && y == y1)
             {
                 x1 = r.Next(3, 740);
-                y1 = r.Next(3, 540);
-
+                y1 = r.Next(107, 540);
             }
-            
-            
             lblRespuesta.Location = new Point(x,y);
-            
             lblError.Location = new Point(x1, y1);
-
         }
+
         private void sonidoDisparo()
         {
             System.Media.SoundPlayer pl = new System.Media.SoundPlayer("shot.wav");
@@ -72,16 +69,10 @@ namespace MateKids.Minijuego_4
             
         }
 
-        private void patoControl2_Load(object sender, EventArgs e)
-        {
-            
-        }
+       
 
-        private void patoControl2_Click(object sender, EventArgs e)
-        {
-            puntaje++;
-            
-        }
+     
+       
 
         private void lblRespuesta_Click(object sender, EventArgs e)
         {
@@ -89,7 +80,6 @@ namespace MateKids.Minijuego_4
             puntaje++;
             lblMarcador.Text = puntaje.ToString();
             metroButton1_Click(sender, e);
-            
         }
 
         private void lblError_Click(object sender, EventArgs e)
@@ -103,6 +93,13 @@ namespace MateKids.Minijuego_4
         private void pictureBox1_Click(object sender, EventArgs e)
         {
             sonidoDisparo();
+        }
+
+        private void userControl11_Click(object sender, EventArgs e)
+        {
+            puntaje++;
+            lblMarcador.Text = puntaje.ToString();
+
         }
     }
 }

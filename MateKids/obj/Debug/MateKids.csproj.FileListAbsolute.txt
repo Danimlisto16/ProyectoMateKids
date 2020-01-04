@@ -75,3 +75,5 @@ C:\Users\wwwda\Desktop\ProyectoIntegrador2\MateKids\obj\Debug\MateKids.csproj.Co
 C:\Users\wwwda\Desktop\ProyectoIntegrador2\MateKids\bin\Debug\controlPersonalizado.dll
 C:\Users\wwwda\Desktop\ProyectoIntegrador2\MateKids\bin\Debug\controlPersonalizado.pdb
 C:\Users\wwwda\Desktop\ProyectoIntegrador2\MateKids\obj\Debug\MateKids.Minijuego_4.Minijuego_4.resources
+C:\Users\wwwda\Desktop\ProyectoIntegrador2\MateKids\bin\Debug\globoControl.dll
+C:\Users\wwwda\Desktop\ProyectoIntegrador2\MateKids\bin\Debug\globoControl.pdb
