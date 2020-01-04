@@ -223,6 +223,16 @@ namespace MateKids.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap fondo {
+            get {
+                object obj = ResourceManager.GetObject("fondo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap linea {
             get {
                 object obj = ResourceManager.GetObject("linea", resourceCulture);
@@ -433,9 +443,29 @@ namespace MateKids.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap pajaro {
+            get {
+                object obj = ResourceManager.GetObject("pajaro", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap shooterex {
             get {
                 object obj = ResourceManager.GetObject("shooterex", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap SHOOTEREXicono {
+            get {
+                object obj = ResourceManager.GetObject("SHOOTEREXicono", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

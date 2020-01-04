@@ -92,7 +92,30 @@ namespace MateKids
 
         private void icono_minijuego_2_MouseLeave(object sender, EventArgs e)
         {
+            
             icono_minijuego_2.Size = new System.Drawing.Size(155, 133);
+        }
+
+        private void MenuSeleccion_Load(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void icono_minijuego_4_MouseEnter(object sender, EventArgs e)
+        {
+            icono_minijuego_4.Size = new System.Drawing.Size(170, 148);
+            
+        }
+
+        private void icono_minijuego_4_MouseLeave(object sender, EventArgs e)
+        {
+            icono_minijuego_4.Size = new System.Drawing.Size(155, 133);
+        }
+
+        private void icono_minijuego_4_Click(object sender, EventArgs e)
+        {
+            Minijuego_4.Minijuego_4 mn = new Minijuego_4.Minijuego_4 ();
+            mn.ShowDialog();
         }
     }
 }

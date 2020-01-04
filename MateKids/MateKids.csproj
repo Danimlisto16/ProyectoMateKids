@@ -33,6 +33,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="controlPersonalizado">
+      <HintPath>..\..\controlPersonalizado\bin\Debug\controlPersonalizado.dll</HintPath>
+    </Reference>
     <Reference Include="MetroFramework, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
       <HintPath>packages\MetroFramework.RunTime.1.2.0.3\lib\net40-Client\MetroFramework.dll</HintPath>
     </Reference>
@@ -64,6 +67,12 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Minijuego_4\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Minijuego_4\Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
     <Compile Include="Minijuego_7\Form1.cs">
@@ -215,6 +224,9 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Minijuego_4\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Minijuego_7\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -312,6 +324,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Minijuego_4\pajaro.png" />
+    <None Include="Minijuego_4\SHOOTEREXicono.png" />
+    <None Include="Minijuego_4\fondo.png" />
     <None Include="Minijuego_9\divshooter.PNG" />
     <None Include="Minijuego_4\shooterex.PNG" />
     <None Include="bin\Debug\matekids_nombre.png" />

@@ -221,11 +221,16 @@
             // 
             // icono_minijuego_4
             // 
+            this.icono_minijuego_4.Image = global::MateKids.Properties.Resources.SHOOTEREXicono;
             this.icono_minijuego_4.Location = new System.Drawing.Point(758, 237);
             this.icono_minijuego_4.Name = "icono_minijuego_4";
             this.icono_minijuego_4.Size = new System.Drawing.Size(155, 133);
+            this.icono_minijuego_4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.icono_minijuego_4.TabIndex = 65;
             this.icono_minijuego_4.TabStop = false;
+            this.icono_minijuego_4.Click += new System.EventHandler(this.icono_minijuego_4_Click);
+            this.icono_minijuego_4.MouseEnter += new System.EventHandler(this.icono_minijuego_4_MouseEnter);
+            this.icono_minijuego_4.MouseLeave += new System.EventHandler(this.icono_minijuego_4_MouseLeave);
             // 
             // titulo_minijuego_2
             // 
@@ -311,6 +316,7 @@
             this.Controls.Add(this.titulo_juego);
             this.Name = "MenuSeleccion";
             this.Text = " ";
+            this.Load += new System.EventHandler(this.MenuSeleccion_Load);
             ((System.ComponentModel.ISupportInitialize)(this.titulo_minijuego_8)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.icono_minijuego_8)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.titulo_minijuego_10)).EndInit();

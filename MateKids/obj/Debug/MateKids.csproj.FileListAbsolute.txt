@@ -72,3 +72,6 @@ C:\Users\wwwda\Desktop\ProyectoIntegrador2\MateKids\bin\Debug\MateKids.pdb
 C:\Users\wwwda\Desktop\ProyectoIntegrador2\MateKids\bin\Debug\MetroFramework.dll
 C:\Users\wwwda\Desktop\ProyectoIntegrador2\MateKids\bin\Debug\MetroFramework.Fonts.dll
 C:\Users\wwwda\Desktop\ProyectoIntegrador2\MateKids\obj\Debug\MateKids.csproj.CopyComplete
+C:\Users\wwwda\Desktop\ProyectoIntegrador2\MateKids\bin\Debug\controlPersonalizado.dll
+C:\Users\wwwda\Desktop\ProyectoIntegrador2\MateKids\bin\Debug\controlPersonalizado.pdb
+C:\Users\wwwda\Desktop\ProyectoIntegrador2\MateKids\obj\Debug\MateKids.Minijuego_4.Minijuego_4.resources
