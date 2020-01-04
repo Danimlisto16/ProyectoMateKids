@@ -306,7 +306,9 @@
             this.Controls.Add(this.mtm_prod1_2);
             this.Controls.Add(this.mtm_prod1_1);
             this.Controls.Add(this.imagendivision);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "Form2_1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form2_1";
             this.Load += new System.EventHandler(this.Form2_1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.imagenlinea2)).EndInit();

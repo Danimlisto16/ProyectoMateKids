@@ -53,80 +53,90 @@ namespace MateKids.Minijuego_2
             if (numeros[0] == 1)
             {
                 Form2_1 Ventana = new Form2_1(numeros, intento, nventana, puntaje);
-                Ventana.ShowDialog();
                 this.Hide();
+                Ventana.ShowDialog();
+                this.Close();
 
             }
             if (numeros[0] == 2)
             {
                 Form2_2 Ventana = new Form2_2(numeros, intento, nventana, puntaje);
 
-                Ventana.ShowDialog();
                 this.Hide();
+                Ventana.ShowDialog();
+                this.Close();
 
             }
             if (numeros[0] == 3)
             {
                 Form2_3 Ventana = new Form2_3(numeros, intento, nventana, puntaje);
 
-                Ventana.ShowDialog();
                 this.Hide();
+                Ventana.ShowDialog();
+                this.Close();
 
             }
             if (numeros[0] == 4)
             {
                 Form2_4 Ventana = new Form2_4(numeros, intento, nventana, puntaje);
 
-                Ventana.ShowDialog();
                 this.Hide();
+                Ventana.ShowDialog();
+                this.Close();
 
             }
             if (numeros[0] == 5)
             {
                 Form2_5 Ventana = new Form2_5(numeros, intento, nventana, puntaje);
 
-                Ventana.ShowDialog();
                 this.Hide();
+                Ventana.ShowDialog();
+                this.Close();
 
             }
             if (numeros[0] == 6)
             {
                 Form2_6 Ventana = new Form2_6(numeros, intento, nventana, puntaje);
 
-                Ventana.ShowDialog();
                 this.Hide();
+                Ventana.ShowDialog();
+                this.Close();
 
             }
             if (numeros[0] == 7)
             {
                 Form2_7 Ventana = new Form2_7(numeros, intento, nventana, puntaje);
 
-                Ventana.ShowDialog();
                 this.Hide();
+                Ventana.ShowDialog();
+                this.Close();
 
             }
             if (numeros[0] == 8)
             {
                 Form2_8 Ventana = new Form2_8(numeros, intento, nventana, puntaje);
 
-                Ventana.ShowDialog();
                 this.Hide();
+                Ventana.ShowDialog();
+                this.Close();
 
             }
             if (numeros[0] == 9)
             {
                 Form2_9 Ventana = new Form2_9(numeros, intento, nventana, puntaje);
 
-                Ventana.ShowDialog();
                 this.Hide();
+                Ventana.ShowDialog();
+                this.Close();
 
             }
             if (numeros[0] == 10)
             {
                 Form2_10 Ventana = new Form2_10(numeros, intento, nventana, puntaje);
 
-                Ventana.ShowDialog();
                 this.Hide();
+                Ventana.ShowDialog();
+                this.Close();
 
             }
         }
