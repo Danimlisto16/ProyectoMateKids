@@ -36,11 +36,11 @@
             this.lblMarcador = new System.Windows.Forms.Label();
             this.lblMarcador_titulo = new System.Windows.Forms.Label();
             this.titulo_minijuego_4 = new System.Windows.Forms.PictureBox();
-            this.patoControl2 = new controlPersonalizado.patoControl();
-            this.patoControl1 = new controlPersonalizado.patoControl();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.label1 = new System.Windows.Forms.Label();
+            this.lblRespuesta = new System.Windows.Forms.Label();
+            this.lblError = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
@@ -65,8 +65,8 @@
             // 
             // splitContainer1.Panel2
             // 
-            this.splitContainer1.Panel2.Controls.Add(this.patoControl2);
-            this.splitContainer1.Panel2.Controls.Add(this.patoControl1);
+            this.splitContainer1.Panel2.Controls.Add(this.lblError);
+            this.splitContainer1.Panel2.Controls.Add(this.lblRespuesta);
             this.splitContainer1.Panel2.Controls.Add(this.pictureBox1);
             this.splitContainer1.Size = new System.Drawing.Size(1266, 686);
             this.splitContainer1.SplitterDistance = 356;
@@ -119,26 +119,9 @@
             this.titulo_minijuego_4.TabIndex = 67;
             this.titulo_minijuego_4.TabStop = false;
             // 
-            // patoControl2
-            // 
-            this.patoControl2.BackColor = System.Drawing.Color.Transparent;
-            this.patoControl2.Location = new System.Drawing.Point(53, 314);
-            this.patoControl2.Name = "patoControl2";
-            this.patoControl2.Size = new System.Drawing.Size(99, 142);
-            this.patoControl2.TabIndex = 2;
-            this.patoControl2.Load += new System.EventHandler(this.patoControl2_Load);
-            this.patoControl2.Click += new System.EventHandler(this.patoControl2_Click);
-            // 
-            // patoControl1
-            // 
-            this.patoControl1.BackColor = System.Drawing.Color.Transparent;
-            this.patoControl1.Location = new System.Drawing.Point(53, 314);
-            this.patoControl1.Name = "patoControl1";
-            this.patoControl1.Size = new System.Drawing.Size(99, 142);
-            this.patoControl1.TabIndex = 1;
-            // 
             // pictureBox1
             // 
+            this.pictureBox1.Cursor = System.Windows.Forms.Cursors.NoMove2D;
             this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pictureBox1.Image = global::MateKids.Properties.Resources.fondo;
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
@@ -147,6 +130,7 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // timer1
             // 
@@ -162,6 +146,28 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(179, 47);
             this.label1.TabIndex = 73;
+            // 
+            // lblRespuesta
+            // 
+            this.lblRespuesta.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lblRespuesta.Cursor = System.Windows.Forms.Cursors.NoMove2D;
+            this.lblRespuesta.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblRespuesta.Location = new System.Drawing.Point(242, 198);
+            this.lblRespuesta.Name = "lblRespuesta";
+            this.lblRespuesta.Size = new System.Drawing.Size(179, 47);
+            this.lblRespuesta.TabIndex = 74;
+            this.lblRespuesta.Click += new System.EventHandler(this.lblRespuesta_Click);
+            // 
+            // lblError
+            // 
+            this.lblError.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lblError.Cursor = System.Windows.Forms.Cursors.NoMove2D;
+            this.lblError.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblError.Location = new System.Drawing.Point(364, 320);
+            this.lblError.Name = "lblError";
+            this.lblError.Size = new System.Drawing.Size(179, 47);
+            this.lblError.TabIndex = 75;
+            this.lblError.Click += new System.EventHandler(this.lblError_Click);
             // 
             // Minijuego_4
             // 
@@ -196,5 +202,7 @@
         private controlPersonalizado.patoControl patoControl1;
         private controlPersonalizado.patoControl patoControl2;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lblError;
+        private System.Windows.Forms.Label lblRespuesta;
     }
 }
