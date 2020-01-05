@@ -326,11 +326,14 @@
   <ItemGroup>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     <None Include="Resources\divitest_juego_icono.PNG" />
     <None Include="Resources\multitest_juego_icono.PNG" />
 =======
     <None Include="Minijuego_4\letrero.png" />
 >>>>>>> 5fdbc001bfa2d09dc89f508d3eddcceb5d21b2cb
+=======
+>>>>>>> parent of 9e30300... globo anadido
 =======
 >>>>>>> parent of 9e30300... globo anadido
     <None Include="Minijuego_4\pajaro.png" />
