@@ -122,6 +122,7 @@
     <value>..\bin\Debug\linea2.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 <<<<<<< HEAD
+<<<<<<< HEAD
   <data name="multitest_juego_icono" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\multitest_juego_icono.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -131,6 +132,10 @@
   <data name="divimax_juego_icono" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\divimax_juego_icono.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
 >>>>>>> 5fdbc001bfa2d09dc89f508d3eddcceb5d21b2cb
+=======
+  <data name="divipractis_juego_icono" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\divipractis_juego_icono.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+>>>>>>> parent of 9e30300... globo anadido
   </data>
   <data name="m6" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\m6.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -143,9 +148,6 @@
   </data>
   <data name="multipractis_juego_icono" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\multipractis_juego_icono.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="matekids_nombre" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\bin\Debug\matekids_nombre.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="divimax_juego" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\divimax_juego.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -180,9 +182,6 @@
   <data name="multiplicax_juego" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\multiplicax_juego.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="pajaro" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Minijuego_4\pajaro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="d2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\d2.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -210,6 +209,9 @@
   <data name="divipractis_juego" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\divipractis_juego.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="m2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\m2.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="m7" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\m7.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -219,8 +221,8 @@
   <data name="m11" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\m1.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="divipractis_juego_icono" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\bin\Debug\divipractis_juego_icono.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="matekids_nombre" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\matekids_nombre.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="m12" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\m1.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -228,8 +230,8 @@
   <data name="linea" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\linea.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="m2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\bin\Debug\m2.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="divimax_juego_icono" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\divimax_juego_icono.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="d10" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\d10.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -250,11 +252,16 @@
     <value>..\bin\Debug\d4.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 <<<<<<< HEAD
+<<<<<<< HEAD
   <data name="divitest_juego_icono" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\divitest_juego_icono.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
 =======
   <data name="letrero" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Minijuego_4\letrero.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
 >>>>>>> 5fdbc001bfa2d09dc89f508d3eddcceb5d21b2cb
+=======
+  <data name="pajaro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Minijuego_4\pajaro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+>>>>>>> parent of 9e30300... globo anadido
   </data>
 </root>

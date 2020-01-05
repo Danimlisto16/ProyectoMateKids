@@ -36,9 +36,6 @@
     <Reference Include="controlPersonalizado">
       <HintPath>..\..\controlPersonalizado\bin\Debug\controlPersonalizado.dll</HintPath>
     </Reference>
-    <Reference Include="globoControl">
-      <HintPath>..\..\globoControl\bin\Debug\globoControl.dll</HintPath>
-    </Reference>
     <Reference Include="MetroFramework, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
       <HintPath>packages\MetroFramework.RunTime.1.2.0.3\lib\net40-Client\MetroFramework.dll</HintPath>
     </Reference>
@@ -328,11 +325,14 @@
   </ItemGroup>
   <ItemGroup>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <None Include="Resources\divitest_juego_icono.PNG" />
     <None Include="Resources\multitest_juego_icono.PNG" />
 =======
     <None Include="Minijuego_4\letrero.png" />
 >>>>>>> 5fdbc001bfa2d09dc89f508d3eddcceb5d21b2cb
+=======
+>>>>>>> parent of 9e30300... globo anadido
     <None Include="Minijuego_4\pajaro.png" />
     <None Include="Minijuego_4\SHOOTEREXicono.png" />
     <None Include="Minijuego_4\fondo.png" />
