@@ -234,6 +234,7 @@ namespace MateKids.Properties {
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
 <<<<<<< HEAD
+<<<<<<< HEAD
         internal static System.Drawing.Bitmap fondo {
             get {
                 object obj = ResourceManager.GetObject("fondo", resourceCulture);
@@ -244,6 +245,8 @@ namespace MateKids.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+=======
+>>>>>>> parent of 9e30300... globo anadido
 =======
 >>>>>>> parent of 9e30300... globo anadido
         internal static System.Drawing.Bitmap linea {
