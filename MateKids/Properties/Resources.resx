@@ -126,6 +126,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   <data name="multitest_juego_icono" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\multitest_juego_icono.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -135,6 +136,10 @@
   <data name="divimax_juego_icono" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\divimax_juego_icono.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
 >>>>>>> 5fdbc001bfa2d09dc89f508d3eddcceb5d21b2cb
+=======
+  <data name="divipractis_juego_icono" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\divipractis_juego_icono.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+>>>>>>> parent of 9e30300... globo anadido
 =======
   <data name="divipractis_juego_icono" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\divipractis_juego_icono.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -271,12 +276,17 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   <data name="divitest_juego_icono" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\divitest_juego_icono.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
 =======
   <data name="letrero" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Minijuego_4\letrero.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
 >>>>>>> 5fdbc001bfa2d09dc89f508d3eddcceb5d21b2cb
+=======
+  <data name="pajaro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Minijuego_4\pajaro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+>>>>>>> parent of 9e30300... globo anadido
 =======
   <data name="pajaro" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Minijuego_4\pajaro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
