@@ -49,9 +49,9 @@
             this.mtm_prod1_1 = new System.Windows.Forms.MaskedTextBox();
             this.TerminarDivision = new System.Windows.Forms.Button();
             this.imagenlinea2 = new System.Windows.Forms.PictureBox();
-            this.imagendivision = new System.Windows.Forms.PictureBox();
+            this.imagenmultiplicacion = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.imagenlinea2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imagendivision)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imagenmultiplicacion)).BeginInit();
             this.SuspendLayout();
             // 
             // lblpuntaje
@@ -296,15 +296,15 @@
             this.imagenlinea2.TabIndex = 98;
             this.imagenlinea2.TabStop = false;
             // 
-            // imagendivision
+            // imagenmultiplicacion
             // 
-            this.imagendivision.Image = global::MateKids.Properties.Resources.m2;
-            this.imagendivision.Location = new System.Drawing.Point(214, 76);
-            this.imagendivision.Name = "imagendivision";
-            this.imagendivision.Size = new System.Drawing.Size(306, 235);
-            this.imagendivision.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.imagendivision.TabIndex = 87;
-            this.imagendivision.TabStop = false;
+            this.imagenmultiplicacion.Image = global::MateKids.Properties.Resources.m2;
+            this.imagenmultiplicacion.Location = new System.Drawing.Point(214, 76);
+            this.imagenmultiplicacion.Name = "imagenmultiplicacion";
+            this.imagenmultiplicacion.Size = new System.Drawing.Size(306, 235);
+            this.imagenmultiplicacion.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.imagenmultiplicacion.TabIndex = 87;
+            this.imagenmultiplicacion.TabStop = false;
             // 
             // Form2_2
             // 
@@ -333,14 +333,14 @@
             this.Controls.Add(this.mtm_prod1_3);
             this.Controls.Add(this.mtm_prod1_2);
             this.Controls.Add(this.mtm_prod1_1);
-            this.Controls.Add(this.imagendivision);
+            this.Controls.Add(this.imagenmultiplicacion);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "Form2_2";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form2_2";
             this.Load += new System.EventHandler(this.Form2_1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.imagenlinea2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imagendivision)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imagenmultiplicacion)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -368,7 +368,7 @@
         private System.Windows.Forms.MaskedTextBox mtm_prod1_3;
         private System.Windows.Forms.MaskedTextBox mtm_prod1_2;
         private System.Windows.Forms.MaskedTextBox mtm_prod1_1;
-        private System.Windows.Forms.PictureBox imagendivision;
+        private System.Windows.Forms.PictureBox imagenmultiplicacion;
         private System.Windows.Forms.Button TerminarDivision;
     }
 }

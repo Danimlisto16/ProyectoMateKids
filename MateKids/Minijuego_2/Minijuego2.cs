@@ -20,7 +20,7 @@ namespace MateKids.Minijuego_2
             ventanasAleatorias();
             ventanaSiguiente();
         }
-
+        #region
         private void ventanasAleatorias()
         {
             Random r = new Random();
@@ -47,7 +47,8 @@ namespace MateKids.Minijuego_2
             }
 
         }
-
+        #endregion
+        #region
         private void ventanaSiguiente()
         {
             if (numeros[0] == 1)
@@ -140,6 +141,7 @@ namespace MateKids.Minijuego_2
 
             }
         }
+        #endregion
         public Minijuego2()
         {
             InitializeComponent();

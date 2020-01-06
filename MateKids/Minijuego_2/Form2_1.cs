@@ -15,7 +15,7 @@ namespace MateKids.Minijuego_2
         int error = 0, intento, nventana, puntaje;
         int[] numeros;
 
-        private void SiguienteDivision_Click(object sender, EventArgs e)
+        private void SiguienteMultiplicacion_Click(object sender, EventArgs e)
         {
 
             if (nventana == 5 || intento == 0)
@@ -33,6 +33,7 @@ namespace MateKids.Minijuego_2
             }
 
         }
+        #region
         private void ventanaSiguiente(int num)
         {
             if (numeros[num] == 1)
@@ -127,13 +128,50 @@ namespace MateKids.Minijuego_2
 
             }
         }
+        #endregion
+        #region
+        private void reducir_intentos()
+        {
+            intento--;
+        }
+        #endregion
+
+        #region
+        private void Mostrar_mensaje_ayuda()
+        {
+            if (error == 1)
+            {
+                MessageBox.Show("Intentalo de nuevo \nTienes: " + error + " error");
+            }
+            else
+            {
+                MessageBox.Show("Intentalo de nuevo \nTienes: " + error + " errores");
+            }
+        }
+        #endregion
+
+        #region
+        private void incrementarMarcador(int cas)
+        {
+            puntaje = puntaje + cas;
+        }
+        #endregion
+
+        #region
+        private void Mostrar_resultado()
+        {
+            lblpuntaje.Text = "" + puntaje;
+        }
+        #endregion
+
+        #region
         private void Form2_1_Load(object sender, EventArgs e)
         {
             lblintentos.Text = "" + intento;
             lblpuntaje.Text = "" + puntaje;
         }
-
-        private void TerminarDivision_Click(object sender, EventArgs e)
+        #endregion
+        private void TerminarMultiplicacion_Click(object sender, EventArgs e)
         {
             int casilleros = 0;
             // if (intento!=0 && nventana!=5)
@@ -277,14 +315,15 @@ namespace MateKids.Minijuego_2
                 if (error == 0)
                 {
                     MessageBox.Show("Felicidades lo haz hecho muy bien");
-                    TerminarDivision.Enabled = false;
-                    SiguienteDivision.Visible = true;
+                    TerminarMultiplicacion.Enabled = false;
+                    SiguienteMultiplicacion.Visible = true;
                     nventana++;
-                    puntaje = puntaje + casilleros;
-                    lblpuntaje.Text = "" + puntaje;
+                    incrementarMarcador(casilleros);
+                    Mostrar_resultado();
+                    
                     if (intento == 3 && nventana == 5)
                     {
-                        SiguienteDivision.Text = "Terminar Juego";
+                        SiguienteMultiplicacion.Text = "Terminar Juego";
                         MessageBox.Show("FELICITACIONES\n,Lo haz resuelto a la primera");
                         lblpuntaje.Text = "" + (puntaje + 5);
                     }
@@ -292,7 +331,7 @@ namespace MateKids.Minijuego_2
                 }
                 else
                 {
-                    intento--;
+                    reducir_intentos();
                     lblintentos.Text = "" + intento;
                     if (intento == 0)
                     {
@@ -303,14 +342,7 @@ namespace MateKids.Minijuego_2
                     }
                     else
                     {
-                        if (error == 1)
-                        {
-                            MessageBox.Show("Intentalo de nuevo \nTienes: " + error + " error");
-                        }
-                        else
-                        {
-                            MessageBox.Show("Intentalo de nuevo \nTienes: " + error + " errores");
-                        }
+                        Mostrar_mensaje_ayuda();
                     }
 
 
@@ -328,15 +360,15 @@ namespace MateKids.Minijuego_2
                         MessageBox.Show("Podemos hacerlo mejor\n, Intentalo de nuevo.");
                     }
 
-                    SiguienteDivision.Text = "Terminar Juego";
-                    SiguienteDivision.Visible = true;
+                    SiguienteMultiplicacion.Text = "Terminar Juego";
+                    SiguienteMultiplicacion.Visible = true;
                 }
                 if (intento == 0)
                 {
-                    TerminarDivision.Enabled = false;
+                    TerminarMultiplicacion.Enabled = false;
                     MessageBox.Show("Intentalo de nuevo \n, Esta vez terminaremos todos los ejercicios  ;D");
-                    SiguienteDivision.Text = "Terminar Juego";
-                    SiguienteDivision.Visible = true;
+                    SiguienteMultiplicacion.Text = "Terminar Juego";
+                    SiguienteMultiplicacion.Visible = true;
                 }
                 error = 0;
             }

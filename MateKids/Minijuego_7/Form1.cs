@@ -34,6 +34,7 @@ namespace MateKids.Miinijuego_7
             }
 
         }
+        #region
         private void ventanaSiguiente(int num)
         {
             if (numeros[num] == 1)
@@ -128,11 +129,51 @@ namespace MateKids.Miinijuego_7
 
             }
         }
+        #endregion
+
+        #region
+        private void reducir_intentos()
+        {
+            intento--;
+        }
+        #endregion
+
+        #region
+        private void Mostrar_mensaje_ayuda()
+        {
+            if (error == 1)
+            {
+                MessageBox.Show("Intentalo de nuevo \nTienes: " + error + " error");
+            }
+            else
+            {
+                MessageBox.Show("Intentalo de nuevo \nTienes: " + error + " errores");
+            }
+        }
+        #endregion
+
+        #region
+        private void incrementarMarcador(int cas)
+        {
+            puntaje = puntaje + cas;
+        }
+        #endregion
+
+        #region
+        private void Mostrar_resultado()
+        {
+            lblpuntaje.Text = "" + puntaje;
+        }
+        #endregion
+
+        #region
         private void Form1_Load(object sender, EventArgs e)
         {
             lblintentos.Text = "" + intento;
             lblpuntaje.Text = "" + puntaje;
         }
+        #endregion
+
         public Form_1(int[] numeros, int intento, int nventana, int puntaje)
         {
             InitializeComponent();
@@ -264,8 +305,8 @@ namespace MateKids.Miinijuego_7
                     TerminarDivision.Enabled = false;
                     SiguienteDivision.Visible = true;
                     nventana++;
-                    puntaje = puntaje + casilleros;
-                    lblpuntaje.Text = "" + puntaje;
+                    incrementarMarcador(casilleros);
+                    Mostrar_resultado();
                     if (intento == 3 && nventana == 5)
                     {
                         SiguienteDivision.Text = "Terminar Juego";
@@ -276,7 +317,7 @@ namespace MateKids.Miinijuego_7
                 }
                 else
                 {
-                    intento--;
+                    reducir_intentos();
                     lblintentos.Text = "" + intento;
                     if (intento == 0)
                     {
@@ -287,14 +328,7 @@ namespace MateKids.Miinijuego_7
                     }
                     else
                     {
-                        if (error == 1)
-                        {
-                            MessageBox.Show("Intentalo de nuevo \nTienes: " + error + " error");
-                        }
-                        else
-                        {
-                            MessageBox.Show("Intentalo de nuevo \nTienes: " + error + " errores");
-                        }
+                        Mostrar_mensaje_ayuda();
                     }
 
 
