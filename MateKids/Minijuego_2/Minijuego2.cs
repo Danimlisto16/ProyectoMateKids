@@ -144,8 +144,11 @@ namespace MateKids.Minijuego_2
             }
         }
 <<<<<<< HEAD:MateKids/Minijuego_2/Minijuego2.cs
+<<<<<<< HEAD:MateKids/Minijuego_2/Minijuego2.cs
 
 =======
+=======
+>>>>>>> parent of 73979c8... shooterex cambios:MateKids/Minijuego_2/Minijuego2.cs
         public Minijuego2()
         {
             InitializeComponent();
