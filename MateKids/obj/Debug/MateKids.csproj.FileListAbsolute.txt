@@ -78,7 +78,6 @@ C:\Users\wwwda\Desktop\ProyectoIntegrador2\MateKids\obj\Debug\MateKids.Minijuego
 C:\Users\wwwda\Desktop\ProyectoIntegrador2\MateKids\bin\Debug\globoControl.dll
 C:\Users\wwwda\Desktop\ProyectoIntegrador2\MateKids\bin\Debug\globoControl.pdb
 <<<<<<< HEAD
-<<<<<<< HEAD
 C:\Users\wwwda\Desktop\ProyectoIntegrador2\MateKids\obj\Debug\MateKids.Minijuego_1.Minijuego_1.resources
 C:\Users\wwwda\Desktop\ProyectoIntegrador2\MateKids\obj\Debug\MateKids.Minijuego_2.Minijuego_2.resources
 C:\Users\wwwda\Desktop\ProyectoIntegrador2\MateKids\obj\Debug\MateKids.Minijuego_6.Minijuego_6.resources
@@ -124,5 +123,4 @@ C:\Users\matgr\OneDrive\Documentos\GitHub\ProyectoMateKids\MateKids\obj\Debug\Ma
 C:\Users\matgr\OneDrive\Documentos\GitHub\ProyectoMateKids\MateKids\obj\Debug\MateKids.exe
 C:\Users\matgr\OneDrive\Documentos\GitHub\ProyectoMateKids\MateKids\obj\Debug\MateKids.pdb
 >>>>>>> db233c2a5a4aab298efc3cfcc17a357c49afd5e7
-=======
 >>>>>>> parent of 73979c8... shooterex cambios
