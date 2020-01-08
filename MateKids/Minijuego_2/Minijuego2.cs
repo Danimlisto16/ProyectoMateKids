@@ -143,6 +143,7 @@ namespace MateKids.Minijuego_2
 
             }
         }
+<<<<<<< HEAD:MateKids/Minijuego_2/Minijuego2.cs
 
 =======
         public Minijuego2()
