@@ -131,6 +131,7 @@ namespace MateKids.Miinijuego_7
         }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
         private void mtb_res1_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
@@ -182,6 +183,8 @@ namespace MateKids.Miinijuego_7
 
 
 
+=======
+>>>>>>> parent of 73979c8... shooterex cambios
 =======
 >>>>>>> parent of 73979c8... shooterex cambios
 =======
