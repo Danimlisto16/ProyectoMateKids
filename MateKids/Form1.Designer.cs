@@ -121,11 +121,9 @@
             // 
             // icono_minijuego_9
             // 
-            this.icono_minijuego_9.Image = global::MateKids.Properties.Resources.divshooter1;
             this.icono_minijuego_9.Location = new System.Drawing.Point(758, 476);
             this.icono_minijuego_9.Name = "icono_minijuego_9";
             this.icono_minijuego_9.Size = new System.Drawing.Size(155, 133);
-            this.icono_minijuego_9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.icono_minijuego_9.TabIndex = 75;
             this.icono_minijuego_9.TabStop = false;
             // 

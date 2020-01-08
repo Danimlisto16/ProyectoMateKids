@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace MateKids.Minijuego_2
 {
-    public partial class Minijuego_2 : Form
+    public partial class Minijuego2 : Form
     {
         int intento = 3, nventana = 0, puntaje = 0;
         int[] numeros = new int[5];
@@ -142,11 +142,15 @@ namespace MateKids.Minijuego_2
             }
         }
 <<<<<<< HEAD:MateKids/Minijuego_2/Minijuego_2.cs
+<<<<<<< HEAD:MateKids/Minijuego_2/Minijuego_2.cs
         public Minijuego_2()
 =======
         #endregion
         public Minijuego2()
 >>>>>>> db233c2a5a4aab298efc3cfcc17a357c49afd5e7:MateKids/Minijuego_2/Minijuego2.cs
+=======
+        public Minijuego2()
+>>>>>>> parent of 73979c8... shooterex cambios:MateKids/Minijuego_2/Minijuego2.cs
         {
             InitializeComponent();
         }

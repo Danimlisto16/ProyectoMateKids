@@ -21,7 +21,7 @@ namespace MateKids.Minijuego_2
 
             if (nventana == 5 || intento == 0)
             {
-                Minijuego_2 Ventana = new Minijuego_2();
+                Minijuego2 Ventana = new Minijuego2();
                 this.Hide();
                 Ventana.ShowDialog();
                 this.Close();

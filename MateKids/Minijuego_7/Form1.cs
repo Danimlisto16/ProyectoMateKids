@@ -130,6 +130,7 @@ namespace MateKids.Miinijuego_7
             }
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
         private void mtb_res1_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
         {
@@ -178,6 +179,8 @@ namespace MateKids.Miinijuego_7
 
         #region
 >>>>>>> db233c2a5a4aab298efc3cfcc17a357c49afd5e7
+=======
+>>>>>>> parent of 73979c8... shooterex cambios
         private void Form1_Load(object sender, EventArgs e)
         {
             lblintentos.Text = "" + intento;

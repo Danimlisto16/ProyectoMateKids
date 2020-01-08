@@ -66,17 +66,17 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="MenuSeleccion.cs">
+    <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="MenuSeleccion.Designer.cs">
-      <DependentUpon>MenuSeleccion.cs</DependentUpon>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Minijuego_4\Minijuego4.cs">
+    <Compile Include="Minijuego_4\Form1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Minijuego_4\Minijuego4.Designer.cs">
-      <DependentUpon>Minijuego4.cs</DependentUpon>
+    <Compile Include="Minijuego_4\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
     <Compile Include="Minijuego_7\Form1.cs">
       <SubType>Form</SubType>
@@ -144,11 +144,11 @@
     <Compile Include="Minijuego_7\Minijuego7.Designer.cs">
       <DependentUpon>Minijuego7.cs</DependentUpon>
     </Compile>
-    <Compile Include="Minijuego_1\Minijuego_1.cs">
+    <Compile Include="Minijuego_1\Minijuego1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Minijuego_1\Minijuego_1.Designer.cs">
-      <DependentUpon>Minijuego_1.cs</DependentUpon>
+    <Compile Include="Minijuego_1\Minijuego1.Designer.cs">
+      <DependentUpon>Minijuego1.cs</DependentUpon>
     </Compile>
     <Compile Include="Minijuego_2\Form2_1.cs">
       <SubType>Form</SubType>
@@ -210,25 +210,25 @@
     <Compile Include="Minijuego_2\Form2_9.Designer.cs">
       <DependentUpon>Form2_9.cs</DependentUpon>
     </Compile>
-    <Compile Include="Minijuego_2\Minijuego_2.cs">
+    <Compile Include="Minijuego_2\Minijuego2.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Minijuego_2\Minijuego_2.Designer.cs">
-      <DependentUpon>Minijuego_2.cs</DependentUpon>
+    <Compile Include="Minijuego_2\Minijuego2.Designer.cs">
+      <DependentUpon>Minijuego2.cs</DependentUpon>
     </Compile>
-    <Compile Include="Minijuego_6\Minijuego_6.cs">
+    <Compile Include="Minijuego_6\Minijuego6.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Minijuego_6\Minijuego_6.Designer.cs">
-      <DependentUpon>Minijuego_6.cs</DependentUpon>
+    <Compile Include="Minijuego_6\Minijuego6.Designer.cs">
+      <DependentUpon>Minijuego6.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="MenuSeleccion.resx">
-      <DependentUpon>MenuSeleccion.cs</DependentUpon>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Minijuego_4\Minijuego4.resx">
-      <DependentUpon>Minijuego4.cs</DependentUpon>
+    <EmbeddedResource Include="Minijuego_4\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Minijuego_7\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
@@ -263,8 +263,8 @@
     <EmbeddedResource Include="Minijuego_7\Minijuego7.resx">
       <DependentUpon>Minijuego7.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Minijuego_1\Minijuego_1.resx">
-      <DependentUpon>Minijuego_1.cs</DependentUpon>
+    <EmbeddedResource Include="Minijuego_1\Minijuego1.resx">
+      <DependentUpon>Minijuego1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Minijuego_2\Form2_1.resx">
       <DependentUpon>Form2_1.cs</DependentUpon>
@@ -296,11 +296,11 @@
     <EmbeddedResource Include="Minijuego_2\Form2_9.resx">
       <DependentUpon>Form2_9.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Minijuego_2\Minijuego_2.resx">
-      <DependentUpon>Minijuego_2.cs</DependentUpon>
+    <EmbeddedResource Include="Minijuego_2\Minijuego2.resx">
+      <DependentUpon>Minijuego2.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Minijuego_6\Minijuego_6.resx">
-      <DependentUpon>Minijuego_6.cs</DependentUpon>
+    <EmbeddedResource Include="Minijuego_6\Minijuego6.resx">
+      <DependentUpon>Minijuego6.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -327,9 +327,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Minijuego_4\panelLetrero.jpg" />
-    <None Include="Minijuego_4\GLOB.png" />
-    <None Include="Minijuego_4\divshooter.png" />
     <None Include="Minijuego_4\letrero.png" />
     <None Include="Minijuego_4\pajaro.png" />
     <None Include="Minijuego_4\SHOOTEREXicono.png" />
