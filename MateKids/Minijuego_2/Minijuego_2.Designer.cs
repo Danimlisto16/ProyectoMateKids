@@ -1,6 +1,6 @@
 ﻿namespace MateKids.Minijuego_2
 {
-    partial class Minijuego2
+    partial class Minijuego_2
     {
         /// <summary>
         /// Required designer variable.
@@ -28,11 +28,11 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Minijuego2));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Minijuego_2));
             this.iniciar_minijuego = new System.Windows.Forms.Button();
             this.texto_descripcion = new System.Windows.Forms.Label();
-            this.titulo_minijuego2 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.titulo_minijuego2)).BeginInit();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // iniciar_minijuego
@@ -57,15 +57,15 @@
             this.texto_descripcion.Text = resources.GetString("texto_descripcion.Text");
             this.texto_descripcion.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // titulo_minijuego2
+            // pictureBox1
             // 
-            this.titulo_minijuego2.Image = global::MateKids.Properties.Resources.multipractis_juego;
-            this.titulo_minijuego2.Location = new System.Drawing.Point(274, 70);
-            this.titulo_minijuego2.Name = "titulo_minijuego2";
-            this.titulo_minijuego2.Size = new System.Drawing.Size(393, 90);
-            this.titulo_minijuego2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.titulo_minijuego2.TabIndex = 6;
-            this.titulo_minijuego2.TabStop = false;
+            this.pictureBox1.Image = global::MateKids.Properties.Resources.multipractis_juego;
+            this.pictureBox1.Location = new System.Drawing.Point(274, 70);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(393, 90);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 6;
+            this.pictureBox1.TabStop = false;
             // 
             // Minijuego2
             // 
@@ -75,12 +75,12 @@
             this.ClientSize = new System.Drawing.Size(944, 715);
             this.Controls.Add(this.iniciar_minijuego);
             this.Controls.Add(this.texto_descripcion);
-            this.Controls.Add(this.titulo_minijuego2);
+            this.Controls.Add(this.pictureBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "Minijuego2";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Minijuego2";
-            ((System.ComponentModel.ISupportInitialize)(this.titulo_minijuego2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -89,6 +89,6 @@
 
         private System.Windows.Forms.Button iniciar_minijuego;
         private System.Windows.Forms.Label texto_descripcion;
-        private System.Windows.Forms.PictureBox titulo_minijuego2;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

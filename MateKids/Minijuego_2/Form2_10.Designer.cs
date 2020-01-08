@@ -46,12 +46,12 @@
             this.lblintentos = new System.Windows.Forms.Label();
             this.intentos = new System.Windows.Forms.Label();
             this.marcador = new System.Windows.Forms.Label();
-            this.SiguienteMultiplicacion = new System.Windows.Forms.Button();
-            this.TerminarMultiplicacion = new System.Windows.Forms.Button();
+            this.SiguienteDivision = new System.Windows.Forms.Button();
+            this.TerminarDivision = new System.Windows.Forms.Button();
             this.imagenlinea2 = new System.Windows.Forms.PictureBox();
-            this.imagenmultiplicacion = new System.Windows.Forms.PictureBox();
+            this.imagendivision = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.imagenlinea2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imagenmultiplicacion)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imagendivision)).BeginInit();
             this.SuspendLayout();
             // 
             // mtm_res_1
@@ -264,28 +264,28 @@
             this.marcador.TabIndex = 83;
             this.marcador.Text = "MARCADOR";
             // 
-            // SiguienteMultiplicacion
+            // SiguienteDivision
             // 
-            this.SiguienteMultiplicacion.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.SiguienteMultiplicacion.Location = new System.Drawing.Point(964, 422);
-            this.SiguienteMultiplicacion.Name = "SiguienteMultiplicacion";
-            this.SiguienteMultiplicacion.Size = new System.Drawing.Size(176, 37);
-            this.SiguienteMultiplicacion.TabIndex = 82;
-            this.SiguienteMultiplicacion.Text = "Siguiente";
-            this.SiguienteMultiplicacion.UseVisualStyleBackColor = true;
-            this.SiguienteMultiplicacion.Visible = false;
-            this.SiguienteMultiplicacion.Click += new System.EventHandler(this.SiguienteMultiplicacion_Click);
+            this.SiguienteDivision.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.SiguienteDivision.Location = new System.Drawing.Point(964, 422);
+            this.SiguienteDivision.Name = "SiguienteDivision";
+            this.SiguienteDivision.Size = new System.Drawing.Size(176, 37);
+            this.SiguienteDivision.TabIndex = 82;
+            this.SiguienteDivision.Text = "Siguiente";
+            this.SiguienteDivision.UseVisualStyleBackColor = true;
+            this.SiguienteDivision.Visible = false;
+            this.SiguienteDivision.Click += new System.EventHandler(this.SiguienteDivision_Click);
             // 
-            // TerminarMultiplicacion
+            // TerminarDivision
             // 
-            this.TerminarMultiplicacion.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TerminarMultiplicacion.Location = new System.Drawing.Point(645, 737);
-            this.TerminarMultiplicacion.Name = "TerminarMultiplicacion";
-            this.TerminarMultiplicacion.Size = new System.Drawing.Size(113, 37);
-            this.TerminarMultiplicacion.TabIndex = 87;
-            this.TerminarMultiplicacion.Text = "Termine";
-            this.TerminarMultiplicacion.UseVisualStyleBackColor = true;
-            this.TerminarMultiplicacion.Click += new System.EventHandler(this.TerminarMultiplicacion_Click);
+            this.TerminarDivision.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TerminarDivision.Location = new System.Drawing.Point(645, 737);
+            this.TerminarDivision.Name = "TerminarDivision";
+            this.TerminarDivision.Size = new System.Drawing.Size(113, 37);
+            this.TerminarDivision.TabIndex = 87;
+            this.TerminarDivision.Text = "Termine";
+            this.TerminarDivision.UseVisualStyleBackColor = true;
+            this.TerminarDivision.Click += new System.EventHandler(this.TerminarDivision_Click);
             // 
             // imagenlinea2
             // 
@@ -296,15 +296,15 @@
             this.imagenlinea2.TabIndex = 77;
             this.imagenlinea2.TabStop = false;
             // 
-            // imagenmultiplicacion
+            // imagendivision
             // 
-            this.imagenmultiplicacion.Image = global::MateKids.Properties.Resources.m10;
-            this.imagenmultiplicacion.Location = new System.Drawing.Point(334, 54);
-            this.imagenmultiplicacion.Name = "imagenmultiplicacion";
-            this.imagenmultiplicacion.Size = new System.Drawing.Size(246, 229);
-            this.imagenmultiplicacion.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.imagenmultiplicacion.TabIndex = 68;
-            this.imagenmultiplicacion.TabStop = false;
+            this.imagendivision.Image = global::MateKids.Properties.Resources.m10;
+            this.imagendivision.Location = new System.Drawing.Point(334, 54);
+            this.imagendivision.Name = "imagendivision";
+            this.imagendivision.Size = new System.Drawing.Size(246, 229);
+            this.imagendivision.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.imagendivision.TabIndex = 68;
+            this.imagendivision.TabStop = false;
             // 
             // Form2_10
             // 
@@ -312,12 +312,12 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1176, 786);
-            this.Controls.Add(this.TerminarMultiplicacion);
+            this.Controls.Add(this.TerminarDivision);
             this.Controls.Add(this.lblpuntaje);
             this.Controls.Add(this.lblintentos);
             this.Controls.Add(this.intentos);
             this.Controls.Add(this.marcador);
-            this.Controls.Add(this.SiguienteMultiplicacion);
+            this.Controls.Add(this.SiguienteDivision);
             this.Controls.Add(this.mtm_res_5);
             this.Controls.Add(this.mtm_prod2_4);
             this.Controls.Add(this.mtm_res_1);
@@ -333,14 +333,14 @@
             this.Controls.Add(this.mtm_prod1_3);
             this.Controls.Add(this.mtm_prod1_2);
             this.Controls.Add(this.mtm_prod1_1);
-            this.Controls.Add(this.imagenmultiplicacion);
+            this.Controls.Add(this.imagendivision);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "Form2_10";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form2_10";
             this.Load += new System.EventHandler(this.Form2_1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.imagenlinea2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imagenmultiplicacion)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imagendivision)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -361,14 +361,14 @@
         private System.Windows.Forms.MaskedTextBox mtm_prod1_3;
         private System.Windows.Forms.MaskedTextBox mtm_prod1_2;
         private System.Windows.Forms.MaskedTextBox mtm_prod1_1;
-        private System.Windows.Forms.PictureBox imagenmultiplicacion;
+        private System.Windows.Forms.PictureBox imagendivision;
         private System.Windows.Forms.MaskedTextBox mtm_prod2_4;
         private System.Windows.Forms.MaskedTextBox mtm_res_5;
         private System.Windows.Forms.Label lblpuntaje;
         private System.Windows.Forms.Label lblintentos;
         private System.Windows.Forms.Label intentos;
         private System.Windows.Forms.Label marcador;
-        private System.Windows.Forms.Button SiguienteMultiplicacion;
-        private System.Windows.Forms.Button TerminarMultiplicacion;
+        private System.Windows.Forms.Button SiguienteDivision;
+        private System.Windows.Forms.Button TerminarDivision;
     }
 }

@@ -25,9 +25,9 @@ namespace MateKids
 
         private void iniciar_minijuego( )
         {
-            
+
             // Process.Start(minijuego_1);
-            Minijuego1 minijuego = new Minijuego1();
+            Minijuego_1.Minijuego_1 minijuego = new Minijuego_1.Minijuego_1();
             minijuego.ShowDialog();
 
         }
@@ -49,7 +49,7 @@ namespace MateKids
 
         private void icono_minijuego_2_Click(object sender, EventArgs e)
         {
-            Minijuego2 minijuego = new Minijuego2();
+            Minijuego_2.Minijuego_2 minijuego = new Minijuego_2.Minijuego_2();
             minijuego.ShowDialog();
         }
 
@@ -65,7 +65,7 @@ namespace MateKids
 
         private void icono_minijuego_6_Click(object sender, EventArgs e)
         {
-            Minijuego6 minijuego = new Minijuego6();
+            Minijuego_6.Minijuego_6 minijuego = new Minijuego_6.Minijuego_6();
             minijuego.ShowDialog();
         }
 

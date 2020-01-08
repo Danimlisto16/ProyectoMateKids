@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace MateKids.Minijuego_2
 {
-    public partial class Minijuego2 : Form
+    public partial class Minijuego_2 : Form
     {
         int intento = 3, nventana = 0, puntaje = 0;
         int[] numeros = new int[5];
@@ -20,7 +20,7 @@ namespace MateKids.Minijuego_2
             ventanasAleatorias();
             ventanaSiguiente();
         }
-        #region
+
         private void ventanasAleatorias()
         {
             Random r = new Random();
@@ -47,9 +47,6 @@ namespace MateKids.Minijuego_2
             }
 
         }
-        #endregion
-
-        
 
         private void ventanaSiguiente()
         {
@@ -143,20 +140,9 @@ namespace MateKids.Minijuego_2
 
             }
         }
-<<<<<<< HEAD:MateKids/Minijuego_2/Minijuego2.cs
-<<<<<<< HEAD:MateKids/Minijuego_2/Minijuego2.cs
-<<<<<<< HEAD:MateKids/Minijuego_2/Minijuego2.cs
-
-=======
-=======
->>>>>>> parent of 73979c8... shooterex cambios:MateKids/Minijuego_2/Minijuego2.cs
-=======
->>>>>>> parent of 73979c8... shooterex cambios:MateKids/Minijuego_2/Minijuego2.cs
-        public Minijuego2()
+        public Minijuego_2()
         {
             InitializeComponent();
         }
->>>>>>> parent of 73979c8... shooterex cambios:MateKids/Minijuego_2/Minijuego2.cs
     }
 }
-

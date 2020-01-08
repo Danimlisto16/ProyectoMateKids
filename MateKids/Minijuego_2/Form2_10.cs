@@ -16,12 +16,12 @@ namespace MateKids.Minijuego_2
 
         int[] numeros;
 
-        private void SiguienteMultiplicacion_Click(object sender, EventArgs e)
+        private void SiguienteDivision_Click(object sender, EventArgs e)
         {
 
             if (nventana == 5 || intento == 0)
             {
-                Minijuego2 Ventana = new Minijuego2();
+                Minijuego_2 Ventana = new Minijuego_2();
                 this.Hide();
                 Ventana.ShowDialog();
                 this.Close();
@@ -134,7 +134,7 @@ namespace MateKids.Minijuego_2
             lblpuntaje.Text = "" + puntaje;
         }
 
-        private void TerminarMultiplicacion_Click(object sender, EventArgs e)
+        private void TerminarDivision_Click(object sender, EventArgs e)
         {
             int casilleros = 0;
             // if (intento!=0 && nventana!=5)
@@ -301,14 +301,14 @@ namespace MateKids.Minijuego_2
                 if (error == 0)
                 {
                     MessageBox.Show("Felicidades lo haz hecho muy bien");
-                    TerminarMultiplicacion.Enabled = false;
-                    SiguienteMultiplicacion.Visible = true;
+                    TerminarDivision.Enabled = false;
+                    SiguienteDivision.Visible = true;
                     nventana++;
                     puntaje = puntaje + casilleros;
                     lblpuntaje.Text = "" + puntaje;
                     if (intento == 3 && nventana == 5)
                     {
-                        SiguienteMultiplicacion.Text = "Terminar Juego";
+                        SiguienteDivision.Text = "Terminar Juego";
                         MessageBox.Show("FELICITACIONES\n,Lo haz resuelto a la primera");
                         lblpuntaje.Text = "" + (puntaje + 5);
                     }
@@ -352,15 +352,15 @@ namespace MateKids.Minijuego_2
                         MessageBox.Show("Podemos hacerlo mejor\n, Intentalo de nuevo.");
                     }
 
-                    SiguienteMultiplicacion.Text = "Terminar Juego";
-                    SiguienteMultiplicacion.Visible = true;
+                    SiguienteDivision.Text = "Terminar Juego";
+                    SiguienteDivision.Visible = true;
                 }
                 if (intento == 0)
                 {
-                    TerminarMultiplicacion.Enabled = false;
+                    TerminarDivision.Enabled = false;
                     MessageBox.Show("Intentalo de nuevo \n, Esta vez terminaremos todos los ejercicios  ;D");
-                    SiguienteMultiplicacion.Text = "Terminar Juego";
-                    SiguienteMultiplicacion.Visible = true;
+                    SiguienteDivision.Text = "Terminar Juego";
+                    SiguienteDivision.Visible = true;
                 }
                 error = 0;
             }
