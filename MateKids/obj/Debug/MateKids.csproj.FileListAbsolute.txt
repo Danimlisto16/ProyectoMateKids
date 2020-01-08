@@ -49,7 +49,6 @@ C:\Users\wwwda\Desktop\ProyectoIntegrador2\MateKids\obj\Debug\MateKids.Miinijueg
 C:\Users\wwwda\Desktop\ProyectoIntegrador2\MateKids\obj\Debug\MateKids.Miinijuego_7.Form8.resources
 C:\Users\wwwda\Desktop\ProyectoIntegrador2\MateKids\obj\Debug\MateKids.Miinijuego_7.Form9.resources
 C:\Users\wwwda\Desktop\ProyectoIntegrador2\MateKids\obj\Debug\MateKids.Miinijuego_7.Minijuego7.resources
-C:\Users\wwwda\Desktop\ProyectoIntegrador2\MateKids\obj\Debug\MateKids.Minijuego_1.Minijuego1.resources
 C:\Users\wwwda\Desktop\ProyectoIntegrador2\MateKids\obj\Debug\MateKids.Minijuego_2.Form2_1.resources
 C:\Users\wwwda\Desktop\ProyectoIntegrador2\MateKids\obj\Debug\MateKids.Minijuego_2.Form2_10.resources
 C:\Users\wwwda\Desktop\ProyectoIntegrador2\MateKids\obj\Debug\MateKids.Minijuego_2.Form2_2.resources
@@ -60,8 +59,6 @@ C:\Users\wwwda\Desktop\ProyectoIntegrador2\MateKids\obj\Debug\MateKids.Minijuego
 C:\Users\wwwda\Desktop\ProyectoIntegrador2\MateKids\obj\Debug\MateKids.Minijuego_2.Form2_7.resources
 C:\Users\wwwda\Desktop\ProyectoIntegrador2\MateKids\obj\Debug\MateKids.Minijuego_2.Form2_8.resources
 C:\Users\wwwda\Desktop\ProyectoIntegrador2\MateKids\obj\Debug\MateKids.Minijuego_2.Form2_9.resources
-C:\Users\wwwda\Desktop\ProyectoIntegrador2\MateKids\obj\Debug\MateKids.Minijuego_2.Minijuego2.resources
-C:\Users\wwwda\Desktop\ProyectoIntegrador2\MateKids\obj\Debug\MateKids.Minijuego_6.Minijuego6.resources
 C:\Users\wwwda\Desktop\ProyectoIntegrador2\MateKids\obj\Debug\MateKids.Properties.Resources.resources
 C:\Users\wwwda\Desktop\ProyectoIntegrador2\MateKids\obj\Debug\MateKids.csproj.GenerateResource.cache
 C:\Users\wwwda\Desktop\ProyectoIntegrador2\MateKids\obj\Debug\MateKids.exe
@@ -77,3 +74,6 @@ C:\Users\wwwda\Desktop\ProyectoIntegrador2\MateKids\bin\Debug\controlPersonaliza
 C:\Users\wwwda\Desktop\ProyectoIntegrador2\MateKids\obj\Debug\MateKids.Minijuego_4.Minijuego_4.resources
 C:\Users\wwwda\Desktop\ProyectoIntegrador2\MateKids\bin\Debug\globoControl.dll
 C:\Users\wwwda\Desktop\ProyectoIntegrador2\MateKids\bin\Debug\globoControl.pdb
+C:\Users\wwwda\Desktop\ProyectoIntegrador2\MateKids\obj\Debug\MateKids.Minijuego_1.Minijuego_1.resources
+C:\Users\wwwda\Desktop\ProyectoIntegrador2\MateKids\obj\Debug\MateKids.Minijuego_2.Minijuego_2.resources
+C:\Users\wwwda\Desktop\ProyectoIntegrador2\MateKids\obj\Debug\MateKids.Minijuego_6.Minijuego_6.resources

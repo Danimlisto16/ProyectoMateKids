@@ -1,6 +1,6 @@
 ﻿namespace MateKids.Minijuego_6
 {
-    partial class Minijuego6
+    partial class Minijuego_6
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Minijuego6));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Minijuego_6));
             this.lblTiempo = new System.Windows.Forms.Label();
             this.lblInstruccion = new System.Windows.Forms.Label();
             this.pnlControles = new System.Windows.Forms.Panel();

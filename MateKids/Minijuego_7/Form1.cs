@@ -128,6 +128,14 @@ namespace MateKids.Miinijuego_7
 
             }
         }
+
+        private void mtb_res1_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
+        {
+            mtb_res1.SelectionStart = mtb_res1.Text.Length;
+            mtb_res1.SelectionLength = 0;
+
+        }
+
         private void Form1_Load(object sender, EventArgs e)
         {
             lblintentos.Text = "" + intento;
