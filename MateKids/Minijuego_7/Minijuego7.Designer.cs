@@ -31,8 +31,8 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Minijuego7));
             this.iniciar_minijuego = new System.Windows.Forms.Button();
             this.texto_descripcion = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.titulo_minijuego7 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.titulo_minijuego7)).BeginInit();
             this.SuspendLayout();
             // 
             // iniciar_minijuego
@@ -57,15 +57,15 @@
             this.texto_descripcion.Text = resources.GetString("texto_descripcion.Text");
             this.texto_descripcion.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // pictureBox1
+            // titulo_minijuego7
             // 
-            this.pictureBox1.Image = global::MateKids.Properties.Resources.divipractis_juego;
-            this.pictureBox1.Location = new System.Drawing.Point(274, 70);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(393, 90);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 3;
-            this.pictureBox1.TabStop = false;
+            this.titulo_minijuego7.Image = global::MateKids.Properties.Resources.divipractis_juego;
+            this.titulo_minijuego7.Location = new System.Drawing.Point(274, 70);
+            this.titulo_minijuego7.Name = "titulo_minijuego7";
+            this.titulo_minijuego7.Size = new System.Drawing.Size(393, 90);
+            this.titulo_minijuego7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.titulo_minijuego7.TabIndex = 3;
+            this.titulo_minijuego7.TabStop = false;
             // 
             // Minijuego7
             // 
@@ -75,12 +75,12 @@
             this.ClientSize = new System.Drawing.Size(944, 715);
             this.Controls.Add(this.iniciar_minijuego);
             this.Controls.Add(this.texto_descripcion);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.titulo_minijuego7);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "Minijuego7";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Minijuego7";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.titulo_minijuego7)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -89,6 +89,6 @@
 
         private System.Windows.Forms.Button iniciar_minijuego;
         private System.Windows.Forms.Label texto_descripcion;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox titulo_minijuego7;
     }
 }
