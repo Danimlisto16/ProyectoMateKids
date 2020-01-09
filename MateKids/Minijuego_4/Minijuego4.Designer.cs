@@ -32,41 +32,44 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Minijuego_4));
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.metroPanel1 = new MetroFramework.Controls.MetroPanel();
-            this.lblMarcador = new System.Windows.Forms.Label();
-            this.iniciar_juego = new MetroFramework.Controls.MetroButton();
-            this.lblMarcador_titulo = new System.Windows.Forms.Label();
-            this.problema = new System.Windows.Forms.Label();
-            this.pbxLetreroPanel = new System.Windows.Forms.PictureBox();
+            this.pnlLetrero = new System.Windows.Forms.Panel();
+            this.lblEjercicio = new System.Windows.Forms.Label();
+            this.pnlMarcador = new System.Windows.Forms.Panel();
+            this.lblDisparos = new System.Windows.Forms.Label();
+            this.lblAciertos = new System.Windows.Forms.Label();
+            this.lblFallos = new System.Windows.Forms.Label();
+            this.lblAVG = new System.Windows.Forms.Label();
+            this.iniciar_minijuego = new MetroFramework.Controls.MetroButton();
             this.pnlGlobo1 = new System.Windows.Forms.Panel();
             this.lblError = new System.Windows.Forms.Label();
             this.pnlGlobo2 = new System.Windows.Forms.Panel();
             this.lblRespuesta = new System.Windows.Forms.Label();
-            this.letrero = new System.Windows.Forms.PictureBox();
             this.fondo = new System.Windows.Forms.PictureBox();
+            this.pnlTitulo = new System.Windows.Forms.Panel();
+            this.pbxJuego_nombre = new System.Windows.Forms.PictureBox();
             this.metroPanel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pbxLetreroPanel)).BeginInit();
+            this.pnlLetrero.SuspendLayout();
+            this.pnlMarcador.SuspendLayout();
             this.pnlGlobo1.SuspendLayout();
             this.pnlGlobo2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.letrero)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.fondo)).BeginInit();
+            this.pnlTitulo.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxJuego_nombre)).BeginInit();
             this.SuspendLayout();
             // 
             // timer1
             // 
             this.timer1.Enabled = true;
             this.timer1.Interval = 2000;
-            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            this.timer1.Tick += new System.EventHandler(this.reducir_tiempo);
             // 
             // metroPanel1
             // 
-            this.metroPanel1.Controls.Add(this.pbxLetreroPanel);
-            this.metroPanel1.Controls.Add(this.lblMarcador);
-            this.metroPanel1.Controls.Add(this.iniciar_juego);
-            this.metroPanel1.Controls.Add(this.lblMarcador_titulo);
+            this.metroPanel1.Controls.Add(this.pnlLetrero);
+            this.metroPanel1.Controls.Add(this.pnlMarcador);
+            this.metroPanel1.Controls.Add(this.iniciar_minijuego);
             this.metroPanel1.Controls.Add(this.pnlGlobo1);
             this.metroPanel1.Controls.Add(this.pnlGlobo2);
-            this.metroPanel1.Controls.Add(this.problema);
-            this.metroPanel1.Controls.Add(this.letrero);
             this.metroPanel1.Controls.Add(this.fondo);
             this.metroPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.metroPanel1.HorizontalScrollbarBarColor = true;
@@ -80,53 +83,90 @@
             this.metroPanel1.VerticalScrollbarHighlightOnWheel = false;
             this.metroPanel1.VerticalScrollbarSize = 10;
             // 
-            // lblMarcador
+            // pnlLetrero
             // 
-            this.lblMarcador.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMarcador.Location = new System.Drawing.Point(729, 186);
-            this.lblMarcador.Name = "lblMarcador";
-            this.lblMarcador.Size = new System.Drawing.Size(35, 41);
-            this.lblMarcador.TabIndex = 83;
-            this.lblMarcador.Text = "0";
-            this.lblMarcador.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.pnlLetrero.BackColor = System.Drawing.Color.Transparent;
+            this.pnlLetrero.BackgroundImage = global::MateKids.Properties.Resources.letrero1;
+            this.pnlLetrero.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pnlLetrero.Controls.Add(this.lblEjercicio);
+            this.pnlLetrero.Location = new System.Drawing.Point(75, 524);
+            this.pnlLetrero.Name = "pnlLetrero";
+            this.pnlLetrero.Size = new System.Drawing.Size(204, 140);
+            this.pnlLetrero.TabIndex = 98;
             // 
-            // iniciar_juego
+            // lblEjercicio
             // 
-            this.iniciar_juego.Location = new System.Drawing.Point(627, 328);
-            this.iniciar_juego.Name = "iniciar_juego";
-            this.iniciar_juego.Size = new System.Drawing.Size(96, 30);
-            this.iniciar_juego.TabIndex = 84;
-            this.iniciar_juego.Text = "INICIAR";
+            this.lblEjercicio.BackColor = System.Drawing.Color.Transparent;
+            this.lblEjercicio.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblEjercicio.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.lblEjercicio.Location = new System.Drawing.Point(25, 22);
+            this.lblEjercicio.Name = "lblEjercicio";
+            this.lblEjercicio.Size = new System.Drawing.Size(143, 59);
+            this.lblEjercicio.TabIndex = 85;
+            this.lblEjercicio.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // lblMarcador_titulo
+            // pnlMarcador
             // 
-            this.lblMarcador_titulo.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMarcador_titulo.Location = new System.Drawing.Point(542, 186);
-            this.lblMarcador_titulo.Name = "lblMarcador_titulo";
-            this.lblMarcador_titulo.Size = new System.Drawing.Size(158, 41);
-            this.lblMarcador_titulo.TabIndex = 82;
-            this.lblMarcador_titulo.Text = "Marcador:";
+            this.pnlMarcador.BackColor = System.Drawing.Color.Transparent;
+            this.pnlMarcador.BackgroundImage = global::MateKids.Properties.Resources.panelLetrero_removebg_preview;
+            this.pnlMarcador.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pnlMarcador.Controls.Add(this.lblDisparos);
+            this.pnlMarcador.Controls.Add(this.lblAciertos);
+            this.pnlMarcador.Controls.Add(this.lblFallos);
+            this.pnlMarcador.Controls.Add(this.lblAVG);
+            this.pnlMarcador.Location = new System.Drawing.Point(14, 29);
+            this.pnlMarcador.Name = "pnlMarcador";
+            this.pnlMarcador.Size = new System.Drawing.Size(274, 362);
+            this.pnlMarcador.TabIndex = 97;
             // 
-            // problema
+            // lblDisparos
             // 
-            this.problema.BackColor = System.Drawing.Color.Transparent;
-            this.problema.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.problema.ForeColor = System.Drawing.Color.Black;
-            this.problema.Location = new System.Drawing.Point(53, 546);
-            this.problema.Name = "problema";
-            this.problema.Size = new System.Drawing.Size(143, 59);
-            this.problema.TabIndex = 85;
-            this.problema.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblDisparos.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDisparos.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.lblDisparos.Location = new System.Drawing.Point(55, 185);
+            this.lblDisparos.Name = "lblDisparos";
+            this.lblDisparos.Size = new System.Drawing.Size(191, 41);
+            this.lblDisparos.TabIndex = 103;
+            this.lblDisparos.Text = "Disparos 0";
             // 
-            // pbxLetreroPanel
+            // lblAciertos
             // 
-            this.pbxLetreroPanel.Image = global::MateKids.Properties.Resources.panelLetrero;
-            this.pbxLetreroPanel.Location = new System.Drawing.Point(3, 20);
-            this.pbxLetreroPanel.Name = "pbxLetreroPanel";
-            this.pbxLetreroPanel.Size = new System.Drawing.Size(319, 338);
-            this.pbxLetreroPanel.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbxLetreroPanel.TabIndex = 90;
-            this.pbxLetreroPanel.TabStop = false;
+            this.lblAciertos.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAciertos.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.lblAciertos.Location = new System.Drawing.Point(55, 247);
+            this.lblAciertos.Name = "lblAciertos";
+            this.lblAciertos.Size = new System.Drawing.Size(191, 41);
+            this.lblAciertos.TabIndex = 101;
+            this.lblAciertos.Text = "Aciertos 0";
+            // 
+            // lblFallos
+            // 
+            this.lblFallos.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblFallos.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.lblFallos.Location = new System.Drawing.Point(55, 308);
+            this.lblFallos.Name = "lblFallos";
+            this.lblFallos.Size = new System.Drawing.Size(191, 41);
+            this.lblFallos.TabIndex = 99;
+            this.lblFallos.Text = "Fallados 0";
+            // 
+            // lblAVG
+            // 
+            this.lblAVG.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAVG.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.lblAVG.Location = new System.Drawing.Point(55, 117);
+            this.lblAVG.Name = "lblAVG";
+            this.lblAVG.Size = new System.Drawing.Size(191, 41);
+            this.lblAVG.TabIndex = 97;
+            this.lblAVG.Text = "AVG 0%";
+            // 
+            // iniciar_minijuego
+            // 
+            this.iniciar_minijuego.Location = new System.Drawing.Point(90, 435);
+            this.iniciar_minijuego.Name = "iniciar_minijuego";
+            this.iniciar_minijuego.Size = new System.Drawing.Size(112, 52);
+            this.iniciar_minijuego.TabIndex = 84;
+            this.iniciar_minijuego.Text = "INICIAR";
+            this.iniciar_minijuego.Click += new System.EventHandler(this.iniciar_juego_Click);
             // 
             // pnlGlobo1
             // 
@@ -134,10 +174,11 @@
             this.pnlGlobo1.BackgroundImage = global::MateKids.Properties.Resources.GLOB;
             this.pnlGlobo1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pnlGlobo1.Controls.Add(this.lblError);
-            this.pnlGlobo1.Location = new System.Drawing.Point(1039, 328);
+            this.pnlGlobo1.Location = new System.Drawing.Point(337, 49);
             this.pnlGlobo1.Name = "pnlGlobo1";
             this.pnlGlobo1.Size = new System.Drawing.Size(112, 122);
             this.pnlGlobo1.TabIndex = 88;
+            this.pnlGlobo1.Click += new System.EventHandler(this.pnlGlobo1_Click_1);
             // 
             // lblError
             // 
@@ -148,6 +189,7 @@
             this.lblError.Size = new System.Drawing.Size(78, 46);
             this.lblError.TabIndex = 0;
             this.lblError.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblError.Click += new System.EventHandler(this.lblError_Click_1);
             // 
             // pnlGlobo2
             // 
@@ -155,10 +197,11 @@
             this.pnlGlobo2.BackgroundImage = global::MateKids.Properties.Resources.GLOB;
             this.pnlGlobo2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pnlGlobo2.Controls.Add(this.lblRespuesta);
-            this.pnlGlobo2.Location = new System.Drawing.Point(1168, 328);
+            this.pnlGlobo2.Location = new System.Drawing.Point(1351, 561);
             this.pnlGlobo2.Name = "pnlGlobo2";
             this.pnlGlobo2.Size = new System.Drawing.Size(112, 122);
             this.pnlGlobo2.TabIndex = 87;
+            this.pnlGlobo2.Click += new System.EventHandler(this.pnlGlobo2_Click);
             // 
             // lblRespuesta
             // 
@@ -169,17 +212,7 @@
             this.lblRespuesta.Size = new System.Drawing.Size(73, 57);
             this.lblRespuesta.TabIndex = 0;
             this.lblRespuesta.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // letrero
-            // 
-            this.letrero.BackColor = System.Drawing.Color.Transparent;
-            this.letrero.Image = global::MateKids.Properties.Resources.letrero1;
-            this.letrero.Location = new System.Drawing.Point(23, 520);
-            this.letrero.Name = "letrero";
-            this.letrero.Size = new System.Drawing.Size(210, 140);
-            this.letrero.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.letrero.TabIndex = 89;
-            this.letrero.TabStop = false;
+            this.lblRespuesta.Click += new System.EventHandler(this.lblRespuesta_Click);
             // 
             // fondo
             // 
@@ -192,22 +225,47 @@
             this.fondo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.fondo.TabIndex = 80;
             this.fondo.TabStop = false;
+            this.fondo.Click += new System.EventHandler(this.fondo_Click_1);
+            // 
+            // pnlTitulo
+            // 
+            this.pnlTitulo.BackColor = System.Drawing.Color.Transparent;
+            this.pnlTitulo.BackgroundImage = global::MateKids.Properties.Resources.titulo_removebg_preview;
+            this.pnlTitulo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pnlTitulo.Controls.Add(this.pbxJuego_nombre);
+            this.pnlTitulo.Location = new System.Drawing.Point(1156, 6);
+            this.pnlTitulo.Name = "pnlTitulo";
+            this.pnlTitulo.Size = new System.Drawing.Size(330, 99);
+            this.pnlTitulo.TabIndex = 1;
+            // 
+            // pbxJuego_nombre
+            // 
+            this.pbxJuego_nombre.Image = global::MateKids.Properties.Resources.titulo;
+            this.pbxJuego_nombre.Location = new System.Drawing.Point(50, 22);
+            this.pbxJuego_nombre.Name = "pbxJuego_nombre";
+            this.pbxJuego_nombre.Size = new System.Drawing.Size(220, 51);
+            this.pbxJuego_nombre.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbxJuego_nombre.TabIndex = 0;
+            this.pbxJuego_nombre.TabStop = false;
             // 
             // Minijuego_4
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1506, 766);
+            this.Controls.Add(this.pnlTitulo);
             this.Controls.Add(this.metroPanel1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Minijuego_4";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.metroPanel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pbxLetreroPanel)).EndInit();
+            this.pnlLetrero.ResumeLayout(false);
+            this.pnlMarcador.ResumeLayout(false);
             this.pnlGlobo1.ResumeLayout(false);
             this.pnlGlobo2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.letrero)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.fondo)).EndInit();
+            this.pnlTitulo.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pbxJuego_nombre)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -217,16 +275,20 @@
         private controlPersonalizado.patoControl patoControl1;
         private controlPersonalizado.patoControl patoControl2;
         private MetroFramework.Controls.MetroPanel metroPanel1;
-        private System.Windows.Forms.PictureBox letrero;
-        private System.Windows.Forms.Label lblMarcador;
-        private MetroFramework.Controls.MetroButton iniciar_juego;
-        private System.Windows.Forms.Label lblMarcador_titulo;
+        private MetroFramework.Controls.MetroButton iniciar_minijuego;
         private System.Windows.Forms.Panel pnlGlobo1;
         private System.Windows.Forms.Label lblError;
         private System.Windows.Forms.Panel pnlGlobo2;
         private System.Windows.Forms.Label lblRespuesta;
-        private System.Windows.Forms.Label problema;
+        private System.Windows.Forms.Label lblEjercicio;
         private System.Windows.Forms.PictureBox fondo;
-        private System.Windows.Forms.PictureBox pbxLetreroPanel;
+        private System.Windows.Forms.Panel pnlMarcador;
+        private System.Windows.Forms.Label lblDisparos;
+        private System.Windows.Forms.Label lblAciertos;
+        private System.Windows.Forms.Label lblFallos;
+        private System.Windows.Forms.Label lblAVG;
+        private System.Windows.Forms.Panel pnlLetrero;
+        private System.Windows.Forms.Panel pnlTitulo;
+        private System.Windows.Forms.PictureBox pbxJuego_nombre;
     }
 }
