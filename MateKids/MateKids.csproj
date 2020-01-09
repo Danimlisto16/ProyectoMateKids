@@ -327,6 +327,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Minijuego_1\dibujos.jpg" />
     <None Include="Minijuego_4\titulo.png" />
     <None Include="Minijuego_4\titulo-removebg-preview.png" />
     <None Include="Minijuego_4\panelLetrero-removebg-preview.png" />

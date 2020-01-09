@@ -48,6 +48,11 @@ namespace MateKids.Minijuego_2
 
         }
 
+        private void Minijuego_2_Load(object sender, EventArgs e)
+        {
+
+        }
+
         private void ventanaSiguiente()
         {
             if (numeros[0] == 1)
