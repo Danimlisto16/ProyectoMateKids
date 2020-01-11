@@ -329,7 +329,7 @@ namespace MateKids.Miinijuego_7
 
                     if (intento == 1)
                     {
-                        MessageBox.Show("Podemos hacerlo mejor\n, Intentalo de nuevo.");
+                        MessageBox.Show("MUY BIEN\n, Haz resuelto todas las divisiones.");
                     }
 
                     SiguienteDivision.Text = "Terminar Juego";
