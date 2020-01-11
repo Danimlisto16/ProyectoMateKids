@@ -367,6 +367,8 @@
     <None Include="bin\Debug\m8.PNG" />
     <None Include="bin\Debug\m9.PNG" />
     <None Include="bin\Debug\multipractis_juego_icono.PNG" />
+    <None Include="bin\Debug\multitest_juego_icono.PNG" />
+    <None Include="bin\Debug\divitest_juego_icono.PNG" />
     <Content Include="MetroFramework.txt" />
   </ItemGroup>
   <ItemGroup>
