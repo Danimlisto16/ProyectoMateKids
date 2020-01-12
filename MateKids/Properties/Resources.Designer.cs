@@ -263,9 +263,39 @@ namespace MateKids.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap fondo_panel_boton {
+            get {
+                object obj = ResourceManager.GetObject("fondo_panel_boton", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap GLOB {
             get {
                 object obj = ResourceManager.GetObject("GLOB", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap imagen_boton {
+            get {
+                object obj = ResourceManager.GetObject("imagen_boton", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap imagen_boton1 {
+            get {
+                object obj = ResourceManager.GetObject("imagen_boton1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -513,6 +543,16 @@ namespace MateKids.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap multitest_juego1 {
+            get {
+                object obj = ResourceManager.GetObject("multitest_juego1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap pajaro {
             get {
                 object obj = ResourceManager.GetObject("pajaro", resourceCulture);
@@ -566,6 +606,26 @@ namespace MateKids.Properties {
         internal static System.Drawing.Bitmap panelLetrero2 {
             get {
                 object obj = ResourceManager.GetObject("panelLetrero2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Photo_from_album__Летние_пейзажи__природа__on_Yandex_Disk {
+            get {
+                object obj = ResourceManager.GetObject("Photo from album _Летние пейзажи, природа_ on Yandex_Disk", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap rightarrow3_78482 {
+            get {
+                object obj = ResourceManager.GetObject("rightarrow3_78482", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

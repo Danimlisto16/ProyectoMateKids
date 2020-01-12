@@ -137,5 +137,11 @@ namespace MateKids
         {
             icono_minijuego_8.Size = new System.Drawing.Size(155, 133);
         }
+
+        private void icono_minijuego_3_Click(object sender, EventArgs e)
+        {
+            Minijuego_3.Minijuego_3 mn = new Minijuego_3.Minijuego_3();
+            mn.ShowDialog();
+        }
     }
 }

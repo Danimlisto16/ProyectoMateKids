@@ -210,6 +210,7 @@
             this.icono_minijuego_3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.icono_minijuego_3.TabIndex = 69;
             this.icono_minijuego_3.TabStop = false;
+            this.icono_minijuego_3.Click += new System.EventHandler(this.icono_minijuego_3_Click);
             this.icono_minijuego_3.MouseEnter += new System.EventHandler(this.icono_minijuego_3_MouseEnter);
             this.icono_minijuego_3.MouseLeave += new System.EventHandler(this.icono_minijuego_3_MouseLeave);
             // 

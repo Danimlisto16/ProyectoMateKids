@@ -72,6 +72,84 @@
     <Compile Include="MenuSeleccion.Designer.cs">
       <DependentUpon>MenuSeleccion.cs</DependentUpon>
     </Compile>
+    <Compile Include="Minijuego_3\Form3_1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Minijuego_3\Form3_1.Designer.cs">
+      <DependentUpon>Form3_1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Minijuego_3\Form3_10.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Minijuego_3\Form3_10.Designer.cs">
+      <DependentUpon>Form3_10.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Minijuego_3\Form3_11.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Minijuego_3\Form3_11.Designer.cs">
+      <DependentUpon>Form3_11.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Minijuego_3\Form3_12.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Minijuego_3\Form3_12.Designer.cs">
+      <DependentUpon>Form3_12.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Minijuego_3\Form3_2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Minijuego_3\Form3_2.Designer.cs">
+      <DependentUpon>Form3_2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Minijuego_3\Form3_3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Minijuego_3\Form3_3.Designer.cs">
+      <DependentUpon>Form3_3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Minijuego_3\Form3_4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Minijuego_3\Form3_4.Designer.cs">
+      <DependentUpon>Form3_4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Minijuego_3\Form3_5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Minijuego_3\Form3_5.Designer.cs">
+      <DependentUpon>Form3_5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Minijuego_3\Form3_6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Minijuego_3\Form3_6.Designer.cs">
+      <DependentUpon>Form3_6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Minijuego_3\Form3_7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Minijuego_3\Form3_7.Designer.cs">
+      <DependentUpon>Form3_7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Minijuego_3\Form3_8.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Minijuego_3\Form3_8.Designer.cs">
+      <DependentUpon>Form3_8.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Minijuego_3\Form3_9.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Minijuego_3\Form3_9.Designer.cs">
+      <DependentUpon>Form3_9.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Minijuego_3\Minijuego_3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Minijuego_3\Minijuego_3.Designer.cs">
+      <DependentUpon>Minijuego_3.cs</DependentUpon>
+    </Compile>
     <Compile Include="Minijuego_4\Minijuego4.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -227,6 +305,45 @@
     <EmbeddedResource Include="MenuSeleccion.resx">
       <DependentUpon>MenuSeleccion.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Minijuego_3\Form3_1.resx">
+      <DependentUpon>Form3_1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Minijuego_3\Form3_10.resx">
+      <DependentUpon>Form3_10.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Minijuego_3\Form3_11.resx">
+      <DependentUpon>Form3_11.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Minijuego_3\Form3_12.resx">
+      <DependentUpon>Form3_12.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Minijuego_3\Form3_2.resx">
+      <DependentUpon>Form3_2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Minijuego_3\Form3_3.resx">
+      <DependentUpon>Form3_3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Minijuego_3\Form3_4.resx">
+      <DependentUpon>Form3_4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Minijuego_3\Form3_5.resx">
+      <DependentUpon>Form3_5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Minijuego_3\Form3_6.resx">
+      <DependentUpon>Form3_6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Minijuego_3\Form3_7.resx">
+      <DependentUpon>Form3_7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Minijuego_3\Form3_8.resx">
+      <DependentUpon>Form3_8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Minijuego_3\Form3_9.resx">
+      <DependentUpon>Form3_9.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Minijuego_3\Minijuego_3.resx">
+      <DependentUpon>Minijuego_3.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Minijuego_4\Minijuego4.resx">
       <DependentUpon>Minijuego4.cs</DependentUpon>
     </EmbeddedResource>
@@ -369,11 +486,17 @@
     <None Include="bin\Debug\multipractis_juego_icono.PNG" />
     <None Include="bin\Debug\multitest_juego_icono.PNG" />
     <None Include="bin\Debug\divitest_juego_icono.PNG" />
+    <None Include="bin\Debug\Photo from album _Летние пейзажи, природа_ on Yandex_Disk.jfif" />
+    <None Include="bin\Debug\multitest_juego.PNG" />
+    <None Include="bin\Debug\imagen_boton.png" />
+    <None Include="bin\Debug\fondo_panel_boton.png" />
+    <None Include="bin\Debug\rightarrow3_78482.png" />
     <Content Include="MetroFramework.txt" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Minijuego_10\" />
     <Folder Include="Minijuego_5\" />
+    <Folder Include="Minijuego_8\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
