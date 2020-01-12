@@ -157,8 +157,7 @@
             this.problema.Name = "problema";
             this.problema.Size = new System.Drawing.Size(1074, 171);
             this.problema.TabIndex = 96;
-            this.problema.Text = "Enero, marzo, mayo, julio, agosto, octubre y diciembre tienen 31 días cada uno, p" +
-    "ero ¿Cuántos días tienen en total?";
+            this.problema.Text = "Enero, marzo, mayo, julio, agosto, octubre y diciembre tienen 31 días cada uno, pero ¿Cuántos días tienen en total?";
             // 
             // Opcion1
             // 
