@@ -94,12 +94,13 @@
             // 
             // Reiniciar
             // 
+            this.Reiniciar.BackColor = System.Drawing.Color.Cyan;
             this.Reiniciar.Location = new System.Drawing.Point(45, 284);
             this.Reiniciar.Name = "Reiniciar";
             this.Reiniciar.Size = new System.Drawing.Size(105, 34);
             this.Reiniciar.TabIndex = 2;
             this.Reiniciar.Text = "Jugar Otra Vez";
-            this.Reiniciar.UseVisualStyleBackColor = true;
+            this.Reiniciar.UseVisualStyleBackColor = false;
             this.Reiniciar.Visible = false;
             this.Reiniciar.Click += new System.EventHandler(this.Reiniciar_Click);
             // 
@@ -117,12 +118,13 @@
             // 
             // IniciarJuego
             // 
+            this.IniciarJuego.BackColor = System.Drawing.Color.Cyan;
             this.IniciarJuego.Location = new System.Drawing.Point(45, 207);
             this.IniciarJuego.Name = "IniciarJuego";
             this.IniciarJuego.Size = new System.Drawing.Size(105, 34);
             this.IniciarJuego.TabIndex = 0;
             this.IniciarJuego.Text = "Iniciar";
-            this.IniciarJuego.UseVisualStyleBackColor = true;
+            this.IniciarJuego.UseVisualStyleBackColor = false;
             this.IniciarJuego.Click += new System.EventHandler(this.IniciarJuego_Click);
             // 
             // btnOpcion4
@@ -219,8 +221,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::MateKids.Properties.Resources.dibujos;
-            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.BorderStyle = MetroFramework.Drawing.MetroBorderStyle.FixedSingle;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(912, 546);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.lblTiempo);
@@ -234,7 +235,6 @@
             this.Controls.Add(this.lblOperacion);
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Minijuego_1";
-            this.Resizable = false;
             this.Load += new System.EventHandler(this.Minijuego1_Load);
             this.pnlControles.ResumeLayout(false);
             this.pnlControles.PerformLayout();

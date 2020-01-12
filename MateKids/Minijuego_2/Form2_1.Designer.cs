@@ -267,7 +267,7 @@
             this.SiguienteDivision.Text = "Siguiente";
             this.SiguienteDivision.UseVisualStyleBackColor = true;
             this.SiguienteDivision.Visible = false;
-            this.SiguienteDivision.Click += new System.EventHandler(this.SiguienteDivision_Click);
+            this.SiguienteDivision.Click += new System.EventHandler(this.SiguienteMultiplicacion_Click);
             // 
             // TerminarDivision
             // 
@@ -278,7 +278,7 @@
             this.TerminarDivision.TabIndex = 71;
             this.TerminarDivision.Text = "Termine";
             this.TerminarDivision.UseVisualStyleBackColor = true;
-            this.TerminarDivision.Click += new System.EventHandler(this.TerminarDivision_Click);
+            this.TerminarDivision.Click += new System.EventHandler(this.TerminarMultiplicacion_Click);
             // 
             // Form2_1
             // 

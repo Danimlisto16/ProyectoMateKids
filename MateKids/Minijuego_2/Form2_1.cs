@@ -15,7 +15,7 @@ namespace MateKids.Minijuego_2
         int error = 0, intento, nventana, puntaje;
         int[] numeros;
 
-        private void SiguienteDivision_Click(object sender, EventArgs e)
+        private void SiguienteMultiplicacion_Click(object sender, EventArgs e)
         {
 
             if (nventana == 5 || intento == 0)
@@ -133,7 +133,7 @@ namespace MateKids.Minijuego_2
             lblpuntaje.Text = "" + puntaje;
         }
 
-        private void TerminarDivision_Click(object sender, EventArgs e)
+        private void TerminarMultiplicacion_Click(object sender, EventArgs e)
         {
             int casilleros = 0;
             // if (intento!=0 && nventana!=5)
@@ -280,8 +280,7 @@ namespace MateKids.Minijuego_2
                     TerminarDivision.Enabled = false;
                     SiguienteDivision.Visible = true;
                     nventana++;
-                    puntaje = puntaje + casilleros;
-                    lblpuntaje.Text = "" + puntaje;
+                    incrementar_marcador(casilleros);
                     if (intento == 3 && nventana == 5)
                     {
                         SiguienteDivision.Text = "Terminar Juego";
@@ -292,7 +291,7 @@ namespace MateKids.Minijuego_2
                 }
                 else
                 {
-                    intento--;
+                    reducir_intentos();
                     lblintentos.Text = "" + intento;
                     if (intento == 0)
                     {
@@ -303,14 +302,7 @@ namespace MateKids.Minijuego_2
                     }
                     else
                     {
-                        if (error == 1)
-                        {
-                            MessageBox.Show("Intentalo de nuevo \nTienes: " + error + " error");
-                        }
-                        else
-                        {
-                            MessageBox.Show("Intentalo de nuevo \nTienes: " + error + " errores");
-                        }
+                        Mostrar_mensaje_ayuda();
                     }
 
 
@@ -345,6 +337,92 @@ namespace MateKids.Minijuego_2
                 MessageBox.Show("No te olvides de llenar todos los casilleros");
             }
         }
+
+        private void incrementar_marcador(int casilleros)
+        {
+            puntaje = puntaje + casilleros;
+            lblpuntaje.Text = "" + puntaje;
+        }
+
+        private void reducir_intentos()
+        {
+            intento--;
+        }
+
+        private void Mostrar_mensaje_ayuda()
+        {
+            if (error == 1)
+            {
+                MessageBox.Show("Intentalo de nuevo \nTienes: " + error + " error");
+            }
+            else
+            {
+                MessageBox.Show("Intentalo de nuevo \nTienes: " + error + " errores");
+            }
+        }
+
+
+        private void ventanaSiguiente()
+        {
+            if (numeros[0] == 1)
+            {
+               
+
+            }
+            if (numeros[0] == 2)
+            {
+              
+
+            }
+            if (numeros[0] == 3)
+            {
+                
+
+            }
+            if (numeros[0] == 4)
+            {
+               
+
+            }
+            if (numeros[0] == 5)
+            {
+            
+
+            }
+            if (numeros[0] == 6)
+            {
+               
+
+            }
+            if (numeros[0] == 7)
+            {
+               
+
+            }
+            if (numeros[0] == 8)
+            {
+             
+
+            }
+            if (numeros[0] == 9)
+            {
+               
+
+            }
+            if (numeros[0] == 10)
+            {
+                
+
+            }
+        }
+        private void ventanasAleatorias()
+        {
+            Random r = new Random();
+            r.Next(1, 10);
+            Form f = new Form();
+            f.Show();
+        }
+
 
         public Form2_1(int[] numeros, int intento, int nventana, int puntaje)
         {

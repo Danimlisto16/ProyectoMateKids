@@ -216,11 +216,11 @@
     <Compile Include="Minijuego_7\Form9.Designer.cs">
       <DependentUpon>Form9.cs</DependentUpon>
     </Compile>
-    <Compile Include="Minijuego_7\Minijuego7.cs">
+    <Compile Include="Minijuego_7\Minijuego_7.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Minijuego_7\Minijuego7.Designer.cs">
-      <DependentUpon>Minijuego7.cs</DependentUpon>
+    <Compile Include="Minijuego_7\Minijuego_7.Designer.cs">
+      <DependentUpon>Minijuego_7.cs</DependentUpon>
     </Compile>
     <Compile Include="Minijuego_1\Minijuego_1.cs">
       <SubType>Form</SubType>
@@ -377,8 +377,8 @@
     <EmbeddedResource Include="Minijuego_7\Form9.resx">
       <DependentUpon>Form9.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Minijuego_7\Minijuego7.resx">
-      <DependentUpon>Minijuego7.cs</DependentUpon>
+    <EmbeddedResource Include="Minijuego_7\Minijuego_7.resx">
+      <DependentUpon>Minijuego_7.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Minijuego_1\Minijuego_1.resx">
       <DependentUpon>Minijuego_1.cs</DependentUpon>
