@@ -38,10 +38,15 @@
             // iniciar_minijuego
             // 
             this.iniciar_minijuego.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+<<<<<<< HEAD
             this.iniciar_minijuego.Location = new System.Drawing.Point(268, 490);
             this.iniciar_minijuego.Margin = new System.Windows.Forms.Padding(2);
+=======
+            this.iniciar_minijuego.Location = new System.Drawing.Point(357, 603);
+            this.iniciar_minijuego.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+>>>>>>> 4e197deac416423156bf0b432d53d3cc199e4bfb
             this.iniciar_minijuego.Name = "iniciar_minijuego";
-            this.iniciar_minijuego.Size = new System.Drawing.Size(138, 34);
+            this.iniciar_minijuego.Size = new System.Drawing.Size(184, 42);
             this.iniciar_minijuego.TabIndex = 8;
             this.iniciar_minijuego.Text = "Iniciar Minijuego";
             this.iniciar_minijuego.UseVisualStyleBackColor = true;
@@ -51,10 +56,9 @@
             // 
             this.texto_descripcion.Font = new System.Drawing.Font("Microsoft Sans Serif", 22.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.texto_descripcion.ForeColor = System.Drawing.Color.LimeGreen;
-            this.texto_descripcion.Location = new System.Drawing.Point(22, 148);
-            this.texto_descripcion.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.texto_descripcion.Location = new System.Drawing.Point(29, 182);
             this.texto_descripcion.Name = "texto_descripcion";
-            this.texto_descripcion.Size = new System.Drawing.Size(664, 310);
+            this.texto_descripcion.Size = new System.Drawing.Size(885, 382);
             this.texto_descripcion.TabIndex = 7;
             this.texto_descripcion.Text = resources.GetString("texto_descripcion.Text");
             this.texto_descripcion.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -62,10 +66,15 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::MateKids.Properties.Resources.multipractis_juego;
+<<<<<<< HEAD
             this.pictureBox1.Location = new System.Drawing.Point(206, 57);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
+=======
+            this.pictureBox1.Location = new System.Drawing.Point(275, 70);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+>>>>>>> 4e197deac416423156bf0b432d53d3cc199e4bfb
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(295, 73);
+            this.pictureBox1.Size = new System.Drawing.Size(393, 90);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 6;
             this.pictureBox1.TabStop = false;
@@ -73,15 +82,19 @@
             // 
             // Minijuego_2
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(708, 581);
+            this.ClientSize = new System.Drawing.Size(944, 715);
             this.Controls.Add(this.iniciar_minijuego);
             this.Controls.Add(this.texto_descripcion);
             this.Controls.Add(this.pictureBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+<<<<<<< HEAD
             this.Margin = new System.Windows.Forms.Padding(2);
+=======
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+>>>>>>> 4e197deac416423156bf0b432d53d3cc199e4bfb
             this.Name = "Minijuego_2";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Minijuego2";

@@ -344,12 +344,12 @@ namespace MateKids.Minijuego_2
 
                     if (intento == 2)
                     {
-                        MessageBox.Show("MUY BIEN\n, Haz resuelto todas las divisiones.");
+                        MessageBox.Show("MUY BIEN\n, Haz resuelto todas las multiplicaciones.");
                     }
 
                     if (intento == 1)
                     {
-                        MessageBox.Show("Podemos hacerlo mejor\n, Intentalo de nuevo.");
+                        MessageBox.Show("MUY BIEN\n, Haz resuelto todas las multiplicaciones.");
                     }
 
                     SiguienteDivision.Text = "Terminar Juego";
