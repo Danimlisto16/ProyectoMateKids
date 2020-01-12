@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace MateKids.Minijuego_1
 {
-    public partial class Minijuego_1 : MetroFramework.Forms.MetroForm
+    public partial class Minijuego_1 : Form
     {
         public Minijuego_1()
         {

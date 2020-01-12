@@ -17,20 +17,33 @@ namespace MateKids.Minijuego_4
             InitializeComponent();
         }
 
-
+        #region
         Random randomico = new Random();
-
         int disparos = 0;
         int aciertos = 0;
         int fallados = 0;
         double AVG = 0;
         int tiempo;
-        
-        private  void inicializar_tiempo()
+        #endregion
+
+        private void inicializar_tiempo()
         {
              tiempo = 30;
         }
-        
+
+        #region
+        private void sonidoCorrecto()
+        {
+            System.Media.SoundPlayer pl = new System.Media.SoundPlayer("correcto.wav");
+            pl.Play();
+        }
+        private void sonidoFail()
+        {
+            System.Media.SoundPlayer pl = new System.Media.SoundPlayer("fail.wav");
+            pl.Play();
+        }
+
+        #endregion
 
         private void Form1_Load(object sender, EventArgs e)
         {
@@ -98,6 +111,8 @@ namespace MateKids.Minijuego_4
             lblDisparos.Text = "Disparos " + disparos.ToString();
             if (respuesta)
             {
+                
+                sonidoFail();
                 aciertos++;
                 lblAciertos.Text = "Aciertos " + aciertos.ToString();
                 iniciar_juego_Click(sender,e);
@@ -106,6 +121,7 @@ namespace MateKids.Minijuego_4
             {
                 fallados++;
                 lblFallos.Text = "Fallos " + fallados.ToString();
+                sonidoCorrecto();
             }
             AVG = (aciertos*100) / disparos;
             lblAVG.Text = "AVG "+ AVG.ToString() + "%" ;
@@ -141,6 +157,10 @@ namespace MateKids.Minijuego_4
 
         private void iniciar_juego_Click(object sender, EventArgs e)
         {
+            fallados = 0;
+            aciertos = 0;
+            AVG = 0;
+            disparos = 1;
             timer1.Start();
             this.pnlGlobo2.Visible = true;
             this.pnlGlobo1.Visible = true;

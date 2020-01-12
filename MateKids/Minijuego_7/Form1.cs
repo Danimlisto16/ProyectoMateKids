@@ -34,6 +34,30 @@ namespace MateKids.Miinijuego_7
             }
 
         }
+
+
+        private void Mostrar_mensaje_ayuda()
+        {
+            if (error == 1)
+            {
+                MessageBox.Show("Intentalo de nuevo \nTienes: " + error + " error");
+            }
+            else
+            {
+                MessageBox.Show("Intentalo de nuevo \nTienes: " + error + " errores");
+            }
+        }
+
+        private void reducir_intentos()
+        {
+            intento--;
+        }
+
+        private void incrementar_marcador(int casilleros)
+        {
+            puntaje = puntaje + casilleros;
+            lblpuntaje.Text = "" + puntaje;
+        }
         private void ventanaSiguiente(int num)
         {
             if (numeros[num] == 1)
@@ -272,8 +296,7 @@ namespace MateKids.Miinijuego_7
                     TerminarDivision.Enabled = false;
                     SiguienteDivision.Visible = true;
                     nventana++;
-                    puntaje = puntaje + casilleros;
-                    lblpuntaje.Text = "" + puntaje;
+                    incrementar_marcador(casilleros);
                     if (intento == 3 && nventana == 5)
                     {
                         SiguienteDivision.Text = "Terminar Juego";
@@ -284,7 +307,7 @@ namespace MateKids.Miinijuego_7
                 }
                 else
                 {
-                    intento--;
+                    reducir_intentos();
                     lblintentos.Text = "" + intento;
                     if (intento == 0)
                     {
@@ -295,14 +318,7 @@ namespace MateKids.Miinijuego_7
                     }
                     else
                     {
-                        if (error == 1)
-                        {
-                            MessageBox.Show("Intentalo de nuevo \nTienes: " + error + " error");
-                        }
-                        else
-                        {
-                            MessageBox.Show("Intentalo de nuevo \nTienes: " + error + " errores");
-                        }
+                        Mostrar_mensaje_ayuda();
                     }
 
 

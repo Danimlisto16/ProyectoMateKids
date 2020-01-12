@@ -32,6 +32,12 @@ namespace MateKids
 
         }
 
+
+        private void seleccionar_minijuego(DataGridViewRowDividerDoubleClickEventArgs click, Form MINIJUEO)
+        {
+            MINIJUEO.ShowDialog(); //ABRE EL FORMULARIOS DEL MINIJUEGO
+        }
+
         private void pbxIcono_multiplicax_MouseEnter(object sender, EventArgs e)
         {
             icono_minijuego_1.Size = new System.Drawing.Size(170, 148);

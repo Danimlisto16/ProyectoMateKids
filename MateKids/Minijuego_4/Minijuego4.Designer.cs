@@ -158,6 +158,7 @@
             this.lblAVG.Size = new System.Drawing.Size(191, 41);
             this.lblAVG.TabIndex = 97;
             this.lblAVG.Text = "AVG 0%";
+            this.lblAVG.Visible = false;
             // 
             // iniciar_minijuego
             // 
@@ -174,7 +175,7 @@
             this.pnlGlobo1.BackgroundImage = global::MateKids.Properties.Resources.GLOB;
             this.pnlGlobo1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pnlGlobo1.Controls.Add(this.lblError);
-            this.pnlGlobo1.Location = new System.Drawing.Point(337, 49);
+            this.pnlGlobo1.Location = new System.Drawing.Point(577, 256);
             this.pnlGlobo1.Name = "pnlGlobo1";
             this.pnlGlobo1.Size = new System.Drawing.Size(112, 122);
             this.pnlGlobo1.TabIndex = 88;
@@ -197,7 +198,7 @@
             this.pnlGlobo2.BackgroundImage = global::MateKids.Properties.Resources.GLOB;
             this.pnlGlobo2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pnlGlobo2.Controls.Add(this.lblRespuesta);
-            this.pnlGlobo2.Location = new System.Drawing.Point(1351, 561);
+            this.pnlGlobo2.Location = new System.Drawing.Point(1061, 256);
             this.pnlGlobo2.Name = "pnlGlobo2";
             this.pnlGlobo2.Size = new System.Drawing.Size(112, 122);
             this.pnlGlobo2.TabIndex = 87;
