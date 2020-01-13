@@ -12,9 +12,11 @@ namespace MateKids.Minijuego_4
 {
     public partial class Minijuego_4 : MetroFramework.Forms.MetroForm
     {
-        public Minijuego_4()
+        public Minijuego_4(int tiempo)
         {
             InitializeComponent();
+            this.tiempo = tiempo;
+
         }
 
         #region
@@ -26,10 +28,7 @@ namespace MateKids.Minijuego_4
         int tiempo;
         #endregion
 
-        private void inicializar_tiempo()
-        {
-             tiempo = 30;
-        }
+        
 
         #region
         private void sonidoCorrecto()
@@ -47,13 +46,16 @@ namespace MateKids.Minijuego_4
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            pnlGlobo1.Enabled = false;
+            pnlGlobo2.Enabled = false;
+            this.lblTiempo.Parent = pnlMarcador;
             pnlTitulo.Parent = fondo;
             pnlLetrero.Parent = fondo;
             pnlMarcador.Parent = fondo;
             pnlGlobo1.Parent = fondo;
             pnlGlobo2.Parent = fondo;
             sonido_ejecucion();
-            inicializar_tiempo();
+            
             timer1.Stop();
         }
 
@@ -85,10 +87,14 @@ namespace MateKids.Minijuego_4
                 pnlGlobo2.Location = new Point(x,y);
                 pnlGlobo1.Location = new Point(x1, y1);
                 tiempo--;
+                lblTiempo.Text = tiempo.ToString();
+
                 if (tiempo == 0)
             {
                 timer1.Stop();
                 MessageBox.Show("Juego Finalizado!");
+                this.pnlGlobo1.Enabled = false;
+                this.pnlGlobo2.Enabled = false;
                 iniciar_minijuego.Enabled = true;
             }
         }
@@ -123,8 +129,8 @@ namespace MateKids.Minijuego_4
                 lblFallos.Text = "Fallos " + fallados.ToString();
                 sonidoCorrecto();
             }
-            AVG = (aciertos*100) / disparos;
-            lblAVG.Text = "AVG "+ AVG.ToString() + "%" ;
+            
+            
         }
 
 
@@ -172,6 +178,8 @@ namespace MateKids.Minijuego_4
             lblError.Text = valorc.ToString();
             lblRespuesta.Text = respuesta.ToString();
             iniciar_minijuego.Enabled = false;
+            this.pnlGlobo1.Enabled = true;
+            this.pnlGlobo2.Enabled = true;
         }
 
 

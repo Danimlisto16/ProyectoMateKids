@@ -33,8 +33,6 @@
             this.icono_minijuego_8 = new System.Windows.Forms.PictureBox();
             this.titulo_minijuego_10 = new System.Windows.Forms.PictureBox();
             this.icono_minijuego_10 = new System.Windows.Forms.PictureBox();
-            this.titulo_minijuego_9 = new System.Windows.Forms.PictureBox();
-            this.icono_minijuego_9 = new System.Windows.Forms.PictureBox();
             this.titulo_minijuego_7 = new System.Windows.Forms.PictureBox();
             this.icono_minijuego_7 = new System.Windows.Forms.PictureBox();
             this.titulo_minijuego_6 = new System.Windows.Forms.PictureBox();
@@ -54,8 +52,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.icono_minijuego_8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.titulo_minijuego_10)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.icono_minijuego_10)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.titulo_minijuego_9)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.icono_minijuego_9)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.titulo_minijuego_7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.icono_minijuego_7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.titulo_minijuego_6)).BeginInit();
@@ -76,10 +72,9 @@
             // titulo_minijuego_8
             // 
             this.titulo_minijuego_8.Image = global::MateKids.Properties.Resources.divitest_juego;
-            this.titulo_minijuego_8.Location = new System.Drawing.Point(728, 542);
-            this.titulo_minijuego_8.Margin = new System.Windows.Forms.Padding(4);
+            this.titulo_minijuego_8.Location = new System.Drawing.Point(546, 440);
             this.titulo_minijuego_8.Name = "titulo_minijuego_8";
-            this.titulo_minijuego_8.Size = new System.Drawing.Size(207, 37);
+            this.titulo_minijuego_8.Size = new System.Drawing.Size(155, 30);
             this.titulo_minijuego_8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.titulo_minijuego_8.TabIndex = 80;
             this.titulo_minijuego_8.TabStop = false;
@@ -87,10 +82,9 @@
             // icono_minijuego_8
             // 
             this.icono_minijuego_8.Image = global::MateKids.Properties.Resources.divitest_juego_icono;
-            this.icono_minijuego_8.Location = new System.Drawing.Point(728, 586);
-            this.icono_minijuego_8.Margin = new System.Windows.Forms.Padding(4);
+            this.icono_minijuego_8.Location = new System.Drawing.Point(546, 476);
             this.icono_minijuego_8.Name = "icono_minijuego_8";
-            this.icono_minijuego_8.Size = new System.Drawing.Size(207, 164);
+            this.icono_minijuego_8.Size = new System.Drawing.Size(155, 133);
             this.icono_minijuego_8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.icono_minijuego_8.TabIndex = 79;
             this.icono_minijuego_8.TabStop = false;
@@ -100,52 +94,27 @@
             // titulo_minijuego_10
             // 
             this.titulo_minijuego_10.Image = ((System.Drawing.Image)(resources.GetObject("titulo_minijuego_10.Image")));
-            this.titulo_minijuego_10.Location = new System.Drawing.Point(1301, 542);
-            this.titulo_minijuego_10.Margin = new System.Windows.Forms.Padding(4);
+            this.titulo_minijuego_10.Location = new System.Drawing.Point(976, 440);
             this.titulo_minijuego_10.Name = "titulo_minijuego_10";
-            this.titulo_minijuego_10.Size = new System.Drawing.Size(207, 37);
+            this.titulo_minijuego_10.Size = new System.Drawing.Size(155, 30);
             this.titulo_minijuego_10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.titulo_minijuego_10.TabIndex = 78;
             this.titulo_minijuego_10.TabStop = false;
             // 
             // icono_minijuego_10
             // 
-            this.icono_minijuego_10.Location = new System.Drawing.Point(1301, 586);
-            this.icono_minijuego_10.Margin = new System.Windows.Forms.Padding(4);
+            this.icono_minijuego_10.Location = new System.Drawing.Point(976, 476);
             this.icono_minijuego_10.Name = "icono_minijuego_10";
-            this.icono_minijuego_10.Size = new System.Drawing.Size(207, 164);
+            this.icono_minijuego_10.Size = new System.Drawing.Size(155, 133);
             this.icono_minijuego_10.TabIndex = 77;
             this.icono_minijuego_10.TabStop = false;
-            // 
-            // titulo_minijuego_9
-            // 
-            this.titulo_minijuego_9.Image = global::MateKids.Properties.Resources.divshooter;
-            this.titulo_minijuego_9.Location = new System.Drawing.Point(1011, 542);
-            this.titulo_minijuego_9.Margin = new System.Windows.Forms.Padding(4);
-            this.titulo_minijuego_9.Name = "titulo_minijuego_9";
-            this.titulo_minijuego_9.Size = new System.Drawing.Size(207, 37);
-            this.titulo_minijuego_9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.titulo_minijuego_9.TabIndex = 76;
-            this.titulo_minijuego_9.TabStop = false;
-            // 
-            // icono_minijuego_9
-            // 
-            this.icono_minijuego_9.Image = global::MateKids.Properties.Resources.divshooter1;
-            this.icono_minijuego_9.Location = new System.Drawing.Point(1011, 586);
-            this.icono_minijuego_9.Margin = new System.Windows.Forms.Padding(4);
-            this.icono_minijuego_9.Name = "icono_minijuego_9";
-            this.icono_minijuego_9.Size = new System.Drawing.Size(207, 164);
-            this.icono_minijuego_9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.icono_minijuego_9.TabIndex = 75;
-            this.icono_minijuego_9.TabStop = false;
             // 
             // titulo_minijuego_7
             // 
             this.titulo_minijuego_7.Image = global::MateKids.Properties.Resources.divipractis_juego;
-            this.titulo_minijuego_7.Location = new System.Drawing.Point(441, 542);
-            this.titulo_minijuego_7.Margin = new System.Windows.Forms.Padding(4);
+            this.titulo_minijuego_7.Location = new System.Drawing.Point(331, 440);
             this.titulo_minijuego_7.Name = "titulo_minijuego_7";
-            this.titulo_minijuego_7.Size = new System.Drawing.Size(207, 37);
+            this.titulo_minijuego_7.Size = new System.Drawing.Size(155, 30);
             this.titulo_minijuego_7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.titulo_minijuego_7.TabIndex = 74;
             this.titulo_minijuego_7.TabStop = false;
@@ -153,10 +122,9 @@
             // icono_minijuego_7
             // 
             this.icono_minijuego_7.Image = global::MateKids.Properties.Resources.divipractis_juego_icono;
-            this.icono_minijuego_7.Location = new System.Drawing.Point(441, 586);
-            this.icono_minijuego_7.Margin = new System.Windows.Forms.Padding(4);
+            this.icono_minijuego_7.Location = new System.Drawing.Point(331, 476);
             this.icono_minijuego_7.Name = "icono_minijuego_7";
-            this.icono_minijuego_7.Size = new System.Drawing.Size(207, 164);
+            this.icono_minijuego_7.Size = new System.Drawing.Size(155, 133);
             this.icono_minijuego_7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.icono_minijuego_7.TabIndex = 73;
             this.icono_minijuego_7.TabStop = false;
@@ -167,10 +135,9 @@
             // titulo_minijuego_6
             // 
             this.titulo_minijuego_6.Image = global::MateKids.Properties.Resources.divimax_juego;
-            this.titulo_minijuego_6.Location = new System.Drawing.Point(151, 542);
-            this.titulo_minijuego_6.Margin = new System.Windows.Forms.Padding(4);
+            this.titulo_minijuego_6.Location = new System.Drawing.Point(113, 440);
             this.titulo_minijuego_6.Name = "titulo_minijuego_6";
-            this.titulo_minijuego_6.Size = new System.Drawing.Size(207, 37);
+            this.titulo_minijuego_6.Size = new System.Drawing.Size(155, 30);
             this.titulo_minijuego_6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.titulo_minijuego_6.TabIndex = 72;
             this.titulo_minijuego_6.TabStop = false;
@@ -178,10 +145,9 @@
             // icono_minijuego_6
             // 
             this.icono_minijuego_6.Image = global::MateKids.Properties.Resources.divimax_juego_icono;
-            this.icono_minijuego_6.Location = new System.Drawing.Point(151, 586);
-            this.icono_minijuego_6.Margin = new System.Windows.Forms.Padding(4);
+            this.icono_minijuego_6.Location = new System.Drawing.Point(113, 476);
             this.icono_minijuego_6.Name = "icono_minijuego_6";
-            this.icono_minijuego_6.Size = new System.Drawing.Size(207, 164);
+            this.icono_minijuego_6.Size = new System.Drawing.Size(155, 133);
             this.icono_minijuego_6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.icono_minijuego_6.TabIndex = 71;
             this.icono_minijuego_6.TabStop = false;
@@ -192,10 +158,9 @@
             // titulo_minijuego_3
             // 
             this.titulo_minijuego_3.Image = global::MateKids.Properties.Resources.multitest_juego;
-            this.titulo_minijuego_3.Location = new System.Drawing.Point(728, 247);
-            this.titulo_minijuego_3.Margin = new System.Windows.Forms.Padding(4);
+            this.titulo_minijuego_3.Location = new System.Drawing.Point(546, 201);
             this.titulo_minijuego_3.Name = "titulo_minijuego_3";
-            this.titulo_minijuego_3.Size = new System.Drawing.Size(207, 37);
+            this.titulo_minijuego_3.Size = new System.Drawing.Size(155, 30);
             this.titulo_minijuego_3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.titulo_minijuego_3.TabIndex = 70;
             this.titulo_minijuego_3.TabStop = false;
@@ -203,10 +168,9 @@
             // icono_minijuego_3
             // 
             this.icono_minijuego_3.Image = global::MateKids.Properties.Resources.multitest_juego_icono;
-            this.icono_minijuego_3.Location = new System.Drawing.Point(728, 292);
-            this.icono_minijuego_3.Margin = new System.Windows.Forms.Padding(4);
+            this.icono_minijuego_3.Location = new System.Drawing.Point(546, 237);
             this.icono_minijuego_3.Name = "icono_minijuego_3";
-            this.icono_minijuego_3.Size = new System.Drawing.Size(207, 164);
+            this.icono_minijuego_3.Size = new System.Drawing.Size(155, 133);
             this.icono_minijuego_3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.icono_minijuego_3.TabIndex = 69;
             this.icono_minijuego_3.TabStop = false;
@@ -217,30 +181,27 @@
             // titulo_minijuego_5
             // 
             this.titulo_minijuego_5.Image = ((System.Drawing.Image)(resources.GetObject("titulo_minijuego_5.Image")));
-            this.titulo_minijuego_5.Location = new System.Drawing.Point(1301, 247);
-            this.titulo_minijuego_5.Margin = new System.Windows.Forms.Padding(4);
+            this.titulo_minijuego_5.Location = new System.Drawing.Point(976, 201);
             this.titulo_minijuego_5.Name = "titulo_minijuego_5";
-            this.titulo_minijuego_5.Size = new System.Drawing.Size(207, 37);
+            this.titulo_minijuego_5.Size = new System.Drawing.Size(155, 30);
             this.titulo_minijuego_5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.titulo_minijuego_5.TabIndex = 68;
             this.titulo_minijuego_5.TabStop = false;
             // 
             // icono_minijuego_5
             // 
-            this.icono_minijuego_5.Location = new System.Drawing.Point(1301, 292);
-            this.icono_minijuego_5.Margin = new System.Windows.Forms.Padding(4);
+            this.icono_minijuego_5.Location = new System.Drawing.Point(976, 237);
             this.icono_minijuego_5.Name = "icono_minijuego_5";
-            this.icono_minijuego_5.Size = new System.Drawing.Size(207, 164);
+            this.icono_minijuego_5.Size = new System.Drawing.Size(155, 133);
             this.icono_minijuego_5.TabIndex = 67;
             this.icono_minijuego_5.TabStop = false;
             // 
             // titulo_minijuego_4
             // 
             this.titulo_minijuego_4.Image = global::MateKids.Properties.Resources.shooterex;
-            this.titulo_minijuego_4.Location = new System.Drawing.Point(1011, 247);
-            this.titulo_minijuego_4.Margin = new System.Windows.Forms.Padding(4);
+            this.titulo_minijuego_4.Location = new System.Drawing.Point(758, 201);
             this.titulo_minijuego_4.Name = "titulo_minijuego_4";
-            this.titulo_minijuego_4.Size = new System.Drawing.Size(207, 37);
+            this.titulo_minijuego_4.Size = new System.Drawing.Size(155, 30);
             this.titulo_minijuego_4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.titulo_minijuego_4.TabIndex = 66;
             this.titulo_minijuego_4.TabStop = false;
@@ -248,10 +209,9 @@
             // icono_minijuego_4
             // 
             this.icono_minijuego_4.Image = global::MateKids.Properties.Resources.SHOOTEREXicono;
-            this.icono_minijuego_4.Location = new System.Drawing.Point(1011, 292);
-            this.icono_minijuego_4.Margin = new System.Windows.Forms.Padding(4);
+            this.icono_minijuego_4.Location = new System.Drawing.Point(758, 237);
             this.icono_minijuego_4.Name = "icono_minijuego_4";
-            this.icono_minijuego_4.Size = new System.Drawing.Size(207, 164);
+            this.icono_minijuego_4.Size = new System.Drawing.Size(155, 133);
             this.icono_minijuego_4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.icono_minijuego_4.TabIndex = 65;
             this.icono_minijuego_4.TabStop = false;
@@ -262,10 +222,9 @@
             // titulo_minijuego_2
             // 
             this.titulo_minijuego_2.Image = global::MateKids.Properties.Resources.multipractis_juego;
-            this.titulo_minijuego_2.Location = new System.Drawing.Point(441, 247);
-            this.titulo_minijuego_2.Margin = new System.Windows.Forms.Padding(4);
+            this.titulo_minijuego_2.Location = new System.Drawing.Point(331, 201);
             this.titulo_minijuego_2.Name = "titulo_minijuego_2";
-            this.titulo_minijuego_2.Size = new System.Drawing.Size(207, 37);
+            this.titulo_minijuego_2.Size = new System.Drawing.Size(155, 30);
             this.titulo_minijuego_2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.titulo_minijuego_2.TabIndex = 64;
             this.titulo_minijuego_2.TabStop = false;
@@ -273,10 +232,9 @@
             // icono_minijuego_2
             // 
             this.icono_minijuego_2.Image = global::MateKids.Properties.Resources.multipractis_juego_icono;
-            this.icono_minijuego_2.Location = new System.Drawing.Point(441, 292);
-            this.icono_minijuego_2.Margin = new System.Windows.Forms.Padding(4);
+            this.icono_minijuego_2.Location = new System.Drawing.Point(331, 237);
             this.icono_minijuego_2.Name = "icono_minijuego_2";
-            this.icono_minijuego_2.Size = new System.Drawing.Size(207, 164);
+            this.icono_minijuego_2.Size = new System.Drawing.Size(155, 133);
             this.icono_minijuego_2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.icono_minijuego_2.TabIndex = 63;
             this.icono_minijuego_2.TabStop = false;
@@ -287,10 +245,9 @@
             // titulo_minijuego_1
             // 
             this.titulo_minijuego_1.Image = ((System.Drawing.Image)(resources.GetObject("titulo_minijuego_1.Image")));
-            this.titulo_minijuego_1.Location = new System.Drawing.Point(151, 247);
-            this.titulo_minijuego_1.Margin = new System.Windows.Forms.Padding(4);
+            this.titulo_minijuego_1.Location = new System.Drawing.Point(113, 201);
             this.titulo_minijuego_1.Name = "titulo_minijuego_1";
-            this.titulo_minijuego_1.Size = new System.Drawing.Size(207, 37);
+            this.titulo_minijuego_1.Size = new System.Drawing.Size(155, 30);
             this.titulo_minijuego_1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.titulo_minijuego_1.TabIndex = 62;
             this.titulo_minijuego_1.TabStop = false;
@@ -298,10 +255,9 @@
             // icono_minijuego_1
             // 
             this.icono_minijuego_1.Image = ((System.Drawing.Image)(resources.GetObject("icono_minijuego_1.Image")));
-            this.icono_minijuego_1.Location = new System.Drawing.Point(151, 292);
-            this.icono_minijuego_1.Margin = new System.Windows.Forms.Padding(4);
+            this.icono_minijuego_1.Location = new System.Drawing.Point(113, 237);
             this.icono_minijuego_1.Name = "icono_minijuego_1";
-            this.icono_minijuego_1.Size = new System.Drawing.Size(207, 164);
+            this.icono_minijuego_1.Size = new System.Drawing.Size(155, 133);
             this.icono_minijuego_1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.icono_minijuego_1.TabIndex = 61;
             this.icono_minijuego_1.TabStop = false;
@@ -312,25 +268,22 @@
             // titulo_juego
             // 
             this.titulo_juego.Image = ((System.Drawing.Image)(resources.GetObject("titulo_juego.Image")));
-            this.titulo_juego.Location = new System.Drawing.Point(488, 31);
-            this.titulo_juego.Margin = new System.Windows.Forms.Padding(4);
+            this.titulo_juego.Location = new System.Drawing.Point(351, 25);
             this.titulo_juego.Name = "titulo_juego";
-            this.titulo_juego.Size = new System.Drawing.Size(667, 143);
+            this.titulo_juego.Size = new System.Drawing.Size(531, 122);
             this.titulo_juego.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.titulo_juego.TabIndex = 0;
             this.titulo_juego.TabStop = false;
             // 
             // MenuSeleccion
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1668, 820);
+            this.ClientSize = new System.Drawing.Size(1251, 666);
             this.Controls.Add(this.titulo_minijuego_8);
             this.Controls.Add(this.icono_minijuego_8);
             this.Controls.Add(this.titulo_minijuego_10);
             this.Controls.Add(this.icono_minijuego_10);
-            this.Controls.Add(this.titulo_minijuego_9);
-            this.Controls.Add(this.icono_minijuego_9);
             this.Controls.Add(this.titulo_minijuego_7);
             this.Controls.Add(this.icono_minijuego_7);
             this.Controls.Add(this.titulo_minijuego_6);
@@ -346,17 +299,14 @@
             this.Controls.Add(this.titulo_minijuego_1);
             this.Controls.Add(this.icono_minijuego_1);
             this.Controls.Add(this.titulo_juego);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "MenuSeleccion";
-            this.Padding = new System.Windows.Forms.Padding(27, 74, 27, 25);
+            this.Resizable = false;
             this.Text = " ";
             this.Load += new System.EventHandler(this.MenuSeleccion_Load);
             ((System.ComponentModel.ISupportInitialize)(this.titulo_minijuego_8)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.icono_minijuego_8)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.titulo_minijuego_10)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.icono_minijuego_10)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.titulo_minijuego_9)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.icono_minijuego_9)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.titulo_minijuego_7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.icono_minijuego_7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.titulo_minijuego_6)).EndInit();
@@ -383,8 +333,6 @@
         private System.Windows.Forms.PictureBox icono_minijuego_8;
         private System.Windows.Forms.PictureBox titulo_minijuego_10;
         private System.Windows.Forms.PictureBox icono_minijuego_10;
-        private System.Windows.Forms.PictureBox titulo_minijuego_9;
-        private System.Windows.Forms.PictureBox icono_minijuego_9;
         private System.Windows.Forms.PictureBox titulo_minijuego_7;
         private System.Windows.Forms.PictureBox icono_minijuego_7;
         private System.Windows.Forms.PictureBox titulo_minijuego_6;

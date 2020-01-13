@@ -71,7 +71,6 @@ C:\Users\wwwda\Desktop\ProyectoIntegrador2\MateKids\bin\Debug\MetroFramework.Fon
 C:\Users\wwwda\Desktop\ProyectoIntegrador2\MateKids\obj\Debug\MateKids.csproj.CopyComplete
 C:\Users\wwwda\Desktop\ProyectoIntegrador2\MateKids\bin\Debug\controlPersonalizado.pdb
 C:\Users\wwwda\Desktop\ProyectoIntegrador2\MateKids\obj\Debug\MateKids.Minijuego_4.Minijuego_4.resources
-C:\Users\wwwda\Desktop\ProyectoIntegrador2\MateKids\bin\Debug\globoControl.dll
 C:\Users\wwwda\Desktop\ProyectoIntegrador2\MateKids\bin\Debug\globoControl.pdb
 C:\Users\wwwda\Desktop\ProyectoIntegrador2\MateKids\obj\Debug\MateKids.Minijuego_1.Minijuego_1.resources
 C:\Users\wwwda\Desktop\ProyectoIntegrador2\MateKids\obj\Debug\MateKids.Minijuego_2.Minijuego_2.resources
@@ -129,3 +128,17 @@ C:\Users\matgr\OneDrive\Documentos\GitHub\ProyectoMateKids\MateKids\obj\Debug\Ma
 C:\Users\matgr\OneDrive\Documentos\GitHub\ProyectoMateKids\MateKids\obj\Debug\MateKids.Minijuego_3.Minijuego_3.resources
 C:\Users\matgr\OneDrive\Documentos\GitHub\ProyectoMateKids\MateKids\obj\Debug\MateKids.Minijuego_3.Form3_11.resources
 C:\Users\matgr\OneDrive\Documentos\GitHub\ProyectoMateKids\MateKids\obj\Debug\MateKids.Minijuego_3.Form3_12.resources
+C:\Users\wwwda\Desktop\ProyectoIntegrador2\MateKids\obj\Debug\MateKids.Minijuego_3.Form3_1.resources
+C:\Users\wwwda\Desktop\ProyectoIntegrador2\MateKids\obj\Debug\MateKids.Minijuego_3.Form3_10.resources
+C:\Users\wwwda\Desktop\ProyectoIntegrador2\MateKids\obj\Debug\MateKids.Minijuego_3.Form3_11.resources
+C:\Users\wwwda\Desktop\ProyectoIntegrador2\MateKids\obj\Debug\MateKids.Minijuego_3.Form3_12.resources
+C:\Users\wwwda\Desktop\ProyectoIntegrador2\MateKids\obj\Debug\MateKids.Minijuego_3.Form3_2.resources
+C:\Users\wwwda\Desktop\ProyectoIntegrador2\MateKids\obj\Debug\MateKids.Minijuego_3.Form3_3.resources
+C:\Users\wwwda\Desktop\ProyectoIntegrador2\MateKids\obj\Debug\MateKids.Minijuego_3.Form3_4.resources
+C:\Users\wwwda\Desktop\ProyectoIntegrador2\MateKids\obj\Debug\MateKids.Minijuego_3.Form3_5.resources
+C:\Users\wwwda\Desktop\ProyectoIntegrador2\MateKids\obj\Debug\MateKids.Minijuego_3.Form3_6.resources
+C:\Users\wwwda\Desktop\ProyectoIntegrador2\MateKids\obj\Debug\MateKids.Minijuego_3.Form3_7.resources
+C:\Users\wwwda\Desktop\ProyectoIntegrador2\MateKids\obj\Debug\MateKids.Minijuego_3.Form3_8.resources
+C:\Users\wwwda\Desktop\ProyectoIntegrador2\MateKids\obj\Debug\MateKids.Minijuego_3.Form3_9.resources
+C:\Users\wwwda\Desktop\ProyectoIntegrador2\MateKids\obj\Debug\MateKids.Minijuego_3.Minijuego_3.resources
+C:\Users\wwwda\Desktop\ProyectoIntegrador2\MateKids\obj\Debug\MateKids.Minijuego_4.frmTiempo.resources
