@@ -24,7 +24,7 @@ namespace MateKids.Minijuego_4
         int disparos = 0;
         int aciertos = 0;
         int fallados = 0;
-        double AVG = 0;
+        
         int tiempo;
         #endregion
 
@@ -165,7 +165,7 @@ namespace MateKids.Minijuego_4
         {
             fallados = 0;
             aciertos = 0;
-            AVG = 0;
+            
             disparos = 1;
             timer1.Start();
             this.pnlGlobo2.Visible = true;
