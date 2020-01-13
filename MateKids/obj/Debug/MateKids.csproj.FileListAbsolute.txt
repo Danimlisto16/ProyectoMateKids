@@ -142,3 +142,4 @@ C:\Users\wwwda\Desktop\ProyectoIntegrador2\MateKids\obj\Debug\MateKids.Minijuego
 C:\Users\wwwda\Desktop\ProyectoIntegrador2\MateKids\obj\Debug\MateKids.Minijuego_3.Form3_9.resources
 C:\Users\wwwda\Desktop\ProyectoIntegrador2\MateKids\obj\Debug\MateKids.Minijuego_3.Minijuego_3.resources
 C:\Users\wwwda\Desktop\ProyectoIntegrador2\MateKids\obj\Debug\MateKids.Minijuego_4.frmTiempo.resources
+C:\Users\matgr\OneDrive\Documentos\GitHub\ProyectoMateKids\MateKids\obj\Debug\MateKids.Minijuego_4.frmTiempo.resources
