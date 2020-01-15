@@ -35,6 +35,8 @@
             this.pnlLetrero = new System.Windows.Forms.Panel();
             this.lblEjercicio = new System.Windows.Forms.Label();
             this.pnlMarcador = new System.Windows.Forms.Panel();
+            this.lblTiempo = new System.Windows.Forms.Label();
+            this.pbxTiempo = new System.Windows.Forms.PictureBox();
             this.lblDisparos = new System.Windows.Forms.Label();
             this.lblAciertos = new System.Windows.Forms.Label();
             this.lblFallos = new System.Windows.Forms.Label();
@@ -46,17 +48,15 @@
             this.fondo = new System.Windows.Forms.PictureBox();
             this.pnlTitulo = new System.Windows.Forms.Panel();
             this.pbxJuego_nombre = new System.Windows.Forms.PictureBox();
-            this.pbxTiempo = new System.Windows.Forms.PictureBox();
-            this.lblTiempo = new System.Windows.Forms.Label();
             this.metroPanel1.SuspendLayout();
             this.pnlLetrero.SuspendLayout();
             this.pnlMarcador.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxTiempo)).BeginInit();
             this.pnlGlobo1.SuspendLayout();
             this.pnlGlobo2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.fondo)).BeginInit();
             this.pnlTitulo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbxJuego_nombre)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbxTiempo)).BeginInit();
             this.SuspendLayout();
             // 
             // timer1
@@ -122,6 +122,29 @@
             this.pnlMarcador.Size = new System.Drawing.Size(274, 362);
             this.pnlMarcador.TabIndex = 97;
             // 
+            // lblTiempo
+            // 
+            this.lblTiempo.BackColor = System.Drawing.Color.Transparent;
+            this.lblTiempo.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTiempo.ForeColor = System.Drawing.Color.White;
+            this.lblTiempo.Location = new System.Drawing.Point(72, 117);
+            this.lblTiempo.Name = "lblTiempo";
+            this.lblTiempo.Size = new System.Drawing.Size(63, 38);
+            this.lblTiempo.TabIndex = 99;
+            this.lblTiempo.Text = "000";
+            this.lblTiempo.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // pbxTiempo
+            // 
+            this.pbxTiempo.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pbxTiempo.Image = ((System.Drawing.Image)(resources.GetObject("pbxTiempo.Image")));
+            this.pbxTiempo.Location = new System.Drawing.Point(141, 117);
+            this.pbxTiempo.Name = "pbxTiempo";
+            this.pbxTiempo.Size = new System.Drawing.Size(39, 38);
+            this.pbxTiempo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbxTiempo.TabIndex = 18;
+            this.pbxTiempo.TabStop = false;
+            // 
             // lblDisparos
             // 
             this.lblDisparos.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -167,11 +190,12 @@
             this.pnlGlobo1.BackgroundImage = global::MateKids.Properties.Resources.GLOB;
             this.pnlGlobo1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pnlGlobo1.Controls.Add(this.lblError);
-            this.pnlGlobo1.Location = new System.Drawing.Point(577, 256);
+            this.pnlGlobo1.Location = new System.Drawing.Point(327, 81);
             this.pnlGlobo1.Name = "pnlGlobo1";
             this.pnlGlobo1.Size = new System.Drawing.Size(112, 122);
             this.pnlGlobo1.TabIndex = 88;
             this.pnlGlobo1.Click += new System.EventHandler(this.pnlGlobo1_Click_1);
+            this.pnlGlobo1.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlGlobo1_Paint);
             // 
             // lblError
             // 
@@ -190,7 +214,7 @@
             this.pnlGlobo2.BackgroundImage = global::MateKids.Properties.Resources.GLOB;
             this.pnlGlobo2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pnlGlobo2.Controls.Add(this.lblRespuesta);
-            this.pnlGlobo2.Location = new System.Drawing.Point(1061, 256);
+            this.pnlGlobo2.Location = new System.Drawing.Point(327, 540);
             this.pnlGlobo2.Name = "pnlGlobo2";
             this.pnlGlobo2.Size = new System.Drawing.Size(112, 122);
             this.pnlGlobo2.TabIndex = 87;
@@ -241,29 +265,6 @@
             this.pbxJuego_nombre.TabIndex = 0;
             this.pbxJuego_nombre.TabStop = false;
             // 
-            // pbxTiempo
-            // 
-            this.pbxTiempo.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pbxTiempo.Image = ((System.Drawing.Image)(resources.GetObject("pbxTiempo.Image")));
-            this.pbxTiempo.Location = new System.Drawing.Point(141, 117);
-            this.pbxTiempo.Name = "pbxTiempo";
-            this.pbxTiempo.Size = new System.Drawing.Size(39, 38);
-            this.pbxTiempo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbxTiempo.TabIndex = 18;
-            this.pbxTiempo.TabStop = false;
-            // 
-            // lblTiempo
-            // 
-            this.lblTiempo.BackColor = System.Drawing.Color.Transparent;
-            this.lblTiempo.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTiempo.ForeColor = System.Drawing.Color.White;
-            this.lblTiempo.Location = new System.Drawing.Point(72, 117);
-            this.lblTiempo.Name = "lblTiempo";
-            this.lblTiempo.Size = new System.Drawing.Size(63, 38);
-            this.lblTiempo.TabIndex = 99;
-            this.lblTiempo.Text = "000";
-            this.lblTiempo.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
             // Minijuego_4
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -277,12 +278,12 @@
             this.metroPanel1.ResumeLayout(false);
             this.pnlLetrero.ResumeLayout(false);
             this.pnlMarcador.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pbxTiempo)).EndInit();
             this.pnlGlobo1.ResumeLayout(false);
             this.pnlGlobo2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.fondo)).EndInit();
             this.pnlTitulo.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pbxJuego_nombre)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbxTiempo)).EndInit();
             this.ResumeLayout(false);
 
         }
