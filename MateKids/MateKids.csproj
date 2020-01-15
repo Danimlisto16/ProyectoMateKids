@@ -306,6 +306,84 @@
     <Compile Include="Minijuego_6\Minijuego_6.Designer.cs">
       <DependentUpon>Minijuego_6.cs</DependentUpon>
     </Compile>
+    <Compile Include="Minijuego_8\Form8_1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Minijuego_8\Form8_1.Designer.cs">
+      <DependentUpon>Form8_1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Minijuego_8\Form8_10.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Minijuego_8\Form8_10.Designer.cs">
+      <DependentUpon>Form8_10.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Minijuego_8\Form8_11.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Minijuego_8\Form8_11.Designer.cs">
+      <DependentUpon>Form8_11.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Minijuego_8\Form8_12.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Minijuego_8\Form8_12.Designer.cs">
+      <DependentUpon>Form8_12.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Minijuego_8\Form8_2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Minijuego_8\Form8_2.Designer.cs">
+      <DependentUpon>Form8_2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Minijuego_8\Form8_3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Minijuego_8\Form8_3.Designer.cs">
+      <DependentUpon>Form8_3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Minijuego_8\Form8_4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Minijuego_8\Form8_4.Designer.cs">
+      <DependentUpon>Form8_4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Minijuego_8\Form8_5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Minijuego_8\Form8_5.Designer.cs">
+      <DependentUpon>Form8_5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Minijuego_8\Form8_6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Minijuego_8\Form8_6.Designer.cs">
+      <DependentUpon>Form8_6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Minijuego_8\Form8_7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Minijuego_8\Form8_7.Designer.cs">
+      <DependentUpon>Form8_7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Minijuego_8\Form8_8.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Minijuego_8\Form8_8.Designer.cs">
+      <DependentUpon>Form8_8.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Minijuego_8\Form8_9.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Minijuego_8\Form8_9.Designer.cs">
+      <DependentUpon>Form8_9.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Minijuego_8\Minijuego_8.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Minijuego_8\Minijuego_8.Designer.cs">
+      <DependentUpon>Minijuego_8.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="MenuSeleccion.resx">
@@ -428,6 +506,45 @@
     <EmbeddedResource Include="Minijuego_6\Minijuego_6.resx">
       <DependentUpon>Minijuego_6.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Minijuego_8\Form8_1.resx">
+      <DependentUpon>Form8_1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Minijuego_8\Form8_10.resx">
+      <DependentUpon>Form8_10.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Minijuego_8\Form8_11.resx">
+      <DependentUpon>Form8_11.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Minijuego_8\Form8_12.resx">
+      <DependentUpon>Form8_12.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Minijuego_8\Form8_2.resx">
+      <DependentUpon>Form8_2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Minijuego_8\Form8_3.resx">
+      <DependentUpon>Form8_3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Minijuego_8\Form8_4.resx">
+      <DependentUpon>Form8_4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Minijuego_8\Form8_5.resx">
+      <DependentUpon>Form8_5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Minijuego_8\Form8_6.resx">
+      <DependentUpon>Form8_6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Minijuego_8\Form8_7.resx">
+      <DependentUpon>Form8_7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Minijuego_8\Form8_8.resx">
+      <DependentUpon>Form8_8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Minijuego_8\Form8_9.resx">
+      <DependentUpon>Form8_9.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Minijuego_8\Minijuego_8.resx">
+      <DependentUpon>Minijuego_8.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -504,7 +621,6 @@
   <ItemGroup>
     <Folder Include="Minijuego_10\" />
     <Folder Include="Minijuego_5\" />
-    <Folder Include="Minijuego_8\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

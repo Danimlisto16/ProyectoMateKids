@@ -150,6 +150,10 @@ namespace MateKids
             mn.ShowDialog();
         }
 
-       
+        private void icono_minijuego_8_Click(object sender, EventArgs e)
+        {
+            Minijuego_8.Minijuego_8 mn = new Minijuego_8.Minijuego_8();
+            mn.ShowDialog();
+        }
     }
 }
