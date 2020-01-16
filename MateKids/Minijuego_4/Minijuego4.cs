@@ -20,12 +20,11 @@ namespace MateKids.Minijuego_4
         }
 
         #region
+        int tiempo ;
         Random randomico = new Random();
         int disparos = 0;
         int aciertos = 0;
         int fallados = 0;
-        
-        int tiempo;
         #endregion
 
         
@@ -74,28 +73,28 @@ namespace MateKids.Minijuego_4
         private void reducir_tiempo(object sender, EventArgs e)
         {
             //genera  las posiciones y valores aleatorios de los globos
-                int x, y , x1, y1;
-                x = randomico.Next(370,1540);
-                y = randomico.Next(60,561);
-                x1 = randomico.Next(370, 1540);
-                y1 = randomico.Next(60, 561);
-                while (x == x1 && y == y1)
-                {
-                    x1 = randomico.Next(331, 1561);
-                    y1 = randomico.Next(49, 561);
+            int x, y , x1, y1;
+            x = randomico.Next(370,1323);
+            y = randomico.Next(81,540);
+            x1 = randomico.Next(370, 1323);
+            y1 = randomico.Next(81, 540);
+            while (x == x1 && y == y1){
+                x1 = randomico.Next(370, 1323);
+                y1 = randomico.Next(81, 540);
             }
-                pnlGlobo2.Location = new Point(x,y);
-                pnlGlobo1.Location = new Point(x1, y1);
-                tiempo--;
-                lblTiempo.Text = tiempo.ToString();
-
-                if (tiempo == 0)
+            pnlGlobo2.Location = new Point(x,y);
+            pnlGlobo1.Location = new Point(x1, y1);
+            tiempo--;
+            lblTiempo.Text = tiempo.ToString();
+            if (tiempo == 0)
             {
                 timer1.Stop();
                 MessageBox.Show("Juego Finalizado!");
                 this.pnlGlobo1.Enabled = false;
                 this.pnlGlobo2.Enabled = false;
                 iniciar_minijuego.Enabled = true;
+                
+                
             }
         }
 
@@ -117,7 +116,6 @@ namespace MateKids.Minijuego_4
             lblDisparos.Text = "Disparos " + disparos.ToString();
             if (respuesta)
             {
-                
                 sonidoFail();
                 aciertos++;
                 lblAciertos.Text = "Aciertos " + aciertos.ToString();
@@ -192,6 +190,10 @@ namespace MateKids.Minijuego_4
 
         #endregion
 
+        private void pnlGlobo1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 
 
