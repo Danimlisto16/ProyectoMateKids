@@ -155,5 +155,15 @@ namespace MateKids
             Minijuego_8.Minijuego_8 mn = new Minijuego_8.Minijuego_8();
             mn.ShowDialog();
         }
+
+        private void icono_minijuego_5_MouseEnter(object sender, EventArgs e)
+        {
+            icono_minijuego_5.Size = new System.Drawing.Size(170, 148);
+        }
+
+        private void icono_minijuego_5_MouseLeave(object sender, EventArgs e)
+        {
+            icono_minijuego_5.Size = new System.Drawing.Size(155, 133);
+        }
     }
 }

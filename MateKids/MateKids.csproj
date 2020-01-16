@@ -616,11 +616,14 @@
     <None Include="bin\Debug\imagen_boton.png" />
     <None Include="bin\Debug\fondo_panel_boton.png" />
     <None Include="bin\Debug\rightarrow3_78482.png" />
+    <None Include="bin\Debug\multitablas_juego.png" />
+    <None Include="bin\Debug\multitablas_juego_icono.png" />
     <Content Include="MetroFramework.txt" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Minijuego_10\" />
     <Folder Include="Minijuego_5\" />
+    <Folder Include="Minijuego_9\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

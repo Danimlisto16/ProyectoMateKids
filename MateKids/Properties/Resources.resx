@@ -130,7 +130,9 @@
   <data name="m6" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\m6.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  
+  <data name="m10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\m10.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="d5" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\d5.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -140,11 +142,11 @@
   <data name="multipractis_juego_icono" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\multipractis_juego_icono.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="matekids_nombre" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\matekids_nombre.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="divimax_juego" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\divimax_juego.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="letrero1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Minijuego_4\letrero.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="m8" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\m8.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -157,9 +159,6 @@
   </data>
   <data name="panelle1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Minijuego_4\panelle1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="m10" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\bin\Debug\m10.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="m13" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\m1.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -176,6 +175,9 @@
   <data name="m1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\m1.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="letrero1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Minijuego_4\letrero.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="multipractis_juego" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\multipractis_juego.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -187,6 +189,9 @@
   </data>
   <data name="multiplicax_juego_icono" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\multiplicax_juego_icono.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="m11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\m1.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="multiplicax_juego" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\multiplicax_juego.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -245,8 +250,11 @@
   <data name="m5" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\m5.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="m11" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\bin\Debug\m1.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="rightarrow3_78482" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\rightarrow3_78482.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="multitablas_juego" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\multitablas_juego.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="divipractis_juego_icono" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\divipractis_juego_icono.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -254,8 +262,8 @@
   <data name="panelLetrero1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Minijuego_4\panelLetrero.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="matekids_nombre" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\bin\Debug\matekids_nombre.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="d9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\d9.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="pajaro" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Minijuego_4\pajaro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -275,9 +283,6 @@
   <data name="d10" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\d10.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="d9" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\bin\Debug\d9.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="m12" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\m1.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -296,7 +301,7 @@
   <data name="d4" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\d4.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="rightarrow3_78482" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\bin\Debug\rightarrow3_78482.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="multitablas_juego_icono" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\multitablas_juego_icono.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
