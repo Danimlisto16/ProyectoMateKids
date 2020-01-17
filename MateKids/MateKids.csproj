@@ -162,6 +162,18 @@
     <Compile Include="Minijuego_4\Minijuego4.Designer.cs">
       <DependentUpon>Minijuego4.cs</DependentUpon>
     </Compile>
+    <Compile Include="Minijuego_5\Form5_1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Minijuego_5\Form5_1.Designer.cs">
+      <DependentUpon>Form5_1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Minijuego_5\Minijuego_5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Minijuego_5\Minijuego_5.Designer.cs">
+      <DependentUpon>Minijuego_5.cs</DependentUpon>
+    </Compile>
     <Compile Include="Minijuego_7\Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -434,6 +446,12 @@
     <EmbeddedResource Include="Minijuego_4\Minijuego4.resx">
       <DependentUpon>Minijuego4.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Minijuego_5\Form5_1.resx">
+      <DependentUpon>Form5_1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Minijuego_5\Minijuego_5.resx">
+      <DependentUpon>Minijuego_5.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Minijuego_7\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -618,11 +636,31 @@
     <None Include="bin\Debug\rightarrow3_78482.png" />
     <None Include="bin\Debug\multitablas_juego.png" />
     <None Include="bin\Debug\multitablas_juego_icono.png" />
+    <None Include="bin\Debug\fondo_tablas.jpg" />
+    <None Include="bin\Debug\num2.png" />
+    <None Include="bin\Debug\num3.png" />
+    <None Include="bin\Debug\num4.png" />
+    <None Include="bin\Debug\num5.png" />
+    <None Include="bin\Debug\num6.png" />
+    <None Include="bin\Debug\num7.PNG" />
+    <None Include="bin\Debug\num8.png" />
+    <None Include="bin\Debug\num9.png" />
+    <None Include="bin\Debug\num10.png" />
+    <None Include="bin\Debug\tabla2.png" />
+    <None Include="bin\Debug\tabla3.png" />
+    <None Include="bin\Debug\tabla4.png" />
+    <None Include="bin\Debug\tabla5.png" />
+    <None Include="bin\Debug\tabla6.png" />
+    <None Include="bin\Debug\tabla7.png" />
+    <None Include="bin\Debug\tabla8.png" />
+    <None Include="bin\Debug\tabla9.png" />
+    <None Include="bin\Debug\tabla10.png" />
+    <None Include="bin\Debug\back.png" />
+    <None Include="bin\Debug\back %281%29.png" />
     <Content Include="MetroFramework.txt" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Minijuego_10\" />
-    <Folder Include="Minijuego_5\" />
     <Folder Include="Minijuego_9\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

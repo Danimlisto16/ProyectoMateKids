@@ -156,3 +156,5 @@ C:\Users\matgr\OneDrive\Documentos\GitHub\ProyectoMateKids\MateKids\obj\Debug\Ma
 C:\Users\matgr\OneDrive\Documentos\GitHub\ProyectoMateKids\MateKids\obj\Debug\MateKids.Minijuego_8.Form8_8.resources
 C:\Users\matgr\OneDrive\Documentos\GitHub\ProyectoMateKids\MateKids\obj\Debug\MateKids.Minijuego_8.Form8_9.resources
 C:\Users\matgr\OneDrive\Documentos\GitHub\ProyectoMateKids\MateKids\obj\Debug\MateKids.Minijuego_8.Minijuego_8.resources
+C:\Users\matgr\OneDrive\Documentos\GitHub\ProyectoMateKids\MateKids\obj\Debug\MateKids.Minijuego_5.Minijuego_5.resources
+C:\Users\matgr\OneDrive\Documentos\GitHub\ProyectoMateKids\MateKids\obj\Debug\MateKids.Minijuego_5.Form5_1.resources
