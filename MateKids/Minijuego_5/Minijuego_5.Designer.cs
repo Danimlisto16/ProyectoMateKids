@@ -84,7 +84,7 @@
             this.texto_descripcion.Name = "texto_descripcion";
             this.texto_descripcion.Size = new System.Drawing.Size(1044, 85);
             this.texto_descripcion.TabIndex = 15;
-            this.texto_descripcion.Text = "Seleccione la tabla del número que deseas practicar.";
+            this.texto_descripcion.Text = "Selecciona la tabla del número que deseas practicar.";
             this.texto_descripcion.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // tabla_6
