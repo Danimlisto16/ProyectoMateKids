@@ -82,7 +82,7 @@ namespace MateKids.Minijuego_5
             }
         }
 
-        private void ValidarRespuestas(Form formulario)
+        private void Validar_respuesta(Form formulario)
         {
             int i = 1;
             
@@ -195,7 +195,7 @@ namespace MateKids.Minijuego_5
             ValidarCasilleros(this);
             if (!vacio)
             {
-                ValidarRespuestas(this);
+                Validar_respuesta(this);
                 for (int i = 0; i < 10; i++)
                 {
                    
