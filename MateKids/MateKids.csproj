@@ -688,6 +688,7 @@
     <None Include="bin\Debug\divshooter.jpg" />
     <None Include="bin\Debug\shooterex.jpg" />
     <None Include="bin\Debug\divshooterex.PNG" />
+    <None Include="bin\Debug\lasalle-latacunga.jpg" />
     <Content Include="MetroFramework.txt" />
   </ItemGroup>
   <ItemGroup>

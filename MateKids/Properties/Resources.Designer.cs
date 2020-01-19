@@ -413,6 +413,16 @@ namespace MateKids.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap lasalle_latacunga {
+            get {
+                object obj = ResourceManager.GetObject("lasalle-latacunga", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap letrero {
             get {
                 object obj = ResourceManager.GetObject("letrero", resourceCulture);

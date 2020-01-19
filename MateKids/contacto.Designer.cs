@@ -39,7 +39,9 @@
             this.metroLabel8 = new MetroFramework.Controls.MetroLabel();
             this.metroLabel9 = new MetroFramework.Controls.MetroLabel();
             this.metroLabel11 = new MetroFramework.Controls.MetroLabel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
@@ -58,7 +60,7 @@
             this.metroLabel2.Name = "metroLabel2";
             this.metroLabel2.Size = new System.Drawing.Size(193, 26);
             this.metroLabel2.TabIndex = 1;
-            this.metroLabel2.Text = "Email: mateog99@gmail.com";
+            this.metroLabel2.Text = "Email:  jmgranja1@espe.edu.ec";
             // 
             // metroLabel3
             // 
@@ -71,7 +73,7 @@
             // metroLabel4
             // 
             this.metroLabel4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.metroLabel4.Location = new System.Drawing.Point(239, 173);
+            this.metroLabel4.Location = new System.Drawing.Point(239, 179);
             this.metroLabel4.Name = "metroLabel4";
             this.metroLabel4.Size = new System.Drawing.Size(1, 220);
             this.metroLabel4.TabIndex = 3;
@@ -129,12 +131,22 @@
             this.metroLabel11.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.metroLabel11.Click += new System.EventHandler(this.metroLabel11_Click);
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::MateKids.Properties.Resources.lasalle_latacunga;
+            this.pictureBox1.Location = new System.Drawing.Point(27, 63);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(217, 94);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 13;
+            this.pictureBox1.TabStop = false;
+            // 
             // pictureBox2
             // 
             this.pictureBox2.Image = global::MateKids.Properties.Resources.Logo_ESPE;
-            this.pictureBox2.Location = new System.Drawing.Point(196, 73);
+            this.pictureBox2.Location = new System.Drawing.Point(303, 49);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(77, 71);
+            this.pictureBox2.Size = new System.Drawing.Size(115, 108);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 12;
             this.pictureBox2.TabStop = false;
@@ -145,6 +157,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BorderStyle = MetroFramework.Drawing.MetroBorderStyle.FixedSingle;
             this.ClientSize = new System.Drawing.Size(468, 527);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.metroLabel11);
             this.Controls.Add(this.metroLabel6);
@@ -161,6 +174,7 @@
             this.Text = "Contacto";
             this.TextAlign = System.Windows.Forms.VisualStyles.HorizontalAlign.Center;
             this.Load += new System.EventHandler(this.contacto_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
 
@@ -179,5 +193,6 @@
         private MetroFramework.Controls.MetroLabel metroLabel9;
         private MetroFramework.Controls.MetroLabel metroLabel11;
         private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
