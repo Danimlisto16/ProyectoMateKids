@@ -39,12 +39,14 @@
             this.metroLabel8 = new MetroFramework.Controls.MetroLabel();
             this.metroLabel9 = new MetroFramework.Controls.MetroLabel();
             this.metroLabel11 = new MetroFramework.Controls.MetroLabel();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // metroLabel1
             // 
             this.metroLabel1.FontWeight = MetroFramework.MetroLabelWeight.Bold;
-            this.metroLabel1.Location = new System.Drawing.Point(80, 113);
+            this.metroLabel1.Location = new System.Drawing.Point(67, 173);
             this.metroLabel1.Name = "metroLabel1";
             this.metroLabel1.Size = new System.Drawing.Size(104, 26);
             this.metroLabel1.TabIndex = 0;
@@ -52,7 +54,7 @@
             // 
             // metroLabel2
             // 
-            this.metroLabel2.Location = new System.Drawing.Point(40, 161);
+            this.metroLabel2.Location = new System.Drawing.Point(27, 221);
             this.metroLabel2.Name = "metroLabel2";
             this.metroLabel2.Size = new System.Drawing.Size(193, 26);
             this.metroLabel2.TabIndex = 1;
@@ -60,7 +62,7 @@
             // 
             // metroLabel3
             // 
-            this.metroLabel3.Location = new System.Drawing.Point(66, 258);
+            this.metroLabel3.Location = new System.Drawing.Point(53, 318);
             this.metroLabel3.Name = "metroLabel3";
             this.metroLabel3.Size = new System.Drawing.Size(133, 30);
             this.metroLabel3.TabIndex = 2;
@@ -69,15 +71,15 @@
             // metroLabel4
             // 
             this.metroLabel4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.metroLabel4.Location = new System.Drawing.Point(239, 137);
+            this.metroLabel4.Location = new System.Drawing.Point(239, 173);
             this.metroLabel4.Name = "metroLabel4";
-            this.metroLabel4.Size = new System.Drawing.Size(1, 250);
+            this.metroLabel4.Size = new System.Drawing.Size(1, 220);
             this.metroLabel4.TabIndex = 3;
             this.metroLabel4.Text = "Celular: 0995470225";
             // 
             // metroLabel5
             // 
-            this.metroLabel5.Location = new System.Drawing.Point(66, 187);
+            this.metroLabel5.Location = new System.Drawing.Point(53, 247);
             this.metroLabel5.Name = "metroLabel5";
             this.metroLabel5.Size = new System.Drawing.Size(133, 30);
             this.metroLabel5.TabIndex = 4;
@@ -85,7 +87,7 @@
             // 
             // metroLabel6
             // 
-            this.metroLabel6.Location = new System.Drawing.Point(286, 187);
+            this.metroLabel6.Location = new System.Drawing.Point(303, 247);
             this.metroLabel6.Name = "metroLabel6";
             this.metroLabel6.Size = new System.Drawing.Size(133, 30);
             this.metroLabel6.TabIndex = 8;
@@ -93,7 +95,7 @@
             // 
             // metroLabel7
             // 
-            this.metroLabel7.Location = new System.Drawing.Point(286, 258);
+            this.metroLabel7.Location = new System.Drawing.Point(303, 318);
             this.metroLabel7.Name = "metroLabel7";
             this.metroLabel7.Size = new System.Drawing.Size(133, 30);
             this.metroLabel7.TabIndex = 7;
@@ -101,16 +103,16 @@
             // 
             // metroLabel8
             // 
-            this.metroLabel8.Location = new System.Drawing.Point(260, 161);
+            this.metroLabel8.Location = new System.Drawing.Point(277, 221);
             this.metroLabel8.Name = "metroLabel8";
             this.metroLabel8.Size = new System.Drawing.Size(193, 26);
             this.metroLabel8.TabIndex = 6;
-            this.metroLabel8.Text = "Email: wwwdany@hotmail.es";
+            this.metroLabel8.Text = "Email: dayanez8@espe.edu.ec\r\n";
             // 
             // metroLabel9
             // 
             this.metroLabel9.FontWeight = MetroFramework.MetroLabelWeight.Bold;
-            this.metroLabel9.Location = new System.Drawing.Point(286, 113);
+            this.metroLabel9.Location = new System.Drawing.Point(303, 173);
             this.metroLabel9.Name = "metroLabel9";
             this.metroLabel9.Size = new System.Drawing.Size(142, 26);
             this.metroLabel9.TabIndex = 5;
@@ -127,12 +129,23 @@
             this.metroLabel11.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.metroLabel11.Click += new System.EventHandler(this.metroLabel11_Click);
             // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::MateKids.Properties.Resources.Logo_ESPE;
+            this.pictureBox2.Location = new System.Drawing.Point(196, 73);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(77, 71);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 12;
+            this.pictureBox2.TabStop = false;
+            // 
             // Contacto
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BorderStyle = MetroFramework.Drawing.MetroBorderStyle.FixedSingle;
             this.ClientSize = new System.Drawing.Size(468, 527);
+            this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.metroLabel11);
             this.Controls.Add(this.metroLabel6);
             this.Controls.Add(this.metroLabel7);
@@ -148,6 +161,7 @@
             this.Text = "Contacto";
             this.TextAlign = System.Windows.Forms.VisualStyles.HorizontalAlign.Center;
             this.Load += new System.EventHandler(this.contacto_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -164,5 +178,6 @@
         private MetroFramework.Controls.MetroLabel metroLabel8;
         private MetroFramework.Controls.MetroLabel metroLabel9;
         private MetroFramework.Controls.MetroLabel metroLabel11;
+        private System.Windows.Forms.PictureBox pictureBox2;
     }
 }

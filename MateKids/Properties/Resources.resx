@@ -130,6 +130,9 @@
   <data name="multitablas_juego" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\multitablas_juego.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Logo_ESPE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Logo_ESPE.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="d1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\d1.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -172,8 +175,8 @@
   <data name="multiplicax_juego" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\multiplicax_juego.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="imagen_boton1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\bin\Debug\imagen_boton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="playa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\playa.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="divimax_juego_icono" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\divimax_juego_icono.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -181,8 +184,8 @@
   <data name="num4" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\num4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="panelle1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Minijuego_4\panelle1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="igual1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\igual.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="tabla6" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\tabla6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -256,6 +259,9 @@
   <data name="tabla8" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\tabla8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="panelle1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Minijuego_4\panelle1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="imagen_boton" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\imagen_boton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -292,9 +298,6 @@
   <data name="d4" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\d4.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="playa" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\bin\Debug\playa.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="fondo_panel_boton" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\fondo_panel_boton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -309,6 +312,9 @@
   </data>
   <data name="back" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\back.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="exit_50px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Minijuego_10\exit_50px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="m6" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\m6.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -333,6 +339,9 @@
   </data>
   <data name="linea2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\linea2.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="playsimbol" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\playsimbol.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="letrero" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Minijuego_4\letrero.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -385,10 +394,13 @@
   <data name="divipractis_juego" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\divipractis_juego.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="imagen_boton1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\imagen_boton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="num6" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\num6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="playsimbol" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\bin\Debug\playsimbol.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="igual2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\igual.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

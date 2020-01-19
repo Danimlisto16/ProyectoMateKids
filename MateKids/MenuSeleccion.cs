@@ -183,5 +183,45 @@ namespace MateKids
             Minijuego_10.Minijuego_10 m = new MateKids.Minijuego_10.Minijuego_10();
             m.ShowDialog();
         }
+
+        private void icono_minijuego_10_MouseEnter(object sender, EventArgs e)
+        {
+            icono_minijuego_10.Size = new System.Drawing.Size(170, 148);
+        }
+
+        private void icono_minijuego_10_MouseLeave(object sender, EventArgs e)
+        {
+            icono_minijuego_10.Size = new System.Drawing.Size(155, 133);
+        }
+
+        private void titulo_minijuego_9_MouseEnter(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void titulo_minijuego_9_MouseLeave(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void lblContacto_MouseEnter(object sender, EventArgs e)
+        {
+            lblContacto.FontSize = MetroFramework.MetroLabelSize.Tall;
+        }
+
+        private void lblContacto_MouseLeave(object sender, EventArgs e)
+        {
+            lblContacto.FontSize = MetroFramework.MetroLabelSize.Medium;
+        }
+
+        private void icono_minijuego_9_MouseEnter(object sender, EventArgs e)
+        {
+            icono_minijuego_9.Size = new System.Drawing.Size(170, 148);
+        }
+
+        private void icono_minijuego_9_MouseLeave(object sender, EventArgs e)
+        {
+            icono_minijuego_9.Size = new System.Drawing.Size(155, 133);
+        }
     }
 }
