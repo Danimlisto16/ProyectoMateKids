@@ -133,11 +133,17 @@
   <data name="d1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\d1.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="panelLetrero2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Minijuego_4\panelLetrero.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Photo from album _Летние пейзажи, природа_ on Yandex_Disk" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\Photo from album _Летние пейзажи, природа_ on Yandex_Disk.jfif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="divipractis_juego_icono" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\divipractis_juego_icono.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="back (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\back (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="SHOOTEREXicono" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Minijuego_4\SHOOTEREXicono.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -157,14 +163,11 @@
   <data name="d9" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\d9.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="fondo_tablas" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\bin\Debug\fondo_tablas.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="m7" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\m7.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="multitest_juego" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\bin\Debug\multitest_juego.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="letrero1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Minijuego_4\letrero.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="multiplicax_juego" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\multiplicax_juego.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -178,6 +181,9 @@
   <data name="num4" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\num4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="panelle1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Minijuego_4\panelle1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="tabla6" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\tabla6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -190,17 +196,20 @@
   <data name="d10" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\d10.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="tabla5" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\bin\Debug\tabla5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="panelLetrero-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Minijuego_4\panelLetrero-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="d2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\d2.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="xanimada" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\xanimada.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="tabla9" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\tabla9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="titulo-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Minijuego_4\titulo-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="d6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\d6.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="num3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\num3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -223,11 +232,17 @@
   <data name="m4" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\m4.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="num41" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\num4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="m10" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\m10.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="GLOB" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Minijuego_4\GLOB.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="igual" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\igual.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="dibujos" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Minijuego_1\dibujos.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -244,8 +259,8 @@
   <data name="imagen_boton" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\imagen_boton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="panelLetrero-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Minijuego_4\panelLetrero-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="fondo_tablas" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\fondo_tablas.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="d3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\d3.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -253,11 +268,11 @@
   <data name="tabla10" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\tabla10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="num6" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\bin\Debug\num6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="division" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\division.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="letrero1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Minijuego_4\letrero.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="encuentrax_icono" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\encuentrax_icono.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="titulo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Minijuego_4\titulo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -276,6 +291,9 @@
   </data>
   <data name="d4" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\d4.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="playa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\playa.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="fondo_panel_boton" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\fondo_panel_boton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -316,11 +334,11 @@
   <data name="linea2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\linea2.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="num41" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\bin\Debug\num4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="letrero" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Minijuego_4\letrero.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="divipractis_juego" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\bin\Debug\divipractis_juego.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="panelLetrero" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Minijuego_4\panelLetrero.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="divitest_juego_icono" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\divitest_juego_icono.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -340,14 +358,17 @@
   <data name="tabla3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\tabla3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="panelLetrero" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Minijuego_4\panelLetrero.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="encuentrax" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\encuentrax.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="tabla2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\tabla2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="letrero" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Minijuego_4\letrero.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="multitest_juego" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\multitest_juego.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tabla5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\tabla5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="panelLetrero1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Minijuego_4\panelLetrero.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -355,19 +376,19 @@
   <data name="multitest_juego_icono" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\multitest_juego_icono.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="panelLetrero2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Minijuego_4\panelLetrero.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="titulo-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Minijuego_4\titulo-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="multipractis_juego_icono" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\multipractis_juego_icono.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="d6" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\bin\Debug\d6.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="divipractis_juego" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\divipractis_juego.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="panelle1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Minijuego_4\panelle1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="num6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\num6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="back (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\bin\Debug\back (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="playsimbol" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\playsimbol.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

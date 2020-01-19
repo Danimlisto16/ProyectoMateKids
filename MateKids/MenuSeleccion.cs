@@ -171,5 +171,17 @@ namespace MateKids
             Minijuego_5.Minijuego_5 mn = new Minijuego_5.Minijuego_5();
             mn.ShowDialog();
         }
+
+        private void lblContacto_Click(object sender, EventArgs e)
+        {
+            Contacto c = new Contacto();
+            c.ShowDialog();
+        }
+
+        private void icono_minijuego_10_Click(object sender, EventArgs e)
+        {
+            Minijuego_10.Minijuego_10 m = new MateKids.Minijuego_10.Minijuego_10();
+            m.ShowDialog();
+        }
     }
 }
