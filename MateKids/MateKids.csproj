@@ -606,7 +606,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Minijuego_10\exit_50px.png" />
     <None Include="Minijuego_1\dibujos.jpg" />
     <None Include="Minijuego_4\titulo.png" />
     <None Include="Minijuego_4\titulo-removebg-preview.png" />
@@ -683,8 +682,6 @@
     <None Include="bin\Debug\division.png" />
     <None Include="bin\Debug\playa.jpg" />
     <None Include="bin\Debug\playsimbol.png" />
-    <None Include="bin\Debug\Logo_ESPE.png" />
-    <None Include="bin\Debug\igual.png" />
     <Content Include="MetroFramework.txt" />
   </ItemGroup>
   <ItemGroup>
