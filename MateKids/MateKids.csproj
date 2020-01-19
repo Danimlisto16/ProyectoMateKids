@@ -66,11 +66,23 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="contacto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="contacto.Designer.cs">
+      <DependentUpon>contacto.cs</DependentUpon>
+    </Compile>
     <Compile Include="MenuSeleccion.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="MenuSeleccion.Designer.cs">
       <DependentUpon>MenuSeleccion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Minijuego_10\Minijuego_10.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Minijuego_10\Minijuego_10.Designer.cs">
+      <DependentUpon>Minijuego_10.cs</DependentUpon>
     </Compile>
     <Compile Include="Minijuego_3\Form3_1.cs">
       <SubType>Form</SubType>
@@ -398,8 +410,14 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="contacto.resx">
+      <DependentUpon>contacto.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MenuSeleccion.resx">
       <DependentUpon>MenuSeleccion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Minijuego_10\Minijuego_10.resx">
+      <DependentUpon>Minijuego_10.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Minijuego_3\Form3_1.resx">
       <DependentUpon>Form3_1.cs</DependentUpon>
@@ -657,10 +675,16 @@
     <None Include="bin\Debug\tabla10.png" />
     <None Include="bin\Debug\back.png" />
     <None Include="bin\Debug\back %281%29.png" />
+    <None Include="bin\Debug\encuentrax.PNG" />
+    <None Include="bin\Debug\encuentrax_icono.PNG" />
+    <None Include="bin\Debug\igual.jpg" />
+    <None Include="bin\Debug\xanimada.jpg" />
+    <None Include="bin\Debug\division.png" />
+    <None Include="bin\Debug\playa.jpg" />
+    <None Include="bin\Debug\playsimbol.png" />
     <Content Include="MetroFramework.txt" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Minijuego_10\" />
     <Folder Include="Minijuego_9\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
