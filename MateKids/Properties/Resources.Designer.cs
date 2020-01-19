@@ -263,9 +263,29 @@ namespace MateKids.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap divshooter {
+            get {
+                object obj = ResourceManager.GetObject("divshooter", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap divshooter1 {
             get {
                 object obj = ResourceManager.GetObject("divshooter1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap divshooterex {
+            get {
+                object obj = ResourceManager.GetObject("divshooterex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -286,6 +306,16 @@ namespace MateKids.Properties {
         internal static System.Drawing.Bitmap encuentrax_icono {
             get {
                 object obj = ResourceManager.GetObject("encuentrax_icono", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap exit_50px {
+            get {
+                object obj = ResourceManager.GetObject("exit_50px", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -336,6 +366,26 @@ namespace MateKids.Properties {
         internal static System.Drawing.Bitmap igual {
             get {
                 object obj = ResourceManager.GetObject("igual", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap igual1 {
+            get {
+                object obj = ResourceManager.GetObject("igual1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap igual2 {
+            get {
+                object obj = ResourceManager.GetObject("igual2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -396,6 +446,16 @@ namespace MateKids.Properties {
         internal static System.Drawing.Bitmap linea2 {
             get {
                 object obj = ResourceManager.GetObject("linea2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Logo_ESPE {
+            get {
+                object obj = ResourceManager.GetObject("Logo_ESPE", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -836,6 +896,16 @@ namespace MateKids.Properties {
         internal static System.Drawing.Bitmap shooterex {
             get {
                 object obj = ResourceManager.GetObject("shooterex", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap shooterex1 {
+            get {
+                object obj = ResourceManager.GetObject("shooterex1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

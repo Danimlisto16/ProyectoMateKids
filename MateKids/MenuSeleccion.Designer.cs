@@ -30,6 +30,8 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MenuSeleccion));
             this.lblContacto = new MetroFramework.Controls.MetroLabel();
+            this.titulo_minijuego_9 = new System.Windows.Forms.PictureBox();
+            this.icono_minijuego_9 = new System.Windows.Forms.PictureBox();
             this.titulo_minijuego_8 = new System.Windows.Forms.PictureBox();
             this.icono_minijuego_8 = new System.Windows.Forms.PictureBox();
             this.titulo_minijuego_10 = new System.Windows.Forms.PictureBox();
@@ -49,6 +51,8 @@
             this.titulo_minijuego_1 = new System.Windows.Forms.PictureBox();
             this.icono_minijuego_1 = new System.Windows.Forms.PictureBox();
             this.titulo_juego = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.titulo_minijuego_9)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.icono_minijuego_9)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.titulo_minijuego_8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.icono_minijuego_8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.titulo_minijuego_10)).BeginInit();
@@ -72,13 +76,38 @@
             // 
             // lblContacto
             // 
-            this.lblContacto.AutoSize = true;
-            this.lblContacto.Location = new System.Drawing.Point(411, 637);
+            this.lblContacto.Location = new System.Drawing.Point(411, 629);
             this.lblContacto.Name = "lblContacto";
-            this.lblContacto.Size = new System.Drawing.Size(394, 38);
+            this.lblContacto.Size = new System.Drawing.Size(513, 44);
             this.lblContacto.TabIndex = 81;
             this.lblContacto.Text = "Desarrollado por Mateo Granja y Daniel Yánez, 2020. Licencia CC \r\n";
             this.lblContacto.Click += new System.EventHandler(this.lblContacto_Click);
+            this.lblContacto.MouseEnter += new System.EventHandler(this.lblContacto_MouseEnter);
+            this.lblContacto.MouseLeave += new System.EventHandler(this.lblContacto_MouseLeave);
+            // 
+            // titulo_minijuego_9
+            // 
+            this.titulo_minijuego_9.Image = global::MateKids.Properties.Resources.divshooterex;
+            this.titulo_minijuego_9.Location = new System.Drawing.Point(758, 440);
+            this.titulo_minijuego_9.Name = "titulo_minijuego_9";
+            this.titulo_minijuego_9.Size = new System.Drawing.Size(155, 30);
+            this.titulo_minijuego_9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.titulo_minijuego_9.TabIndex = 83;
+            this.titulo_minijuego_9.TabStop = false;
+            this.titulo_minijuego_9.MouseEnter += new System.EventHandler(this.titulo_minijuego_9_MouseEnter);
+            this.titulo_minijuego_9.MouseLeave += new System.EventHandler(this.titulo_minijuego_9_MouseLeave);
+            // 
+            // icono_minijuego_9
+            // 
+            this.icono_minijuego_9.Image = global::MateKids.Properties.Resources.shooterex1;
+            this.icono_minijuego_9.Location = new System.Drawing.Point(758, 477);
+            this.icono_minijuego_9.Name = "icono_minijuego_9";
+            this.icono_minijuego_9.Size = new System.Drawing.Size(155, 133);
+            this.icono_minijuego_9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.icono_minijuego_9.TabIndex = 82;
+            this.icono_minijuego_9.TabStop = false;
+            this.icono_minijuego_9.MouseEnter += new System.EventHandler(this.icono_minijuego_9_MouseEnter);
+            this.icono_minijuego_9.MouseLeave += new System.EventHandler(this.icono_minijuego_9_MouseLeave);
             // 
             // titulo_minijuego_8
             // 
@@ -123,6 +152,8 @@
             this.icono_minijuego_10.TabIndex = 77;
             this.icono_minijuego_10.TabStop = false;
             this.icono_minijuego_10.Click += new System.EventHandler(this.icono_minijuego_10_Click);
+            this.icono_minijuego_10.MouseEnter += new System.EventHandler(this.icono_minijuego_10_MouseEnter);
+            this.icono_minijuego_10.MouseLeave += new System.EventHandler(this.icono_minijuego_10_MouseLeave);
             // 
             // titulo_minijuego_7
             // 
@@ -228,7 +259,7 @@
             // 
             // icono_minijuego_4
             // 
-            this.icono_minijuego_4.Image = global::MateKids.Properties.Resources.SHOOTEREXicono;
+            this.icono_minijuego_4.Image = global::MateKids.Properties.Resources.divshooter;
             this.icono_minijuego_4.Location = new System.Drawing.Point(758, 237);
             this.icono_minijuego_4.Name = "icono_minijuego_4";
             this.icono_minijuego_4.Size = new System.Drawing.Size(155, 133);
@@ -300,6 +331,8 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1251, 683);
+            this.Controls.Add(this.titulo_minijuego_9);
+            this.Controls.Add(this.icono_minijuego_9);
             this.Controls.Add(this.lblContacto);
             this.Controls.Add(this.titulo_minijuego_8);
             this.Controls.Add(this.icono_minijuego_8);
@@ -324,6 +357,8 @@
             this.Resizable = false;
             this.Text = " ";
             this.Load += new System.EventHandler(this.MenuSeleccion_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.titulo_minijuego_9)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.icono_minijuego_9)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.titulo_minijuego_8)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.icono_minijuego_8)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.titulo_minijuego_10)).EndInit();
@@ -344,7 +379,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.icono_minijuego_1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.titulo_juego)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -370,6 +404,8 @@
         private System.Windows.Forms.PictureBox titulo_minijuego_1;
         private System.Windows.Forms.PictureBox icono_minijuego_1;
         private MetroFramework.Controls.MetroLabel lblContacto;
+        private System.Windows.Forms.PictureBox icono_minijuego_9;
+        private System.Windows.Forms.PictureBox titulo_minijuego_9;
     }
 }
 
