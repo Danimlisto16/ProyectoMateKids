@@ -235,5 +235,9 @@ namespace MateKids.Minijuego_6
 
         #endregion
 
+        private void Minijuego_6_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            tmrTiempoJuego.Stop();
+        }
     }
 }

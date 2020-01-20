@@ -235,6 +235,7 @@
             this.Controls.Add(this.lblOperacion);
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Minijuego_1";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Minijuego_1_FormClosed);
             this.Load += new System.EventHandler(this.Minijuego1_Load);
             this.pnlControles.ResumeLayout(false);
             this.pnlControles.PerformLayout();
