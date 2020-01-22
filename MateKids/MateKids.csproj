@@ -168,11 +168,19 @@
     <Compile Include="Minijuego_4\frmTiempo.Designer.cs">
       <DependentUpon>frmTiempo.cs</DependentUpon>
     </Compile>
+<<<<<<< HEAD
     <Compile Include="Minijuego_4\Minijuego_4_1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Minijuego_4\Minijuego_4_1.Designer.cs">
       <DependentUpon>Minijuego_4_1.cs</DependentUpon>
+=======
+    <Compile Include="Minijuego_4\Minijuego4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Minijuego_4\Minijuego4.Designer.cs">
+      <DependentUpon>Minijuego4.cs</DependentUpon>
+>>>>>>> parent of f59da63... shooterex corregido
     </Compile>
     <Compile Include="Minijuego_5\Form5_1.cs">
       <SubType>Form</SubType>
@@ -467,8 +475,13 @@
     <EmbeddedResource Include="Minijuego_4\frmTiempo.resx">
       <DependentUpon>frmTiempo.cs</DependentUpon>
     </EmbeddedResource>
+<<<<<<< HEAD
     <EmbeddedResource Include="Minijuego_4\Minijuego_4_1.resx">
       <DependentUpon>Minijuego_4_1.cs</DependentUpon>
+=======
+    <EmbeddedResource Include="Minijuego_4\Minijuego4.resx">
+      <DependentUpon>Minijuego4.cs</DependentUpon>
+>>>>>>> parent of f59da63... shooterex corregido
     </EmbeddedResource>
     <EmbeddedResource Include="Minijuego_5\Form5_1.resx">
       <DependentUpon>Form5_1.cs</DependentUpon>
@@ -615,7 +628,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Minijuego_4\fondo1.png" />
     <None Include="Minijuego_10\exit_50px.png" />
     <None Include="Minijuego_1\dibujos.jpg" />
     <None Include="Minijuego_4\titulo.png" />
