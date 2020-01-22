@@ -76,11 +76,12 @@
             // 
             // lblContacto
             // 
-            this.lblContacto.Location = new System.Drawing.Point(411, 629);
+            this.lblContacto.Location = new System.Drawing.Point(406, 644);
             this.lblContacto.Name = "lblContacto";
-            this.lblContacto.Size = new System.Drawing.Size(513, 44);
+            this.lblContacto.Size = new System.Drawing.Size(445, 37);
             this.lblContacto.TabIndex = 81;
             this.lblContacto.Text = "Desarrollado por Mateo Granja y Daniel Yánez, 2020. Licencia CC \r\n";
+            this.lblContacto.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.lblContacto.Click += new System.EventHandler(this.lblContacto_Click);
             this.lblContacto.MouseEnter += new System.EventHandler(this.lblContacto_MouseEnter);
             this.lblContacto.MouseLeave += new System.EventHandler(this.lblContacto_MouseLeave);
@@ -320,9 +321,9 @@
             // titulo_juego
             // 
             this.titulo_juego.Image = ((System.Drawing.Image)(resources.GetObject("titulo_juego.Image")));
-            this.titulo_juego.Location = new System.Drawing.Point(322, 25);
+            this.titulo_juego.Location = new System.Drawing.Point(331, 25);
             this.titulo_juego.Name = "titulo_juego";
-            this.titulo_juego.Size = new System.Drawing.Size(650, 151);
+            this.titulo_juego.Size = new System.Drawing.Size(582, 138);
             this.titulo_juego.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.titulo_juego.TabIndex = 0;
             this.titulo_juego.TabStop = false;

@@ -168,12 +168,6 @@
     <Compile Include="Minijuego_4\frmTiempo.Designer.cs">
       <DependentUpon>frmTiempo.cs</DependentUpon>
     </Compile>
-    <Compile Include="Minijuego_4\Minijuego4.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Minijuego_4\Minijuego4.Designer.cs">
-      <DependentUpon>Minijuego4.cs</DependentUpon>
-    </Compile>
     <Compile Include="Minijuego_4\Minijuego_4_1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -414,6 +408,12 @@
     <Compile Include="Minijuego_8\Minijuego_8.Designer.cs">
       <DependentUpon>Minijuego_8.cs</DependentUpon>
     </Compile>
+    <Compile Include="Minijuego_9\Minijuego_9.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Minijuego_9\Minijuego_9.Designer.cs">
+      <DependentUpon>Minijuego_9.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="contacto.resx">
@@ -466,9 +466,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Minijuego_4\frmTiempo.resx">
       <DependentUpon>frmTiempo.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Minijuego_4\Minijuego4.resx">
-      <DependentUpon>Minijuego4.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Minijuego_4\Minijuego_4_1.resx">
       <DependentUpon>Minijuego_4_1.cs</DependentUpon>
@@ -590,6 +587,9 @@
     <EmbeddedResource Include="Minijuego_8\Minijuego_8.resx">
       <DependentUpon>Minijuego_8.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Minijuego_9\Minijuego_9.resx">
+      <DependentUpon>Minijuego_9.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -626,7 +626,6 @@
     <None Include="Minijuego_4\GLOB.png" />
     <None Include="Minijuego_4\divshooter.png" />
     <None Include="Minijuego_4\letrero.png" />
-    <None Include="Minijuego_4\pajaro.png" />
     <None Include="Minijuego_4\SHOOTEREXicono.png" />
     <None Include="Minijuego_4\fondo.png" />
     <None Include="Minijuego_4\shooterex.PNG" />
@@ -701,8 +700,6 @@
     <None Include="bin\Debug\lasalle-latacunga.jpg" />
     <Content Include="MetroFramework.txt" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Minijuego_9\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
