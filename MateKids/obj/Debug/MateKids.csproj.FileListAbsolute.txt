@@ -245,3 +245,5 @@ C:\Users\wwwda\Desktop\ProMateKids\MateKids\obj\Debug\MateKids.csproj.CopyComple
 C:\Users\wwwda\Desktop\ProMateKids\MateKids\obj\Debug\MateKids.exe
 C:\Users\wwwda\Desktop\ProMateKids\MateKids\obj\Debug\MateKids.pdb
 C:\Users\wwwda\Desktop\ProMateKids\MateKids\obj\Debug\MateKids.Minijuego_4.Minijuego_4_1.resources
+C:\Users\wwwda\Desktop\ProMateKids\MateKids\obj\Debug\MateKids.Minijuego_9.Minijuego_9.resources
+C:\Users\wwwda\Desktop\ProMateKids\MateKids\obj\Debug\MateKids.Minijuego_9.frmTiempo.resources

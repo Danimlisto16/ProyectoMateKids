@@ -320,9 +320,9 @@
             // titulo_juego
             // 
             this.titulo_juego.Image = ((System.Drawing.Image)(resources.GetObject("titulo_juego.Image")));
-            this.titulo_juego.Location = new System.Drawing.Point(322, 25);
+            this.titulo_juego.Location = new System.Drawing.Point(331, 25);
             this.titulo_juego.Name = "titulo_juego";
-            this.titulo_juego.Size = new System.Drawing.Size(650, 151);
+            this.titulo_juego.Size = new System.Drawing.Size(582, 151);
             this.titulo_juego.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.titulo_juego.TabIndex = 0;
             this.titulo_juego.TabStop = false;

@@ -408,6 +408,18 @@
     <Compile Include="Minijuego_8\Minijuego_8.Designer.cs">
       <DependentUpon>Minijuego_8.cs</DependentUpon>
     </Compile>
+    <Compile Include="Minijuego_9\Minijuego_9.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Minijuego_9\Minijuego_9.Designer.cs">
+      <DependentUpon>Minijuego_9.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Minijuego_9\frmTiempo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Minijuego_9\frmTiempo.Designer.cs">
+      <DependentUpon>frmTiempo.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="contacto.resx">
@@ -580,6 +592,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Minijuego_8\Minijuego_8.resx">
       <DependentUpon>Minijuego_8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Minijuego_9\Minijuego_9.resx">
+      <DependentUpon>Minijuego_9.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Minijuego_9\frmTiempo.resx">
+      <DependentUpon>frmTiempo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

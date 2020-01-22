@@ -227,7 +227,8 @@ namespace MateKids
 
         private void icono_minijuego_9_Click(object sender, EventArgs e)
         {
-
+            Minijuego_9.frmTiempo m = new Minijuego_9.frmTiempo();
+            m.ShowDialog();
         }
     }
 }
