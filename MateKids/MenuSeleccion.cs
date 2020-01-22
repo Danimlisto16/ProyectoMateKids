@@ -120,8 +120,10 @@ namespace MateKids
 
         private void icono_minijuego_4_Click(object sender, EventArgs e)
         {
-            Minijuego_4.frmTiempo tiempo = new Minijuego_4.frmTiempo();
-            tiempo.Show();
+            // Minijuego_4.frmTiempo tiempo = new Minijuego_4.frmTiempo();
+            // tiempo.Show();
+            Minijuego_4.Minijuego_4_1 m = new Minijuego_4.Minijuego_4_1(60);
+            m.ShowDialog();
         }
 
         private void icono_minijuego_3_MouseEnter(object sender, EventArgs e)
@@ -222,6 +224,11 @@ namespace MateKids
         private void icono_minijuego_9_MouseLeave(object sender, EventArgs e)
         {
             icono_minijuego_9.Size = new System.Drawing.Size(155, 133);
+        }
+
+        private void icono_minijuego_9_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

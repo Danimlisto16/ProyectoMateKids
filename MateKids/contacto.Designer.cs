@@ -169,6 +169,7 @@
             this.Controls.Add(this.metroLabel3);
             this.Controls.Add(this.metroLabel2);
             this.Controls.Add(this.metroLabel1);
+            this.MaximizeBox = false;
             this.Name = "Contacto";
             this.Resizable = false;
             this.Text = "Contacto";

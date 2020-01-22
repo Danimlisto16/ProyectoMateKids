@@ -245,3 +245,4 @@ C:\Users\wwwda\Desktop\ProMateKids\MateKids\obj\Debug\MateKids.csproj.GenerateRe
 C:\Users\wwwda\Desktop\ProMateKids\MateKids\obj\Debug\MateKids.csproj.CopyComplete
 C:\Users\wwwda\Desktop\ProMateKids\MateKids\obj\Debug\MateKids.exe
 C:\Users\wwwda\Desktop\ProMateKids\MateKids\obj\Debug\MateKids.pdb
+C:\Users\wwwda\Desktop\ProMateKids\MateKids\obj\Debug\MateKids.Minijuego_4.Minijuego_4_1.resources

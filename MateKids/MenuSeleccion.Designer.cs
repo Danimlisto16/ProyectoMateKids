@@ -106,6 +106,7 @@
             this.icono_minijuego_9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.icono_minijuego_9.TabIndex = 82;
             this.icono_minijuego_9.TabStop = false;
+            this.icono_minijuego_9.Click += new System.EventHandler(this.icono_minijuego_9_Click);
             this.icono_minijuego_9.MouseEnter += new System.EventHandler(this.icono_minijuego_9_MouseEnter);
             this.icono_minijuego_9.MouseLeave += new System.EventHandler(this.icono_minijuego_9_MouseLeave);
             // 
@@ -319,9 +320,9 @@
             // titulo_juego
             // 
             this.titulo_juego.Image = ((System.Drawing.Image)(resources.GetObject("titulo_juego.Image")));
-            this.titulo_juego.Location = new System.Drawing.Point(351, 25);
+            this.titulo_juego.Location = new System.Drawing.Point(322, 25);
             this.titulo_juego.Name = "titulo_juego";
-            this.titulo_juego.Size = new System.Drawing.Size(531, 122);
+            this.titulo_juego.Size = new System.Drawing.Size(650, 151);
             this.titulo_juego.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.titulo_juego.TabIndex = 0;
             this.titulo_juego.TabStop = false;
