@@ -42,7 +42,7 @@ namespace MateKids.Minijuego_4
                 }
             }
 
-            Minijuego_4 m = new Minijuego_4(tiempo);
+            Minijuego_4_1 m = new Minijuego_4_1(tiempo);
             m.Show();
             this.Close();
         }

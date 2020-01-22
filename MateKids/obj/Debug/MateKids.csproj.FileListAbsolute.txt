@@ -200,7 +200,6 @@ C:\Users\wwwda\Desktop\ProMateKids\MateKids\obj\Debug\MateKids.Minijuego_3.Form3
 C:\Users\wwwda\Desktop\ProMateKids\MateKids\obj\Debug\MateKids.Minijuego_3.Form3_9.resources
 C:\Users\wwwda\Desktop\ProMateKids\MateKids\obj\Debug\MateKids.Minijuego_3.Minijuego_3.resources
 C:\Users\wwwda\Desktop\ProMateKids\MateKids\obj\Debug\MateKids.Minijuego_4.frmTiempo.resources
-C:\Users\wwwda\Desktop\ProMateKids\MateKids\obj\Debug\MateKids.Minijuego_4.Minijuego_4.resources
 C:\Users\wwwda\Desktop\ProMateKids\MateKids\obj\Debug\MateKids.Minijuego_5.Form5_1.resources
 C:\Users\wwwda\Desktop\ProMateKids\MateKids\obj\Debug\MateKids.Minijuego_5.Minijuego_5.resources
 C:\Users\wwwda\Desktop\ProMateKids\MateKids\obj\Debug\MateKids.Miinijuego_7.Form_1.resources
@@ -245,11 +244,4 @@ C:\Users\wwwda\Desktop\ProMateKids\MateKids\obj\Debug\MateKids.csproj.GenerateRe
 C:\Users\wwwda\Desktop\ProMateKids\MateKids\obj\Debug\MateKids.csproj.CopyComplete
 C:\Users\wwwda\Desktop\ProMateKids\MateKids\obj\Debug\MateKids.exe
 C:\Users\wwwda\Desktop\ProMateKids\MateKids\obj\Debug\MateKids.pdb
-<<<<<<< HEAD
 C:\Users\wwwda\Desktop\ProMateKids\MateKids\obj\Debug\MateKids.Minijuego_4.Minijuego_4_1.resources
-<<<<<<< HEAD
-C:\Users\wwwda\Desktop\ProMateKids\MateKids\obj\Debug\MateKids.Minijuego_9.Minijuego_9.resources
-=======
->>>>>>> parent of f59da63... shooterex corregido
-=======
->>>>>>> parent of 8b1babe... shooter dañado
