@@ -247,6 +247,9 @@ C:\Users\wwwda\Desktop\ProMateKids\MateKids\obj\Debug\MateKids.exe
 C:\Users\wwwda\Desktop\ProMateKids\MateKids\obj\Debug\MateKids.pdb
 <<<<<<< HEAD
 C:\Users\wwwda\Desktop\ProMateKids\MateKids\obj\Debug\MateKids.Minijuego_4.Minijuego_4_1.resources
+<<<<<<< HEAD
 C:\Users\wwwda\Desktop\ProMateKids\MateKids\obj\Debug\MateKids.Minijuego_9.Minijuego_9.resources
 =======
 >>>>>>> parent of f59da63... shooterex corregido
+=======
+>>>>>>> parent of 8b1babe... shooter dañado

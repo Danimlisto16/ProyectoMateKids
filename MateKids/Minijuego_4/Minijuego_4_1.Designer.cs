@@ -45,7 +45,6 @@
             this.pnlGlobo1 = new System.Windows.Forms.Panel();
             this.lblOpcion1 = new System.Windows.Forms.Label();
             this.pbxFondo = new System.Windows.Forms.Panel();
-            this.btnReiniciar = new System.Windows.Forms.Button();
             this.btnIniciar = new System.Windows.Forms.Button();
             this.pnlTitulo = new System.Windows.Forms.Panel();
             this.pbxJuego_nombre = new System.Windows.Forms.PictureBox();
@@ -79,7 +78,7 @@
             this.lblProblema.BackColor = System.Drawing.Color.Transparent;
             this.lblProblema.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblProblema.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.lblProblema.Location = new System.Drawing.Point(15, 17);
+            this.lblProblema.Location = new System.Drawing.Point(25, 22);
             this.lblProblema.Name = "lblProblema";
             this.lblProblema.Size = new System.Drawing.Size(143, 59);
             this.lblProblema.TabIndex = 85;
@@ -163,7 +162,6 @@
             this.pnlMitad2.Size = new System.Drawing.Size(515, 505);
             this.pnlMitad2.TabIndex = 2;
             this.pnlMitad2.Visible = false;
-            this.pnlMitad2.Click += new System.EventHandler(this.pnlMitad2_Click);
             // 
             // pnlGlobo2
             // 
@@ -197,14 +195,13 @@
             this.pnlMitad1.Size = new System.Drawing.Size(519, 505);
             this.pnlMitad1.TabIndex = 1;
             this.pnlMitad1.Visible = false;
-            this.pnlMitad1.Click += new System.EventHandler(this.pnlMitad1_Click);
             // 
             // pnlGlobo1
             // 
             this.pnlGlobo1.BackgroundImage = global::MateKids.Properties.Resources.GLOB;
             this.pnlGlobo1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pnlGlobo1.Controls.Add(this.lblOpcion1);
-            this.pnlGlobo1.Location = new System.Drawing.Point(14, 22);
+            this.pnlGlobo1.Location = new System.Drawing.Point(394, 378);
             this.pnlGlobo1.Name = "pnlGlobo1";
             this.pnlGlobo1.Size = new System.Drawing.Size(122, 124);
             this.pnlGlobo1.TabIndex = 0;
@@ -222,8 +219,8 @@
             // 
             // pbxFondo
             // 
+            this.pbxFondo.BackgroundImage = global::MateKids.Properties.Resources.fondo;
             this.pbxFondo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pbxFondo.Controls.Add(this.btnReiniciar);
             this.pbxFondo.Controls.Add(this.btnIniciar);
             this.pbxFondo.Controls.Add(this.pnlLetrero);
             this.pbxFondo.Controls.Add(this.pnlMitad1);
@@ -235,46 +232,35 @@
             this.pbxFondo.Size = new System.Drawing.Size(1348, 592);
             this.pbxFondo.TabIndex = 100;
             // 
-            // btnReiniciar
-            // 
-            this.btnReiniciar.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnReiniciar.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.btnReiniciar.Location = new System.Drawing.Point(817, 532);
-            this.btnReiniciar.Name = "btnReiniciar";
-            this.btnReiniciar.Size = new System.Drawing.Size(184, 46);
-            this.btnReiniciar.TabIndex = 101;
-            this.btnReiniciar.Text = "Reiniciar";
-            this.btnReiniciar.UseVisualStyleBackColor = true;
-            this.btnReiniciar.Visible = false;
-            this.btnReiniciar.Click += new System.EventHandler(this.btnReiniciar_Click);
-            // 
             // btnIniciar
             // 
             this.btnIniciar.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnIniciar.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.btnIniciar.Location = new System.Drawing.Point(627, 532);
+            this.btnIniciar.Location = new System.Drawing.Point(755, 532);
             this.btnIniciar.Name = "btnIniciar";
             this.btnIniciar.Size = new System.Drawing.Size(184, 46);
             this.btnIniciar.TabIndex = 100;
-            this.btnIniciar.Text = "Jugar";
+            this.btnIniciar.Text = "JUGAR";
             this.btnIniciar.UseVisualStyleBackColor = true;
             this.btnIniciar.Click += new System.EventHandler(this.btnIniciar_Click);
             // 
             // pnlTitulo
             // 
             this.pnlTitulo.BackColor = System.Drawing.Color.Transparent;
+            this.pnlTitulo.BackgroundImage = global::MateKids.Properties.Resources.titulo_removebg_preview;
             this.pnlTitulo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pnlTitulo.Controls.Add(this.pbxJuego_nombre);
             this.pnlTitulo.Location = new System.Drawing.Point(26, 60);
             this.pnlTitulo.Name = "pnlTitulo";
-            this.pnlTitulo.Size = new System.Drawing.Size(259, 99);
+            this.pnlTitulo.Size = new System.Drawing.Size(283, 99);
             this.pnlTitulo.TabIndex = 101;
             // 
             // pbxJuego_nombre
             // 
+            this.pbxJuego_nombre.Image = global::MateKids.Properties.Resources.titulo;
             this.pbxJuego_nombre.Location = new System.Drawing.Point(26, 21);
             this.pbxJuego_nombre.Name = "pbxJuego_nombre";
-            this.pbxJuego_nombre.Size = new System.Drawing.Size(206, 51);
+            this.pbxJuego_nombre.Size = new System.Drawing.Size(220, 51);
             this.pbxJuego_nombre.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbxJuego_nombre.TabIndex = 0;
             this.pbxJuego_nombre.TabStop = false;
@@ -335,6 +321,5 @@
         private System.Windows.Forms.PictureBox pbxJuego_nombre;
         private System.Windows.Forms.Timer tmrPosicion;
         private System.Windows.Forms.Timer tmrTiempoJuego;
-        private System.Windows.Forms.Button btnReiniciar;
     }
 }

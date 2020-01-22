@@ -32,6 +32,12 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Minijuego_4));
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.metroPanel1 = new MetroFramework.Controls.MetroPanel();
+<<<<<<< HEAD
+=======
+            this.iniciar_minijuego = new MetroFramework.Controls.MetroButton();
+            this.pnlTitulo = new System.Windows.Forms.Panel();
+            this.pbxJuego_nombre = new System.Windows.Forms.PictureBox();
+>>>>>>> parent of 8b1babe... shooter dañado
             this.pnlLetrero = new System.Windows.Forms.Panel();
             this.lblEjercicio = new System.Windows.Forms.Label();
             this.pnlMarcador = new System.Windows.Forms.Panel();
@@ -40,23 +46,35 @@
             this.lblDisparos = new System.Windows.Forms.Label();
             this.lblAciertos = new System.Windows.Forms.Label();
             this.lblFallos = new System.Windows.Forms.Label();
+<<<<<<< HEAD
             this.iniciar_minijuego = new MetroFramework.Controls.MetroButton();
+=======
+>>>>>>> parent of 8b1babe... shooter dañado
             this.pnlGlobo1 = new System.Windows.Forms.Panel();
             this.lblError = new System.Windows.Forms.Label();
             this.pnlGlobo2 = new System.Windows.Forms.Panel();
             this.lblRespuesta = new System.Windows.Forms.Label();
             this.fondo = new System.Windows.Forms.PictureBox();
+<<<<<<< HEAD
             this.pnlTitulo = new System.Windows.Forms.Panel();
             this.pbxJuego_nombre = new System.Windows.Forms.PictureBox();
             this.metroPanel1.SuspendLayout();
+=======
+            this.metroPanel1.SuspendLayout();
+            this.pnlTitulo.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxJuego_nombre)).BeginInit();
+>>>>>>> parent of 8b1babe... shooter dañado
             this.pnlLetrero.SuspendLayout();
             this.pnlMarcador.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbxTiempo)).BeginInit();
             this.pnlGlobo1.SuspendLayout();
             this.pnlGlobo2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.fondo)).BeginInit();
+<<<<<<< HEAD
             this.pnlTitulo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbxJuego_nombre)).BeginInit();
+=======
+>>>>>>> parent of 8b1babe... shooter dañado
             this.SuspendLayout();
             // 
             // timer1
@@ -85,6 +103,39 @@
             this.metroPanel1.VerticalScrollbarHighlightOnWheel = false;
             this.metroPanel1.VerticalScrollbarSize = 10;
             // 
+<<<<<<< HEAD
+=======
+            // iniciar_minijuego
+            // 
+            this.iniciar_minijuego.Location = new System.Drawing.Point(57, 433);
+            this.iniciar_minijuego.Name = "iniciar_minijuego";
+            this.iniciar_minijuego.Size = new System.Drawing.Size(154, 47);
+            this.iniciar_minijuego.TabIndex = 84;
+            this.iniciar_minijuego.Text = "INICIAR";
+            this.iniciar_minijuego.Click += new System.EventHandler(this.iniciar_juego_Click);
+            // 
+            // pnlTitulo
+            // 
+            this.pnlTitulo.BackColor = System.Drawing.Color.Transparent;
+            this.pnlTitulo.BackgroundImage = global::MateKids.Properties.Resources.titulo_removebg_preview;
+            this.pnlTitulo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pnlTitulo.Controls.Add(this.pbxJuego_nombre);
+            this.pnlTitulo.Location = new System.Drawing.Point(1156, 6);
+            this.pnlTitulo.Name = "pnlTitulo";
+            this.pnlTitulo.Size = new System.Drawing.Size(330, 99);
+            this.pnlTitulo.TabIndex = 1;
+            // 
+            // pbxJuego_nombre
+            // 
+            this.pbxJuego_nombre.Image = global::MateKids.Properties.Resources.titulo;
+            this.pbxJuego_nombre.Location = new System.Drawing.Point(50, 22);
+            this.pbxJuego_nombre.Name = "pbxJuego_nombre";
+            this.pbxJuego_nombre.Size = new System.Drawing.Size(220, 51);
+            this.pbxJuego_nombre.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbxJuego_nombre.TabIndex = 0;
+            this.pbxJuego_nombre.TabStop = false;
+            // 
+>>>>>>> parent of 8b1babe... shooter dañado
             // pnlLetrero
             // 
             this.pnlLetrero.BackColor = System.Drawing.Color.Transparent;
@@ -175,6 +226,7 @@
             this.lblFallos.TabIndex = 99;
             this.lblFallos.Text = "Fallados 0";
             // 
+<<<<<<< HEAD
             // iniciar_minijuego
             // 
             this.iniciar_minijuego.Location = new System.Drawing.Point(57, 433);
@@ -184,6 +236,8 @@
             this.iniciar_minijuego.Text = "INICIAR";
             this.iniciar_minijuego.Click += new System.EventHandler(this.iniciar_juego_Click);
             // 
+=======
+>>>>>>> parent of 8b1babe... shooter dañado
             // pnlGlobo1
             // 
             this.pnlGlobo1.BackColor = System.Drawing.Color.Transparent;
@@ -244,6 +298,7 @@
             this.fondo.TabStop = false;
             this.fondo.Click += new System.EventHandler(this.fondo_Click_1);
             // 
+<<<<<<< HEAD
             // pnlTitulo
             // 
             this.pnlTitulo.BackColor = System.Drawing.Color.Transparent;
@@ -265,6 +320,8 @@
             this.pbxJuego_nombre.TabIndex = 0;
             this.pbxJuego_nombre.TabStop = false;
             // 
+=======
+>>>>>>> parent of 8b1babe... shooter dañado
             // Minijuego_4
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -276,14 +333,22 @@
             this.Name = "Minijuego_4";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.metroPanel1.ResumeLayout(false);
+<<<<<<< HEAD
+=======
+            this.pnlTitulo.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pbxJuego_nombre)).EndInit();
+>>>>>>> parent of 8b1babe... shooter dañado
             this.pnlLetrero.ResumeLayout(false);
             this.pnlMarcador.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pbxTiempo)).EndInit();
             this.pnlGlobo1.ResumeLayout(false);
             this.pnlGlobo2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.fondo)).EndInit();
+<<<<<<< HEAD
             this.pnlTitulo.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pbxJuego_nombre)).EndInit();
+=======
+>>>>>>> parent of 8b1babe... shooter dañado
             this.ResumeLayout(false);
 
         }
@@ -294,20 +359,35 @@
         private controlPersonalizado.patoControl patoControl2;
         private MetroFramework.Controls.MetroPanel metroPanel1;
         private MetroFramework.Controls.MetroButton iniciar_minijuego;
+<<<<<<< HEAD
         private System.Windows.Forms.Panel pnlGlobo1;
         private System.Windows.Forms.Label lblError;
         private System.Windows.Forms.Panel pnlGlobo2;
         private System.Windows.Forms.Label lblRespuesta;
         private System.Windows.Forms.Label lblEjercicio;
+=======
+>>>>>>> parent of 8b1babe... shooter dañado
         private System.Windows.Forms.PictureBox fondo;
         private System.Windows.Forms.Panel pnlMarcador;
         private System.Windows.Forms.Label lblDisparos;
         private System.Windows.Forms.Label lblAciertos;
         private System.Windows.Forms.Label lblFallos;
+<<<<<<< HEAD
         private System.Windows.Forms.Panel pnlLetrero;
+=======
+>>>>>>> parent of 8b1babe... shooter dañado
         private System.Windows.Forms.Panel pnlTitulo;
         private System.Windows.Forms.PictureBox pbxJuego_nombre;
         private System.Windows.Forms.PictureBox pbxTiempo;
         private System.Windows.Forms.Label lblTiempo;
+<<<<<<< HEAD
+=======
+        private System.Windows.Forms.Panel pnlLetrero;
+        private System.Windows.Forms.Label lblEjercicio;
+        private System.Windows.Forms.Panel pnlGlobo1;
+        private System.Windows.Forms.Label lblError;
+        private System.Windows.Forms.Panel pnlGlobo2;
+        private System.Windows.Forms.Label lblRespuesta;
+>>>>>>> parent of 8b1babe... shooter dañado
     }
 }

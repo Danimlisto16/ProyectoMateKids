@@ -22,7 +22,24 @@ namespace MateKids.Minijuego_4
             fallados = 0;
         }
 
+
         int aciertos,disparos,fallados;
+
+
+        
+        private void Minijuego_4_1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+                // hacer transparentes
+           
+
+        }
+
+
         Random r = new Random();
 
         private void btnIniciar_Click(object sender, EventArgs e)
@@ -31,6 +48,7 @@ namespace MateKids.Minijuego_4
             tmrPosicion.Start();
             genMultiplicacion();
             btnIniciar.Visible = false;
+            
         }
 
         private void tmrPosicion_Tick(object sender, EventArgs e)
@@ -47,11 +65,13 @@ namespace MateKids.Minijuego_4
             posicionPnlMitad2X = r.Next(3,378);
             posicionPnlMitad2Y = r.Next(3, 394);
 
-            //Console.WriteLine(">>" + posicionPnlMitad1X + "<>" + posicionPnlMitad1Y); 
-            // Console.WriteLine(">>" + posicionPnlMitad2X + "<>" + posicionPnlMitad2Y+"\n\n");
-            
+            Console.WriteLine(">>" + posicionPnlMitad1X + "<>" + posicionPnlMitad1Y); 
+            Console.WriteLine(">>" + posicionPnlMitad2X + "<>" + posicionPnlMitad2Y+"\n\n");
+
+
             pnlGlobo1.Location = new Point(posicionPnlMitad1X, posicionPnlMitad1Y);
             pnlGlobo2.Location = new Point(posicionPnlMitad2X, posicionPnlMitad2Y);
+
         }
 
         private void tmrTiempoJuego_Tick(object sender, EventArgs e)
@@ -65,8 +85,8 @@ namespace MateKids.Minijuego_4
                 tmrPosicion.Stop();
                 tmrTiempoJuego.Stop();
                 MessageBox.Show("Se acabó el tiempo!");
-                btnReiniciar.Visible = true;
             }
+            
         }
 
         int respuesta = 0;
@@ -78,6 +98,7 @@ namespace MateKids.Minijuego_4
             b = r.Next(1,10);
             respuesta = a * b;
             alternativa = r.Next(1, 100);
+
             lblProblema.Text = a.ToString() + " x " + b.ToString();
             opcion = r.Next(1,10);
             if (opcion <= 5)
@@ -89,7 +110,8 @@ namespace MateKids.Minijuego_4
             {
                 lblOpcion1.Text = respuesta.ToString();
                 lblOpcion2.Text = alternativa.ToString();
-            }  
+            }
+                
         }
 
         private void actualizarAciertos()
@@ -115,38 +137,11 @@ namespace MateKids.Minijuego_4
             clickRespuesta(lblOpcion2.Text);
         }
 
-        private void btnReiniciar_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-            frmTiempo f = new frmTiempo();
-            f.Show();
-            this.Close();
-        }
-
-        private void pnlMitad1_Click(object sender, EventArgs e)
-        {
-            actualizarDisparos();
-        }
-
-        private void pnlMitad2_Click(object sender, EventArgs e)
-        {
-            actualizarDisparos();
-        }
-
-        private void Minijuego_4_1_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void lblOpcion1_Click(object sender, EventArgs e)
-        {
-            clickRespuesta(lblOpcion1.Text);
-        }
-
         private void clickRespuesta(string texto)
         {
             if (Int16.Parse(texto) == respuesta)
             {
+                genMultiplicacion();
                 actualizarAciertos();
                 genMultiplicacion();
             }
@@ -154,8 +149,13 @@ namespace MateKids.Minijuego_4
             {
                 actualizarFallos();
             }
+
+
         }
 
-        
+        private void lblOpcion1_Click(object sender, EventArgs e)
+        {
+            clickRespuesta(lblOpcion1.Text);
+        }
     }
 }
