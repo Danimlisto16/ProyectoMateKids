@@ -48,7 +48,7 @@ namespace MateKids.Minijuego_6
             aux = num1;
             num1 = resultado;
             resultado = aux;
-            lblOperacion.Text = num1.ToString() + " : " + num2.ToString();
+            lblOperacion.Text = num1.ToString() + " ÷ " + num2.ToString();
             vectorSolucion[4] = resultado;
             Random pos = new Random();
             arregloSinNumRep(vectorSolucion);
