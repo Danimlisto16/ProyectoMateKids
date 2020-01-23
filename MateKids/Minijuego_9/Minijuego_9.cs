@@ -150,6 +150,11 @@ namespace MateKids.Minijuego_9
             }
         }
 
+        private void btnSalir_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
         private void lblOpcion1_Click_1(object sender, EventArgs e)
         {
             clickRespuesta(lblOpcion1.Text);

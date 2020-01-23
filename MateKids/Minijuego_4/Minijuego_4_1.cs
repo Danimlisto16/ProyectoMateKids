@@ -148,6 +148,11 @@ namespace MateKids.Minijuego_4
             this.Close();
         }
 
+        private void btnSalir_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
         private void clickRespuesta(string texto)
         {
             if (Int16.Parse(texto) == respuesta)

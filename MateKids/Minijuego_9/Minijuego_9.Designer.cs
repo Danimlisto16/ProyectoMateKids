@@ -51,6 +51,7 @@
             this.lblOpcion2 = new System.Windows.Forms.Label();
             this.tmrPosicion = new System.Windows.Forms.Timer(this.components);
             this.tmrTiempoJuego = new System.Windows.Forms.Timer(this.components);
+            this.btnSalir = new System.Windows.Forms.Button();
             this.pbxFondo.SuspendLayout();
             this.pnlTitulo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbxJuego_nombre)).BeginInit();
@@ -67,6 +68,7 @@
             // 
             this.pbxFondo.BackgroundImage = global::MateKids.Properties.Resources.fondo;
             this.pbxFondo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pbxFondo.Controls.Add(this.btnSalir);
             this.pbxFondo.Controls.Add(this.pnlTitulo);
             this.pbxFondo.Controls.Add(this.btnReiniciar);
             this.pbxFondo.Controls.Add(this.btnIniciar);
@@ -293,6 +295,18 @@
             this.tmrTiempoJuego.Interval = 1000;
             this.tmrTiempoJuego.Tick += new System.EventHandler(this.tmrTiempoJuego_Tick);
             // 
+            // btnSalir
+            // 
+            this.btnSalir.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSalir.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btnSalir.Location = new System.Drawing.Point(1273, 532);
+            this.btnSalir.Name = "btnSalir";
+            this.btnSalir.Size = new System.Drawing.Size(59, 46);
+            this.btnSalir.TabIndex = 103;
+            this.btnSalir.Text = "Salir";
+            this.btnSalir.UseVisualStyleBackColor = true;
+            this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
+            // 
             // Minijuego_9
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -342,5 +356,6 @@
         private System.Windows.Forms.Button btnReiniciar;
         private System.Windows.Forms.Panel pnlTitulo;
         private System.Windows.Forms.PictureBox pbxJuego_nombre;
+        private System.Windows.Forms.Button btnSalir;
     }
 }

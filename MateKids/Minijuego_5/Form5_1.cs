@@ -23,17 +23,49 @@ namespace MateKids.Minijuego_5
         }
 
         private void Form5_1_Load(object sender, EventArgs e)
-        {
-            //this.Location = Screen.PrimaryScreen.Bounds.Location;
-            //this.Size = Screen.PrimaryScreen.Bounds.Size;
-           // this.Location = new Point(0, 0); //sobra si tienes la posición en el diseño
-            //this.Size = new Size(this.Width, Screen.PrimaryScreen.WorkingArea.Size.Height);
+        {          
             for (int i = 0; i < 10; i++)
             {
                 respuestas[i] = ntabla * (i + 1);
             }
             string str = "tabla" + ntabla + ".png";
-            titulo_tabla.Image = Image.FromFile(str);
+
+            if (str == "tabla2.png")
+            {
+                titulo_tabla.Image = Properties.Resources.tabla2;
+            }
+            if (str == "tabla3.png")
+            {
+                titulo_tabla.Image = Properties.Resources.tabla3;
+            }
+            if (str == "tabla4.png")
+            {
+                titulo_tabla.Image = Properties.Resources.tabla4;
+            }
+            if (str == "tabla5.png")
+            {
+                titulo_tabla.Image = Properties.Resources.tabla5;
+            }
+            if (str == "tabla6.png")
+            {
+                titulo_tabla.Image = Properties.Resources.tabla6;
+            }
+            if (str == "tabla7.png")
+            {
+                titulo_tabla.Image = Properties.Resources.tabla7;
+            }
+            if (str == "tabla8.png")
+            {
+                titulo_tabla.Image = Properties.Resources.tabla8;
+            }
+            if (str == "tabla9.png")
+            {
+                titulo_tabla.Image = Properties.Resources.tabla9;
+            }
+            if (str == "tabla10.png")
+            {
+                titulo_tabla.Image = Properties.Resources.tabla10;
+            }
             LlenarTablas(this);
         }
 
