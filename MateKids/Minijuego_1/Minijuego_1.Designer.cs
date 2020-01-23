@@ -94,7 +94,7 @@
             // 
             // Reiniciar
             // 
-            this.Reiniciar.BackColor = System.Drawing.Color.Cyan;
+            this.Reiniciar.BackColor = System.Drawing.Color.AliceBlue;
             this.Reiniciar.Location = new System.Drawing.Point(45, 284);
             this.Reiniciar.Name = "Reiniciar";
             this.Reiniciar.Size = new System.Drawing.Size(105, 34);
@@ -118,7 +118,7 @@
             // 
             // IniciarJuego
             // 
-            this.IniciarJuego.BackColor = System.Drawing.Color.Cyan;
+            this.IniciarJuego.BackColor = System.Drawing.Color.AliceBlue;
             this.IniciarJuego.Location = new System.Drawing.Point(45, 207);
             this.IniciarJuego.Name = "IniciarJuego";
             this.IniciarJuego.Size = new System.Drawing.Size(105, 34);
@@ -209,9 +209,9 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::MateKids.Properties.Resources.multiplicax_juego;
-            this.pictureBox1.Location = new System.Drawing.Point(273, 22);
+            this.pictureBox1.Location = new System.Drawing.Point(251, 12);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(481, 91);
+            this.pictureBox1.Size = new System.Drawing.Size(503, 102);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 29;
             this.pictureBox1.TabStop = false;
@@ -235,6 +235,8 @@
             this.Controls.Add(this.lblOperacion);
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Minijuego_1";
+            this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Show;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Minijuego_1_FormClosed);
             this.Load += new System.EventHandler(this.Minijuego1_Load);
             this.pnlControles.ResumeLayout(false);
