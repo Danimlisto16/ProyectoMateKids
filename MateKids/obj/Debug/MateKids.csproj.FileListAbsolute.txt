@@ -180,9 +180,6 @@ C:\Users\wwwda\Desktop\ProMateKids\MateKids\bin\Debug\MateKids.exe
 C:\Users\wwwda\Desktop\ProMateKids\MateKids\bin\Debug\MateKids.pdb
 C:\Users\wwwda\Desktop\ProMateKids\MateKids\bin\Debug\MetroFramework.dll
 C:\Users\wwwda\Desktop\ProMateKids\MateKids\bin\Debug\MetroFramework.Fonts.dll
-C:\Users\wwwda\Desktop\ProMateKids\MateKids\bin\Debug\controlPersonalizado.pdb
-C:\Users\wwwda\Desktop\ProMateKids\MateKids\bin\Debug\globoControl.pdb
-C:\Users\wwwda\Desktop\ProMateKids\MateKids\obj\Debug\MateKids.csprojAssemblyReference.cache
 C:\Users\wwwda\Desktop\ProMateKids\MateKids\obj\Debug\MateKids.Contacto.resources
 C:\Users\wwwda\Desktop\ProMateKids\MateKids\obj\Debug\MateKids.MenuSeleccion.resources
 C:\Users\wwwda\Desktop\ProMateKids\MateKids\obj\Debug\MateKids.Minijuego_10.Minijuego_10.resources

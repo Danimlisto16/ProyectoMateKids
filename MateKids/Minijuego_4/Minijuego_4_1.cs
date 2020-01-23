@@ -82,6 +82,7 @@ namespace MateKids.Minijuego_4
             {
                 pnlGlobo1.Visible = false;
                 pnlGlobo2.Visible = false;
+
                 tmrPosicion.Stop();
                 tmrTiempoJuego.Stop();
                 MessageBox.Show("Se acabó el tiempo!");
@@ -135,6 +136,21 @@ namespace MateKids.Minijuego_4
         private void lblOpcion2_Click(object sender, EventArgs e)
         {
             clickRespuesta(lblOpcion2.Text);
+        }
+
+        private void pnlMitad1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void btnReiniciar_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            frmTiempo t = new frmTiempo();
+            t.ShowDialog();
+            this.Close();
+            
+
         }
 
         private void clickRespuesta(string texto)

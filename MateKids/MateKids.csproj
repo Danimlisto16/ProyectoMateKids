@@ -32,6 +32,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>iconoJuego.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="controlPersonalizado">
       <HintPath>..\..\controlPersonalizado\bin\Debug\controlPersonalizado.dll</HintPath>
@@ -708,6 +711,7 @@
     <None Include="bin\Debug\shooterex.jpg" />
     <None Include="bin\Debug\divshooterex.PNG" />
     <None Include="bin\Debug\lasalle-latacunga.jpg" />
+    <Content Include="iconoJuego.ico" />
     <Content Include="MetroFramework.txt" />
   </ItemGroup>
   <ItemGroup />

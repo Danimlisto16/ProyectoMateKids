@@ -32,8 +32,6 @@ namespace MateKids.Minijuego_5
             {
                 respuestas[i] = ntabla * (i + 1);
             }
-
-
             string str = "image/tabla" + ntabla + ".png";
             titulo_tabla.Image = new Bitmap(str);
             LlenarTablas(this);

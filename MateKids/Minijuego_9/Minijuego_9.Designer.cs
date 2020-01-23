@@ -31,6 +31,7 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Minijuego_9));
             this.pbxFondo = new System.Windows.Forms.Panel();
+            this.btnReiniciar = new System.Windows.Forms.Button();
             this.btnIniciar = new System.Windows.Forms.Button();
             this.pnlLetrero = new System.Windows.Forms.Panel();
             this.lblProblema = new System.Windows.Forms.Label();
@@ -48,6 +49,8 @@
             this.lblOpcion2 = new System.Windows.Forms.Label();
             this.tmrPosicion = new System.Windows.Forms.Timer(this.components);
             this.tmrTiempoJuego = new System.Windows.Forms.Timer(this.components);
+            this.pnlTitulo = new System.Windows.Forms.Panel();
+            this.pbxJuego_nombre = new System.Windows.Forms.PictureBox();
             this.pbxFondo.SuspendLayout();
             this.pnlLetrero.SuspendLayout();
             this.pnlMitad1.SuspendLayout();
@@ -56,12 +59,16 @@
             ((System.ComponentModel.ISupportInitialize)(this.pbxTiempo)).BeginInit();
             this.pnlMitad2.SuspendLayout();
             this.pnlGlobo2.SuspendLayout();
+            this.pnlTitulo.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxJuego_nombre)).BeginInit();
             this.SuspendLayout();
             // 
             // pbxFondo
             // 
             this.pbxFondo.BackgroundImage = global::MateKids.Properties.Resources.fondo;
             this.pbxFondo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pbxFondo.Controls.Add(this.pnlTitulo);
+            this.pbxFondo.Controls.Add(this.btnReiniciar);
             this.pbxFondo.Controls.Add(this.btnIniciar);
             this.pbxFondo.Controls.Add(this.pnlLetrero);
             this.pbxFondo.Controls.Add(this.pnlMitad1);
@@ -73,16 +80,30 @@
             this.pbxFondo.Size = new System.Drawing.Size(1348, 592);
             this.pbxFondo.TabIndex = 101;
             // 
+            // btnReiniciar
+            // 
+            this.btnReiniciar.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnReiniciar.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btnReiniciar.Location = new System.Drawing.Point(817, 523);
+            this.btnReiniciar.Name = "btnReiniciar";
+            this.btnReiniciar.Size = new System.Drawing.Size(184, 46);
+            this.btnReiniciar.TabIndex = 101;
+            this.btnReiniciar.Text = "Inténtalo otra vez";
+            this.btnReiniciar.UseVisualStyleBackColor = true;
+            this.btnReiniciar.Visible = false;
+            this.btnReiniciar.Click += new System.EventHandler(this.btnReiniciar_Click);
+            // 
             // btnIniciar
             // 
             this.btnIniciar.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnIniciar.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.btnIniciar.Location = new System.Drawing.Point(755, 532);
+            this.btnIniciar.Location = new System.Drawing.Point(624, 523);
             this.btnIniciar.Name = "btnIniciar";
             this.btnIniciar.Size = new System.Drawing.Size(184, 46);
             this.btnIniciar.TabIndex = 100;
             this.btnIniciar.Text = "JUGAR";
             this.btnIniciar.UseVisualStyleBackColor = true;
+            this.btnIniciar.Click += new System.EventHandler(this.btnIniciar_Click_1);
             // 
             // pnlLetrero
             // 
@@ -117,6 +138,8 @@
             this.pnlMitad1.Size = new System.Drawing.Size(519, 505);
             this.pnlMitad1.TabIndex = 1;
             this.pnlMitad1.Visible = false;
+            this.pnlMitad1.Click += new System.EventHandler(this.pnlMitad1_Click);
+            //this.pnlMitad1.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlMitad1_Paint);
             // 
             // pnlGlobo1
             // 
@@ -137,6 +160,7 @@
             this.lblOpcion1.Size = new System.Drawing.Size(59, 38);
             this.lblOpcion1.TabIndex = 0;
             this.lblOpcion1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblOpcion1.Click += new System.EventHandler(this.lblOpcion1_Click_1);
             // 
             // pnlMarcador
             // 
@@ -216,6 +240,7 @@
             this.pnlMitad2.Size = new System.Drawing.Size(515, 505);
             this.pnlMitad2.TabIndex = 2;
             this.pnlMitad2.Visible = false;
+            this.pnlMitad2.Click += new System.EventHandler(this.pnlMitad2_Click);
             // 
             // pnlGlobo2
             // 
@@ -236,14 +261,38 @@
             this.lblOpcion2.Size = new System.Drawing.Size(59, 38);
             this.lblOpcion2.TabIndex = 0;
             this.lblOpcion2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblOpcion2.Click += new System.EventHandler(this.lblOpcion2_Click_1);
             // 
             // tmrPosicion
             // 
             this.tmrPosicion.Interval = 2000;
+            this.tmrPosicion.Tick += new System.EventHandler(this.tmrPosicion_Tick_1);
             // 
             // tmrTiempoJuego
             // 
             this.tmrTiempoJuego.Interval = 1000;
+            this.tmrTiempoJuego.Tick += new System.EventHandler(this.tmrTiempoJuego_Tick);
+            // 
+            // pnlTitulo
+            // 
+            this.pnlTitulo.BackColor = System.Drawing.Color.Transparent;
+            this.pnlTitulo.BackgroundImage = global::MateKids.Properties.Resources.titulo_removebg_preview;
+            this.pnlTitulo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pnlTitulo.Controls.Add(this.pbxJuego_nombre);
+            this.pnlTitulo.Location = new System.Drawing.Point(6, 15);
+            this.pnlTitulo.Name = "pnlTitulo";
+            this.pnlTitulo.Size = new System.Drawing.Size(283, 99);
+            this.pnlTitulo.TabIndex = 102;
+            // 
+            // pbxJuego_nombre
+            // 
+            this.pbxJuego_nombre.Image = global::MateKids.Properties.Resources.divshooterex;
+            this.pbxJuego_nombre.Location = new System.Drawing.Point(26, 21);
+            this.pbxJuego_nombre.Name = "pbxJuego_nombre";
+            this.pbxJuego_nombre.Size = new System.Drawing.Size(220, 51);
+            this.pbxJuego_nombre.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbxJuego_nombre.TabIndex = 0;
+            this.pbxJuego_nombre.TabStop = false;
             // 
             // Minijuego_9
             // 
@@ -264,6 +313,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.pbxTiempo)).EndInit();
             this.pnlMitad2.ResumeLayout(false);
             this.pnlGlobo2.ResumeLayout(false);
+            this.pnlTitulo.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pbxJuego_nombre)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -288,5 +339,8 @@
         private System.Windows.Forms.Label lblOpcion2;
         private System.Windows.Forms.Timer tmrPosicion;
         private System.Windows.Forms.Timer tmrTiempoJuego;
+        private System.Windows.Forms.Button btnReiniciar;
+        private System.Windows.Forms.Panel pnlTitulo;
+        private System.Windows.Forms.PictureBox pbxJuego_nombre;
     }
 }

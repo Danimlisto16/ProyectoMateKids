@@ -122,7 +122,6 @@ namespace MateKids
         {
             Minijuego_4.frmTiempo tiempo = new Minijuego_4.frmTiempo();
             tiempo.Show();
-           
         }
 
         private void icono_minijuego_3_MouseEnter(object sender, EventArgs e)

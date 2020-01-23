@@ -81,6 +81,7 @@
             this.lblContacto.Size = new System.Drawing.Size(513, 44);
             this.lblContacto.TabIndex = 81;
             this.lblContacto.Text = "Desarrollado por Mateo Granja y Daniel Yánez, 2020. Licencia CC \r\n";
+            this.lblContacto.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.lblContacto.Click += new System.EventHandler(this.lblContacto_Click);
             this.lblContacto.MouseEnter += new System.EventHandler(this.lblContacto_MouseEnter);
             this.lblContacto.MouseLeave += new System.EventHandler(this.lblContacto_MouseLeave);
@@ -354,6 +355,8 @@
             this.Controls.Add(this.titulo_minijuego_1);
             this.Controls.Add(this.icono_minijuego_1);
             this.Controls.Add(this.titulo_juego);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
             this.Name = "MenuSeleccion";
             this.Resizable = false;
             this.Text = " ";
