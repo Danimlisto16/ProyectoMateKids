@@ -39,7 +39,7 @@ namespace MateKids.Minijuego_9
             b = r.Next(1, 10);
             respuesta = a * b;
 
-            lblProblema.Text = respuesta.ToString() + " : " + a.ToString();
+            lblProblema.Text = respuesta.ToString() + " ÷ " + a.ToString();
             respuesta = respuesta / a;
 
             alternativa = r.Next(1, 100);
