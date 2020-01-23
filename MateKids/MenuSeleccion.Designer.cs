@@ -360,7 +360,6 @@
             this.Name = "MenuSeleccion";
             this.Resizable = false;
             this.Text = " ";
-            this.TopMost = true;
             this.Load += new System.EventHandler(this.MenuSeleccion_Load);
             ((System.ComponentModel.ISupportInitialize)(this.titulo_minijuego_9)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.icono_minijuego_9)).EndInit();

@@ -94,12 +94,13 @@
             // 
             // Reiniciar
             // 
+            this.Reiniciar.BackColor = System.Drawing.Color.AliceBlue;
             this.Reiniciar.Location = new System.Drawing.Point(45, 284);
             this.Reiniciar.Name = "Reiniciar";
             this.Reiniciar.Size = new System.Drawing.Size(105, 34);
             this.Reiniciar.TabIndex = 2;
             this.Reiniciar.Text = "Jugar Otra Vez";
-            this.Reiniciar.UseVisualStyleBackColor = true;
+            this.Reiniciar.UseVisualStyleBackColor = false;
             this.Reiniciar.Visible = false;
             this.Reiniciar.Click += new System.EventHandler(this.Reiniciar_Click);
             // 
@@ -117,12 +118,13 @@
             // 
             // IniciarJuego
             // 
+            this.IniciarJuego.BackColor = System.Drawing.Color.AliceBlue;
             this.IniciarJuego.Location = new System.Drawing.Point(45, 207);
             this.IniciarJuego.Name = "IniciarJuego";
             this.IniciarJuego.Size = new System.Drawing.Size(105, 34);
             this.IniciarJuego.TabIndex = 0;
             this.IniciarJuego.Text = "Iniciar";
-            this.IniciarJuego.UseVisualStyleBackColor = true;
+            this.IniciarJuego.UseVisualStyleBackColor = false;
             this.IniciarJuego.Click += new System.EventHandler(this.IniciarJuego_Click);
             // 
             // btnOpcion4
@@ -207,9 +209,9 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::MateKids.Properties.Resources.divimax_juego;
-            this.pictureBox1.Location = new System.Drawing.Point(244, 33);
+            this.pictureBox1.Location = new System.Drawing.Point(244, 25);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(481, 91);
+            this.pictureBox1.Size = new System.Drawing.Size(511, 99);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 30;
             this.pictureBox1.TabStop = false;
@@ -234,6 +236,7 @@
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Minijuego_6";
             this.Padding = new System.Windows.Forms.Padding(20, 60, 20, 20);
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Minijuego_6_FormClosed);
             this.Load += new System.EventHandler(this.Minijuego1_Load);
             this.pnlControles.ResumeLayout(false);
