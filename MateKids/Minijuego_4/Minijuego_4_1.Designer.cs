@@ -45,12 +45,12 @@
             this.pnlGlobo1 = new System.Windows.Forms.Panel();
             this.lblOpcion1 = new System.Windows.Forms.Label();
             this.pbxFondo = new System.Windows.Forms.Panel();
+            this.btnReiniciar = new System.Windows.Forms.Button();
             this.btnIniciar = new System.Windows.Forms.Button();
             this.pnlTitulo = new System.Windows.Forms.Panel();
             this.pbxJuego_nombre = new System.Windows.Forms.PictureBox();
             this.tmrPosicion = new System.Windows.Forms.Timer(this.components);
             this.tmrTiempoJuego = new System.Windows.Forms.Timer(this.components);
-            this.btnReiniciar = new System.Windows.Forms.Button();
             this.pnlLetrero.SuspendLayout();
             this.pnlMarcador.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbxTiempo)).BeginInit();
@@ -158,6 +158,7 @@
             this.pnlMitad2.BackColor = System.Drawing.Color.Transparent;
             this.pnlMitad2.BackgroundImage = global::MateKids.Properties.Resources.fondo1;
             this.pnlMitad2.Controls.Add(this.pnlGlobo2);
+            this.pnlMitad2.Cursor = System.Windows.Forms.Cursors.NoMove2D;
             this.pnlMitad2.Location = new System.Drawing.Point(817, 12);
             this.pnlMitad2.Name = "pnlMitad2";
             this.pnlMitad2.Size = new System.Drawing.Size(515, 505);
@@ -169,6 +170,7 @@
             this.pnlGlobo2.BackgroundImage = global::MateKids.Properties.Resources.GLOB;
             this.pnlGlobo2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pnlGlobo2.Controls.Add(this.lblOpcion2);
+            this.pnlGlobo2.Cursor = System.Windows.Forms.Cursors.NoMove2D;
             this.pnlGlobo2.Location = new System.Drawing.Point(390, 378);
             this.pnlGlobo2.Name = "pnlGlobo2";
             this.pnlGlobo2.Size = new System.Drawing.Size(122, 124);
@@ -176,6 +178,7 @@
             // 
             // lblOpcion2
             // 
+            this.lblOpcion2.Cursor = System.Windows.Forms.Cursors.NoMove2D;
             this.lblOpcion2.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblOpcion2.ForeColor = System.Drawing.Color.White;
             this.lblOpcion2.Location = new System.Drawing.Point(31, 17);
@@ -191,18 +194,20 @@
             this.pnlMitad1.BackgroundImage = global::MateKids.Properties.Resources.fondo1;
             this.pnlMitad1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pnlMitad1.Controls.Add(this.pnlGlobo1);
+            this.pnlMitad1.Cursor = System.Windows.Forms.Cursors.NoMove2D;
             this.pnlMitad1.Location = new System.Drawing.Point(292, 12);
             this.pnlMitad1.Name = "pnlMitad1";
             this.pnlMitad1.Size = new System.Drawing.Size(519, 505);
             this.pnlMitad1.TabIndex = 1;
             this.pnlMitad1.Visible = false;
-            this.pnlMitad1.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlMitad1_Paint);
+            //this.pnlMitad1.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlMitad1_Paint);
             // 
             // pnlGlobo1
             // 
             this.pnlGlobo1.BackgroundImage = global::MateKids.Properties.Resources.GLOB;
             this.pnlGlobo1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pnlGlobo1.Controls.Add(this.lblOpcion1);
+            this.pnlGlobo1.Cursor = System.Windows.Forms.Cursors.NoMove2D;
             this.pnlGlobo1.Location = new System.Drawing.Point(394, 378);
             this.pnlGlobo1.Name = "pnlGlobo1";
             this.pnlGlobo1.Size = new System.Drawing.Size(122, 124);
@@ -210,6 +215,7 @@
             // 
             // lblOpcion1
             // 
+            this.lblOpcion1.Cursor = System.Windows.Forms.Cursors.NoMove2D;
             this.lblOpcion1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblOpcion1.ForeColor = System.Drawing.Color.White;
             this.lblOpcion1.Location = new System.Drawing.Point(31, 17);
@@ -234,6 +240,19 @@
             this.pbxFondo.Name = "pbxFondo";
             this.pbxFondo.Size = new System.Drawing.Size(1348, 592);
             this.pbxFondo.TabIndex = 100;
+            // 
+            // btnReiniciar
+            // 
+            this.btnReiniciar.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnReiniciar.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btnReiniciar.Location = new System.Drawing.Point(817, 532);
+            this.btnReiniciar.Name = "btnReiniciar";
+            this.btnReiniciar.Size = new System.Drawing.Size(184, 46);
+            this.btnReiniciar.TabIndex = 101;
+            this.btnReiniciar.Text = "Inténtalo otra vez";
+            this.btnReiniciar.UseVisualStyleBackColor = true;
+            this.btnReiniciar.Visible = false;
+            this.btnReiniciar.Click += new System.EventHandler(this.btnReiniciar_Click);
             // 
             // btnIniciar
             // 
@@ -278,19 +297,6 @@
             this.tmrTiempoJuego.Interval = 1000;
             this.tmrTiempoJuego.Tick += new System.EventHandler(this.tmrTiempoJuego_Tick);
             // 
-            // btnReiniciar
-            // 
-            this.btnReiniciar.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnReiniciar.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.btnReiniciar.Location = new System.Drawing.Point(817, 532);
-            this.btnReiniciar.Name = "btnReiniciar";
-            this.btnReiniciar.Size = new System.Drawing.Size(184, 46);
-            this.btnReiniciar.TabIndex = 101;
-            this.btnReiniciar.Text = "Inténtalo otra vez";
-            this.btnReiniciar.UseVisualStyleBackColor = true;
-            this.btnReiniciar.Visible = false;
-            this.btnReiniciar.Click += new System.EventHandler(this.btnReiniciar_Click);
-            // 
             // Minijuego_4_1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -301,6 +307,7 @@
             this.MinimizeBox = false;
             this.Name = "Minijuego_4_1";
             this.Resizable = false;
+            this.TopMost = true;
             this.Load += new System.EventHandler(this.Minijuego_4_1_Load);
             this.pnlLetrero.ResumeLayout(false);
             this.pnlMarcador.ResumeLayout(false);

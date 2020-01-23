@@ -138,10 +138,7 @@ namespace MateKids.Minijuego_4
             clickRespuesta(lblOpcion2.Text);
         }
 
-        private void pnlMitad1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
+      
 
         private void btnReiniciar_Click(object sender, EventArgs e)
         {
@@ -149,8 +146,6 @@ namespace MateKids.Minijuego_4
             frmTiempo t = new frmTiempo();
             t.ShowDialog();
             this.Close();
-            
-
         }
 
         private void clickRespuesta(string texto)
