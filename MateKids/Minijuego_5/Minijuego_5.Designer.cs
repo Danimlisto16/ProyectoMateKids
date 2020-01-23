@@ -55,9 +55,10 @@
             // 
             this.titulo_minijuego5.BackColor = System.Drawing.Color.Transparent;
             this.titulo_minijuego5.Image = global::MateKids.Properties.Resources.multitablas_juego;
-            this.titulo_minijuego5.Location = new System.Drawing.Point(426, 23);
+            this.titulo_minijuego5.Location = new System.Drawing.Point(320, 19);
+            this.titulo_minijuego5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.titulo_minijuego5.Name = "titulo_minijuego5";
-            this.titulo_minijuego5.Size = new System.Drawing.Size(393, 90);
+            this.titulo_minijuego5.Size = new System.Drawing.Size(295, 73);
             this.titulo_minijuego5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.titulo_minijuego5.TabIndex = 4;
             this.titulo_minijuego5.TabStop = false;
@@ -66,9 +67,10 @@
             // 
             this.tabla_2.BackColor = System.Drawing.Color.Transparent;
             this.tabla_2.Image = global::MateKids.Properties.Resources.num2;
-            this.tabla_2.Location = new System.Drawing.Point(302, 223);
+            this.tabla_2.Location = new System.Drawing.Point(226, 181);
+            this.tabla_2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.tabla_2.Name = "tabla_2";
-            this.tabla_2.Size = new System.Drawing.Size(159, 112);
+            this.tabla_2.Size = new System.Drawing.Size(119, 91);
             this.tabla_2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.tabla_2.TabIndex = 5;
             this.tabla_2.TabStop = false;
@@ -80,9 +82,10 @@
             // 
             this.texto_descripcion.BackColor = System.Drawing.Color.Transparent;
             this.texto_descripcion.Font = new System.Drawing.Font("Rockwell Extra Bold", 19.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.texto_descripcion.Location = new System.Drawing.Point(72, 125);
+            this.texto_descripcion.Location = new System.Drawing.Point(54, 102);
+            this.texto_descripcion.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.texto_descripcion.Name = "texto_descripcion";
-            this.texto_descripcion.Size = new System.Drawing.Size(1044, 85);
+            this.texto_descripcion.Size = new System.Drawing.Size(783, 69);
             this.texto_descripcion.TabIndex = 15;
             this.texto_descripcion.Text = "Selecciona la tabla del número que deseas practicar.";
             this.texto_descripcion.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -91,9 +94,10 @@
             // 
             this.tabla_6.BackColor = System.Drawing.Color.Transparent;
             this.tabla_6.Image = global::MateKids.Properties.Resources.num6;
-            this.tabla_6.Location = new System.Drawing.Point(516, 376);
+            this.tabla_6.Location = new System.Drawing.Point(387, 306);
+            this.tabla_6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.tabla_6.Name = "tabla_6";
-            this.tabla_6.Size = new System.Drawing.Size(159, 128);
+            this.tabla_6.Size = new System.Drawing.Size(119, 104);
             this.tabla_6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.tabla_6.TabIndex = 16;
             this.tabla_6.TabStop = false;
@@ -105,9 +109,10 @@
             // 
             this.tabla_3.BackColor = System.Drawing.Color.Transparent;
             this.tabla_3.Image = global::MateKids.Properties.Resources.num3;
-            this.tabla_3.Location = new System.Drawing.Point(516, 223);
+            this.tabla_3.Location = new System.Drawing.Point(387, 181);
+            this.tabla_3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.tabla_3.Name = "tabla_3";
-            this.tabla_3.Size = new System.Drawing.Size(159, 112);
+            this.tabla_3.Size = new System.Drawing.Size(119, 91);
             this.tabla_3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.tabla_3.TabIndex = 17;
             this.tabla_3.TabStop = false;
@@ -119,9 +124,10 @@
             // 
             this.tabla_4.BackColor = System.Drawing.Color.Transparent;
             this.tabla_4.Image = global::MateKids.Properties.Resources.num4;
-            this.tabla_4.Location = new System.Drawing.Point(734, 223);
+            this.tabla_4.Location = new System.Drawing.Point(550, 181);
+            this.tabla_4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.tabla_4.Name = "tabla_4";
-            this.tabla_4.Size = new System.Drawing.Size(159, 112);
+            this.tabla_4.Size = new System.Drawing.Size(119, 91);
             this.tabla_4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.tabla_4.TabIndex = 18;
             this.tabla_4.TabStop = false;
@@ -133,9 +139,10 @@
             // 
             this.tabla_7.BackColor = System.Drawing.Color.Transparent;
             this.tabla_7.Image = global::MateKids.Properties.Resources.num7;
-            this.tabla_7.Location = new System.Drawing.Point(734, 376);
+            this.tabla_7.Location = new System.Drawing.Point(550, 306);
+            this.tabla_7.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.tabla_7.Name = "tabla_7";
-            this.tabla_7.Size = new System.Drawing.Size(159, 128);
+            this.tabla_7.Size = new System.Drawing.Size(119, 104);
             this.tabla_7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.tabla_7.TabIndex = 19;
             this.tabla_7.TabStop = false;
@@ -147,9 +154,10 @@
             // 
             this.tabla_10.BackColor = System.Drawing.Color.Transparent;
             this.tabla_10.Image = global::MateKids.Properties.Resources.num10;
-            this.tabla_10.Location = new System.Drawing.Point(734, 543);
+            this.tabla_10.Location = new System.Drawing.Point(550, 441);
+            this.tabla_10.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.tabla_10.Name = "tabla_10";
-            this.tabla_10.Size = new System.Drawing.Size(159, 128);
+            this.tabla_10.Size = new System.Drawing.Size(119, 104);
             this.tabla_10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.tabla_10.TabIndex = 20;
             this.tabla_10.TabStop = false;
@@ -161,9 +169,10 @@
             // 
             this.tabla_9.BackColor = System.Drawing.Color.Transparent;
             this.tabla_9.Image = global::MateKids.Properties.Resources.num9;
-            this.tabla_9.Location = new System.Drawing.Point(516, 543);
+            this.tabla_9.Location = new System.Drawing.Point(387, 441);
+            this.tabla_9.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.tabla_9.Name = "tabla_9";
-            this.tabla_9.Size = new System.Drawing.Size(159, 128);
+            this.tabla_9.Size = new System.Drawing.Size(119, 104);
             this.tabla_9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.tabla_9.TabIndex = 21;
             this.tabla_9.TabStop = false;
@@ -175,9 +184,10 @@
             // 
             this.tabla_8.BackColor = System.Drawing.Color.Transparent;
             this.tabla_8.Image = global::MateKids.Properties.Resources.num8;
-            this.tabla_8.Location = new System.Drawing.Point(302, 543);
+            this.tabla_8.Location = new System.Drawing.Point(226, 441);
+            this.tabla_8.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.tabla_8.Name = "tabla_8";
-            this.tabla_8.Size = new System.Drawing.Size(159, 128);
+            this.tabla_8.Size = new System.Drawing.Size(119, 104);
             this.tabla_8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.tabla_8.TabIndex = 22;
             this.tabla_8.TabStop = false;
@@ -189,9 +199,10 @@
             // 
             this.tabla_5.BackColor = System.Drawing.Color.Transparent;
             this.tabla_5.Image = global::MateKids.Properties.Resources.num5;
-            this.tabla_5.Location = new System.Drawing.Point(302, 376);
+            this.tabla_5.Location = new System.Drawing.Point(226, 306);
+            this.tabla_5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.tabla_5.Name = "tabla_5";
-            this.tabla_5.Size = new System.Drawing.Size(159, 128);
+            this.tabla_5.Size = new System.Drawing.Size(119, 104);
             this.tabla_5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.tabla_5.TabIndex = 23;
             this.tabla_5.TabStop = false;
@@ -201,11 +212,11 @@
             // 
             // Minijuego_5
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::MateKids.Properties.Resources.fondo_tablas;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1176, 786);
+            this.ClientSize = new System.Drawing.Size(882, 639);
             this.Controls.Add(this.tabla_5);
             this.Controls.Add(this.tabla_8);
             this.Controls.Add(this.tabla_9);
@@ -218,9 +229,11 @@
             this.Controls.Add(this.tabla_2);
             this.Controls.Add(this.titulo_minijuego5);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Minijuego_5";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Minijuego_5";
+            this.Load += new System.EventHandler(this.Minijuego_5_Load);
             ((System.ComponentModel.ISupportInitialize)(this.titulo_minijuego5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.tabla_2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.tabla_6)).EndInit();

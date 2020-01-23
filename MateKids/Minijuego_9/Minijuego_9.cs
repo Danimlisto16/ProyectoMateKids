@@ -38,12 +38,9 @@ namespace MateKids.Minijuego_9
             a = r.Next(1, 10);
             b = r.Next(1, 10);
             respuesta = a * b;
-
             lblProblema.Text = respuesta.ToString() + " ÷ " + a.ToString();
             respuesta = respuesta / a;
-
-            alternativa = r.Next(1, 100);
-
+            alternativa = r.Next(1, 10);
             opcion = r.Next(1, 10);
             //asigna a que lado se genera
             if(opcion <= 5)

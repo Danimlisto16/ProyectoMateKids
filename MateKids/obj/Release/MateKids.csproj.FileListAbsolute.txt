@@ -67,7 +67,6 @@ C:\Users\wwwda\Desktop\ProMateKids\MateKids\obj\Release\MateKids.csproj.Generate
 C:\Users\wwwda\Desktop\ProMateKids\MateKids\obj\Release\MateKids.csproj.CopyComplete
 C:\Users\wwwda\Desktop\ProMateKids\MateKids\obj\Release\MateKids.exe
 C:\Users\wwwda\Desktop\ProMateKids\MateKids\obj\Release\MateKids.pdb
-C:\Users\wwwda\Desktop\ProMateKids\MateKids\obj\Release\MateKids.csprojAssemblyReference.cache
 C:\Users\matgr\OneDrive\Documentos\GitHub\ProyectoMateKids\MateKids\bin\Release\MateKids.exe.config
 C:\Users\matgr\OneDrive\Documentos\GitHub\ProyectoMateKids\MateKids\bin\Release\MateKids.exe
 C:\Users\matgr\OneDrive\Documentos\GitHub\ProyectoMateKids\MateKids\bin\Release\MateKids.pdb

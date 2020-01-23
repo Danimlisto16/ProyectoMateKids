@@ -178,5 +178,10 @@ namespace MateKids.Minijuego_5
             Ventana.ShowDialog();
             this.Close();
         }
+
+        private void Minijuego_5_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
