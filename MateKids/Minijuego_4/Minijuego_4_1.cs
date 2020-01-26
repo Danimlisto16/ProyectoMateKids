@@ -98,7 +98,11 @@ namespace MateKids.Minijuego_4
             a = r.Next(1,10);
             b = r.Next(1,10);
             respuesta = a * b;
-            alternativa = r.Next(1, 100);
+            do
+            {
+                alternativa = r.Next(1, 100);
+            } while (respuesta == alternativa);
+            
 
             lblProblema.Text = a.ToString() + " x " + b.ToString();
             opcion = r.Next(1,10);

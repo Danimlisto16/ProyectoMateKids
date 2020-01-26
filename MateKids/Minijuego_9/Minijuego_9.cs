@@ -32,7 +32,7 @@ namespace MateKids.Minijuego_9
         Random r = new Random();
         int respuesta = 0;
 
-        private void genMultiplicacion()
+        private void genDivision()
         {
             int a, b, opcion, alternativa;
             a = r.Next(1, 10);
@@ -40,7 +40,11 @@ namespace MateKids.Minijuego_9
             respuesta = a * b;
             lblProblema.Text = respuesta.ToString() + " ÷ " + a.ToString();
             respuesta = respuesta / a;
-            alternativa = r.Next(1, 10);
+            do
+            {
+                alternativa = r.Next(1, 10);
+            } while (alternativa == respuesta);
+            
             opcion = r.Next(1, 10);
             //asigna a que lado se genera
             if(opcion <= 5)
@@ -77,7 +81,7 @@ namespace MateKids.Minijuego_9
         {
             tmrTiempoJuego.Start();
             tmrPosicion.Start();
-            genMultiplicacion();
+            genDivision();
             btnIniciar.Visible = false;
         }
 
@@ -165,7 +169,7 @@ namespace MateKids.Minijuego_9
             if (Int16.Parse(texto) == respuesta)
             {
                 actualizarAciertos();
-                genMultiplicacion();
+                genDivision();
             }
             else
             {
