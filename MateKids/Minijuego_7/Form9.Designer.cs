@@ -49,16 +49,18 @@
             this.imagenlinea2 = new System.Windows.Forms.PictureBox();
             this.imagenlinea1 = new System.Windows.Forms.PictureBox();
             this.imagendivision = new System.Windows.Forms.PictureBox();
+            this.Regresar = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.imagenlinea2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.imagenlinea1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.imagendivision)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Regresar)).BeginInit();
             this.SuspendLayout();
             // 
             // SiguienteDivision
             // 
             this.SiguienteDivision.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.SiguienteDivision.Location = new System.Drawing.Point(687, 262);
-            this.SiguienteDivision.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.SiguienteDivision.Margin = new System.Windows.Forms.Padding(2);
             this.SiguienteDivision.Name = "SiguienteDivision";
             this.SiguienteDivision.Size = new System.Drawing.Size(132, 30);
             this.SiguienteDivision.TabIndex = 169;
@@ -120,7 +122,7 @@
             this.mtb_div0.BackColor = System.Drawing.Color.AliceBlue;
             this.mtb_div0.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.mtb_div0.Location = new System.Drawing.Point(114, 196);
-            this.mtb_div0.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.mtb_div0.Margin = new System.Windows.Forms.Padding(2);
             this.mtb_div0.Mask = "9";
             this.mtb_div0.Name = "mtb_div0";
             this.mtb_div0.Size = new System.Drawing.Size(42, 80);
@@ -133,7 +135,7 @@
             this.mtb_div9.BackColor = System.Drawing.Color.AliceBlue;
             this.mtb_div9.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.mtb_div9.Location = new System.Drawing.Point(288, 542);
-            this.mtb_div9.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.mtb_div9.Margin = new System.Windows.Forms.Padding(2);
             this.mtb_div9.Mask = "9";
             this.mtb_div9.Name = "mtb_div9";
             this.mtb_div9.Size = new System.Drawing.Size(42, 80);
@@ -146,7 +148,7 @@
             this.mtb_div7.BackColor = System.Drawing.Color.AliceBlue;
             this.mtb_div7.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.mtb_div7.Location = new System.Drawing.Point(228, 418);
-            this.mtb_div7.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.mtb_div7.Margin = new System.Windows.Forms.Padding(2);
             this.mtb_div7.Mask = "9";
             this.mtb_div7.Name = "mtb_div7";
             this.mtb_div7.Size = new System.Drawing.Size(42, 80);
@@ -159,7 +161,7 @@
             this.mtb_div8.BackColor = System.Drawing.Color.AliceBlue;
             this.mtb_div8.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.mtb_div8.Location = new System.Drawing.Point(288, 420);
-            this.mtb_div8.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.mtb_div8.Margin = new System.Windows.Forms.Padding(2);
             this.mtb_div8.Mask = "9";
             this.mtb_div8.Name = "mtb_div8";
             this.mtb_div8.Size = new System.Drawing.Size(42, 80);
@@ -183,7 +185,7 @@
             this.mtb_div4.BackColor = System.Drawing.Color.AliceBlue;
             this.mtb_div4.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.mtb_div4.Location = new System.Drawing.Point(228, 326);
-            this.mtb_div4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.mtb_div4.Margin = new System.Windows.Forms.Padding(2);
             this.mtb_div4.Mask = "9";
             this.mtb_div4.Name = "mtb_div4";
             this.mtb_div4.Size = new System.Drawing.Size(42, 80);
@@ -196,7 +198,7 @@
             this.mtb_div5.BackColor = System.Drawing.Color.AliceBlue;
             this.mtb_div5.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.mtb_div5.Location = new System.Drawing.Point(288, 327);
-            this.mtb_div5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.mtb_div5.Margin = new System.Windows.Forms.Padding(2);
             this.mtb_div5.Mask = "9";
             this.mtb_div5.Name = "mtb_div5";
             this.mtb_div5.Size = new System.Drawing.Size(42, 80);
@@ -220,7 +222,7 @@
             this.mtb_div1.BackColor = System.Drawing.Color.AliceBlue;
             this.mtb_div1.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.mtb_div1.Location = new System.Drawing.Point(170, 196);
-            this.mtb_div1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.mtb_div1.Margin = new System.Windows.Forms.Padding(2);
             this.mtb_div1.Mask = "9";
             this.mtb_div1.Name = "mtb_div1";
             this.mtb_div1.Size = new System.Drawing.Size(42, 80);
@@ -233,7 +235,7 @@
             this.mtb_div2.BackColor = System.Drawing.Color.AliceBlue;
             this.mtb_div2.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.mtb_div2.Location = new System.Drawing.Point(228, 196);
-            this.mtb_div2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.mtb_div2.Margin = new System.Windows.Forms.Padding(2);
             this.mtb_div2.Mask = "9";
             this.mtb_div2.Name = "mtb_div2";
             this.mtb_div2.Size = new System.Drawing.Size(42, 80);
@@ -246,7 +248,7 @@
             this.mtb_res2.BackColor = System.Drawing.Color.AliceBlue;
             this.mtb_res2.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.mtb_res2.Location = new System.Drawing.Point(492, 196);
-            this.mtb_res2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.mtb_res2.Margin = new System.Windows.Forms.Padding(2);
             this.mtb_res2.Mask = "9";
             this.mtb_res2.Name = "mtb_res2";
             this.mtb_res2.Size = new System.Drawing.Size(42, 80);
@@ -259,7 +261,7 @@
             this.mtb_res1.BackColor = System.Drawing.Color.AliceBlue;
             this.mtb_res1.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.mtb_res1.Location = new System.Drawing.Point(439, 196);
-            this.mtb_res1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.mtb_res1.Margin = new System.Windows.Forms.Padding(2);
             this.mtb_res1.Mask = "9";
             this.mtb_res1.Name = "mtb_res1";
             this.mtb_res1.Size = new System.Drawing.Size(42, 80);
@@ -271,7 +273,7 @@
             // 
             this.TerminarDivision.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TerminarDivision.Location = new System.Drawing.Point(688, 342);
-            this.TerminarDivision.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.TerminarDivision.Margin = new System.Windows.Forms.Padding(2);
             this.TerminarDivision.Name = "TerminarDivision";
             this.TerminarDivision.Size = new System.Drawing.Size(132, 30);
             this.TerminarDivision.TabIndex = 159;
@@ -283,7 +285,7 @@
             // 
             this.imagenlinea2.Image = global::MateKids.Properties.Resources.linea;
             this.imagenlinea2.Location = new System.Drawing.Point(162, 503);
-            this.imagenlinea2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.imagenlinea2.Margin = new System.Windows.Forms.Padding(2);
             this.imagenlinea2.Name = "imagenlinea2";
             this.imagenlinea2.Size = new System.Drawing.Size(174, 34);
             this.imagenlinea2.TabIndex = 164;
@@ -293,7 +295,7 @@
             // 
             this.imagenlinea1.Image = global::MateKids.Properties.Resources.linea;
             this.imagenlinea1.Location = new System.Drawing.Point(108, 280);
-            this.imagenlinea1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.imagenlinea1.Margin = new System.Windows.Forms.Padding(2);
             this.imagenlinea1.Name = "imagenlinea1";
             this.imagenlinea1.Size = new System.Drawing.Size(163, 41);
             this.imagenlinea1.TabIndex = 162;
@@ -303,12 +305,25 @@
             // 
             this.imagendivision.Image = global::MateKids.Properties.Resources.d9;
             this.imagendivision.Location = new System.Drawing.Point(72, 10);
-            this.imagendivision.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.imagendivision.Margin = new System.Windows.Forms.Padding(2);
             this.imagendivision.Name = "imagendivision";
             this.imagendivision.Size = new System.Drawing.Size(601, 232);
             this.imagendivision.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.imagendivision.TabIndex = 160;
             this.imagendivision.TabStop = false;
+            // 
+            // Regresar
+            // 
+            this.Regresar.BackColor = System.Drawing.Color.Transparent;
+            this.Regresar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Regresar.Image = global::MateKids.Properties.Resources.back__1_;
+            this.Regresar.Location = new System.Drawing.Point(9, 11);
+            this.Regresar.Margin = new System.Windows.Forms.Padding(2);
+            this.Regresar.Name = "Regresar";
+            this.Regresar.Size = new System.Drawing.Size(59, 58);
+            this.Regresar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.Regresar.TabIndex = 170;
+            this.Regresar.TabStop = false;
             // 
             // Form9
             // 
@@ -316,6 +331,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(882, 639);
+            this.Controls.Add(this.Regresar);
             this.Controls.Add(this.SiguienteDivision);
             this.Controls.Add(this.lblpuntaje);
             this.Controls.Add(this.lblintentos);
@@ -337,8 +353,8 @@
             this.Controls.Add(this.mtb_res1);
             this.Controls.Add(this.TerminarDivision);
             this.Controls.Add(this.imagendivision);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Form9";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form9";
@@ -346,6 +362,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.imagenlinea2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.imagenlinea1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.imagendivision)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Regresar)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -374,5 +391,6 @@
         private System.Windows.Forms.MaskedTextBox mtb_res1;
         private System.Windows.Forms.Button TerminarDivision;
         private System.Windows.Forms.PictureBox imagendivision;
+        private System.Windows.Forms.PictureBox Regresar;
     }
 }

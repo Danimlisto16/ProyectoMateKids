@@ -58,6 +58,11 @@ namespace MateKids.Minijuego_2
 
         }
 
+        private void Regresar_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
         private void ventanaSiguiente()
         {
             if (numeros[0] == 1)

@@ -34,8 +34,6 @@
             this.lblpuntaje = new System.Windows.Forms.Label();
             this.intentos = new System.Windows.Forms.Label();
             this.marcador = new System.Windows.Forms.Label();
-            this.Regresar = new System.Windows.Forms.PictureBox();
-            this.label1 = new System.Windows.Forms.Label();
             this.res_5 = new System.Windows.Forms.TextBox();
             this.res_2 = new System.Windows.Forms.TextBox();
             this.res_6 = new System.Windows.Forms.TextBox();
@@ -96,7 +94,10 @@
             this.n1_10 = new System.Windows.Forms.Label();
             this.n1_8 = new System.Windows.Forms.Label();
             this.n1_3 = new System.Windows.Forms.Label();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.Regresar = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.titulo_tabla)).BeginInit();
+            this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Regresar)).BeginInit();
             this.SuspendLayout();
             // 
@@ -104,8 +105,8 @@
             // 
             this.titulo_tabla.BackColor = System.Drawing.Color.Transparent;
             this.titulo_tabla.Image = global::MateKids.Properties.Resources.tabla2;
-            this.titulo_tabla.Location = new System.Drawing.Point(381, 10);
-            this.titulo_tabla.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.titulo_tabla.Location = new System.Drawing.Point(338, 11);
+            this.titulo_tabla.Margin = new System.Windows.Forms.Padding(2);
             this.titulo_tabla.Name = "titulo_tabla";
             this.titulo_tabla.Size = new System.Drawing.Size(246, 68);
             this.titulo_tabla.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -119,9 +120,9 @@
             this.Terminar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.Terminar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.Terminar.Font = new System.Drawing.Font("Sitka Subheading", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
-            this.Terminar.ForeColor = System.Drawing.Color.Black;
-            this.Terminar.Location = new System.Drawing.Point(791, 544);
-            this.Terminar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Terminar.ForeColor = System.Drawing.Color.LavenderBlush;
+            this.Terminar.Location = new System.Drawing.Point(781, 531);
+            this.Terminar.Margin = new System.Windows.Forms.Padding(2);
             this.Terminar.Name = "Terminar";
             this.Terminar.Size = new System.Drawing.Size(168, 68);
             this.Terminar.TabIndex = 99;
@@ -135,7 +136,7 @@
             this.lblintentos.BackColor = System.Drawing.Color.Transparent;
             this.lblintentos.Font = new System.Drawing.Font("Century Gothic", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblintentos.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.lblintentos.Location = new System.Drawing.Point(929, 385);
+            this.lblintentos.Location = new System.Drawing.Point(198, 180);
             this.lblintentos.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblintentos.Name = "lblintentos";
             this.lblintentos.Size = new System.Drawing.Size(30, 33);
@@ -147,8 +148,8 @@
             this.lblpuntaje.AutoSize = true;
             this.lblpuntaje.BackColor = System.Drawing.Color.Transparent;
             this.lblpuntaje.Font = new System.Drawing.Font("Century Gothic", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblpuntaje.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.lblpuntaje.Location = new System.Drawing.Point(929, 293);
+            this.lblpuntaje.ForeColor = System.Drawing.Color.Blue;
+            this.lblpuntaje.Location = new System.Drawing.Point(196, 133);
             this.lblpuntaje.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblpuntaje.Name = "lblpuntaje";
             this.lblpuntaje.Size = new System.Drawing.Size(30, 33);
@@ -161,7 +162,7 @@
             this.intentos.BackColor = System.Drawing.Color.Transparent;
             this.intentos.Font = new System.Drawing.Font("Century Gothic", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.intentos.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.intentos.Location = new System.Drawing.Point(821, 350);
+            this.intentos.Location = new System.Drawing.Point(66, 179);
             this.intentos.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.intentos.Name = "intentos";
             this.intentos.Size = new System.Drawing.Size(136, 32);
@@ -173,45 +174,19 @@
             this.marcador.AutoSize = true;
             this.marcador.BackColor = System.Drawing.Color.Transparent;
             this.marcador.Font = new System.Drawing.Font("Century Gothic", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.marcador.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.marcador.Location = new System.Drawing.Point(791, 257);
+            this.marcador.ForeColor = System.Drawing.Color.Blue;
+            this.marcador.Location = new System.Drawing.Point(52, 91);
             this.marcador.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.marcador.Name = "marcador";
             this.marcador.Size = new System.Drawing.Size(174, 32);
             this.marcador.TabIndex = 106;
             this.marcador.Text = "MARCADOR";
             // 
-            // Regresar
-            // 
-            this.Regresar.BackColor = System.Drawing.Color.Transparent;
-            this.Regresar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Regresar.Image = global::MateKids.Properties.Resources.back__1_;
-            this.Regresar.Location = new System.Drawing.Point(896, 436);
-            this.Regresar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.Regresar.Name = "Regresar";
-            this.Regresar.Size = new System.Drawing.Size(59, 58);
-            this.Regresar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.Regresar.TabIndex = 110;
-            this.Regresar.TabStop = false;
-            this.Regresar.Click += new System.EventHandler(this.Regresar_Click);
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(886, 494);
-            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(83, 20);
-            this.label1.TabIndex = 111;
-            this.label1.Text = "Regresar";
-            // 
             // res_5
             // 
             this.res_5.Font = new System.Drawing.Font("MS Reference Sans Serif", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.res_5.Location = new System.Drawing.Point(692, 145);
-            this.res_5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.res_5.Location = new System.Drawing.Point(587, 146);
+            this.res_5.Margin = new System.Windows.Forms.Padding(2);
             this.res_5.MaxLength = 2;
             this.res_5.Name = "res_5";
             this.res_5.Size = new System.Drawing.Size(76, 43);
@@ -220,8 +195,8 @@
             // res_2
             // 
             this.res_2.Font = new System.Drawing.Font("MS Reference Sans Serif", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.res_2.Location = new System.Drawing.Point(692, 197);
-            this.res_2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.res_2.Location = new System.Drawing.Point(587, 198);
+            this.res_2.Margin = new System.Windows.Forms.Padding(2);
             this.res_2.MaxLength = 2;
             this.res_2.Name = "res_2";
             this.res_2.Size = new System.Drawing.Size(76, 43);
@@ -230,8 +205,8 @@
             // res_6
             // 
             this.res_6.Font = new System.Drawing.Font("MS Reference Sans Serif", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.res_6.Location = new System.Drawing.Point(692, 253);
-            this.res_6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.res_6.Location = new System.Drawing.Point(587, 254);
+            this.res_6.Margin = new System.Windows.Forms.Padding(2);
             this.res_6.MaxLength = 2;
             this.res_6.Name = "res_6";
             this.res_6.Size = new System.Drawing.Size(76, 43);
@@ -240,8 +215,8 @@
             // res_1
             // 
             this.res_1.Font = new System.Drawing.Font("MS Reference Sans Serif", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.res_1.Location = new System.Drawing.Point(692, 308);
-            this.res_1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.res_1.Location = new System.Drawing.Point(587, 309);
+            this.res_1.Margin = new System.Windows.Forms.Padding(2);
             this.res_1.MaxLength = 2;
             this.res_1.Name = "res_1";
             this.res_1.Size = new System.Drawing.Size(76, 43);
@@ -250,8 +225,8 @@
             // res_4
             // 
             this.res_4.Font = new System.Drawing.Font("MS Reference Sans Serif", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.res_4.Location = new System.Drawing.Point(692, 363);
-            this.res_4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.res_4.Location = new System.Drawing.Point(587, 364);
+            this.res_4.Margin = new System.Windows.Forms.Padding(2);
             this.res_4.MaxLength = 2;
             this.res_4.Name = "res_4";
             this.res_4.Size = new System.Drawing.Size(76, 43);
@@ -260,8 +235,8 @@
             // res_9
             // 
             this.res_9.Font = new System.Drawing.Font("MS Reference Sans Serif", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.res_9.Location = new System.Drawing.Point(692, 421);
-            this.res_9.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.res_9.Location = new System.Drawing.Point(587, 422);
+            this.res_9.Margin = new System.Windows.Forms.Padding(2);
             this.res_9.MaxLength = 2;
             this.res_9.Name = "res_9";
             this.res_9.Size = new System.Drawing.Size(76, 43);
@@ -270,8 +245,8 @@
             // res_7
             // 
             this.res_7.Font = new System.Drawing.Font("MS Reference Sans Serif", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.res_7.Location = new System.Drawing.Point(692, 475);
-            this.res_7.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.res_7.Location = new System.Drawing.Point(587, 476);
+            this.res_7.Margin = new System.Windows.Forms.Padding(2);
             this.res_7.MaxLength = 2;
             this.res_7.Name = "res_7";
             this.res_7.Size = new System.Drawing.Size(76, 43);
@@ -280,8 +255,8 @@
             // res_10
             // 
             this.res_10.Font = new System.Drawing.Font("MS Reference Sans Serif", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.res_10.Location = new System.Drawing.Point(692, 530);
-            this.res_10.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.res_10.Location = new System.Drawing.Point(587, 531);
+            this.res_10.Margin = new System.Windows.Forms.Padding(2);
             this.res_10.MaxLength = 3;
             this.res_10.Name = "res_10";
             this.res_10.Size = new System.Drawing.Size(76, 43);
@@ -290,8 +265,8 @@
             // res_8
             // 
             this.res_8.Font = new System.Drawing.Font("MS Reference Sans Serif", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.res_8.Location = new System.Drawing.Point(692, 587);
-            this.res_8.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.res_8.Location = new System.Drawing.Point(587, 588);
+            this.res_8.Margin = new System.Windows.Forms.Padding(2);
             this.res_8.MaxLength = 2;
             this.res_8.Name = "res_8";
             this.res_8.Size = new System.Drawing.Size(76, 43);
@@ -302,7 +277,7 @@
             this.lres_3.BackColor = System.Drawing.Color.Transparent;
             this.lres_3.Font = new System.Drawing.Font("MS Reference Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
             this.lres_3.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.lres_3.Location = new System.Drawing.Point(686, 95);
+            this.lres_3.Location = new System.Drawing.Point(581, 96);
             this.lres_3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lres_3.Name = "lres_3";
             this.lres_3.Size = new System.Drawing.Size(78, 39);
@@ -315,7 +290,7 @@
             this.lres_5.BackColor = System.Drawing.Color.Transparent;
             this.lres_5.Font = new System.Drawing.Font("MS Reference Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
             this.lres_5.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.lres_5.Location = new System.Drawing.Point(686, 144);
+            this.lres_5.Location = new System.Drawing.Point(581, 145);
             this.lres_5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lres_5.Name = "lres_5";
             this.lres_5.Size = new System.Drawing.Size(78, 39);
@@ -328,7 +303,7 @@
             this.lres_2.BackColor = System.Drawing.Color.Transparent;
             this.lres_2.Font = new System.Drawing.Font("MS Reference Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
             this.lres_2.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.lres_2.Location = new System.Drawing.Point(686, 197);
+            this.lres_2.Location = new System.Drawing.Point(581, 198);
             this.lres_2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lres_2.Name = "lres_2";
             this.lres_2.Size = new System.Drawing.Size(78, 39);
@@ -341,7 +316,7 @@
             this.lres_6.BackColor = System.Drawing.Color.Transparent;
             this.lres_6.Font = new System.Drawing.Font("MS Reference Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
             this.lres_6.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.lres_6.Location = new System.Drawing.Point(686, 252);
+            this.lres_6.Location = new System.Drawing.Point(581, 253);
             this.lres_6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lres_6.Name = "lres_6";
             this.lres_6.Size = new System.Drawing.Size(78, 39);
@@ -354,7 +329,7 @@
             this.lres_1.BackColor = System.Drawing.Color.Transparent;
             this.lres_1.Font = new System.Drawing.Font("MS Reference Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
             this.lres_1.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.lres_1.Location = new System.Drawing.Point(686, 307);
+            this.lres_1.Location = new System.Drawing.Point(581, 308);
             this.lres_1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lres_1.Name = "lres_1";
             this.lres_1.Size = new System.Drawing.Size(78, 39);
@@ -367,7 +342,7 @@
             this.lres_7.BackColor = System.Drawing.Color.Transparent;
             this.lres_7.Font = new System.Drawing.Font("MS Reference Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
             this.lres_7.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.lres_7.Location = new System.Drawing.Point(686, 470);
+            this.lres_7.Location = new System.Drawing.Point(581, 471);
             this.lres_7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lres_7.Name = "lres_7";
             this.lres_7.Size = new System.Drawing.Size(78, 39);
@@ -380,7 +355,7 @@
             this.lres_10.BackColor = System.Drawing.Color.Transparent;
             this.lres_10.Font = new System.Drawing.Font("MS Reference Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
             this.lres_10.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.lres_10.Location = new System.Drawing.Point(686, 524);
+            this.lres_10.Location = new System.Drawing.Point(581, 525);
             this.lres_10.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lres_10.Name = "lres_10";
             this.lres_10.Size = new System.Drawing.Size(78, 39);
@@ -393,7 +368,7 @@
             this.lres_8.BackColor = System.Drawing.Color.Transparent;
             this.lres_8.Font = new System.Drawing.Font("MS Reference Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
             this.lres_8.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.lres_8.Location = new System.Drawing.Point(686, 582);
+            this.lres_8.Location = new System.Drawing.Point(581, 583);
             this.lres_8.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lres_8.Name = "lres_8";
             this.lres_8.Size = new System.Drawing.Size(78, 39);
@@ -406,7 +381,7 @@
             this.lres_4.BackColor = System.Drawing.Color.Transparent;
             this.lres_4.Font = new System.Drawing.Font("MS Reference Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
             this.lres_4.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.lres_4.Location = new System.Drawing.Point(686, 362);
+            this.lres_4.Location = new System.Drawing.Point(581, 363);
             this.lres_4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lres_4.Name = "lres_4";
             this.lres_4.Size = new System.Drawing.Size(78, 39);
@@ -419,7 +394,7 @@
             this.lres_9.BackColor = System.Drawing.Color.Transparent;
             this.lres_9.Font = new System.Drawing.Font("MS Reference Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
             this.lres_9.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.lres_9.Location = new System.Drawing.Point(686, 418);
+            this.lres_9.Location = new System.Drawing.Point(581, 419);
             this.lres_9.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lres_9.Name = "lres_9";
             this.lres_9.Size = new System.Drawing.Size(78, 39);
@@ -430,8 +405,8 @@
             // res_3
             // 
             this.res_3.Font = new System.Drawing.Font("MS Reference Sans Serif", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.res_3.Location = new System.Drawing.Point(692, 96);
-            this.res_3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.res_3.Location = new System.Drawing.Point(587, 97);
+            this.res_3.Margin = new System.Windows.Forms.Padding(2);
             this.res_3.MaxLength = 2;
             this.res_3.Name = "res_3";
             this.res_3.Size = new System.Drawing.Size(76, 43);
@@ -442,7 +417,7 @@
             this.label30.BackColor = System.Drawing.Color.Transparent;
             this.label30.Font = new System.Drawing.Font("MS Reference Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
             this.label30.ForeColor = System.Drawing.Color.Black;
-            this.label30.Location = new System.Drawing.Point(593, 148);
+            this.label30.Location = new System.Drawing.Point(488, 149);
             this.label30.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label30.Name = "label30";
             this.label30.Size = new System.Drawing.Size(58, 39);
@@ -454,7 +429,7 @@
             this.label29.BackColor = System.Drawing.Color.Transparent;
             this.label29.Font = new System.Drawing.Font("MS Reference Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
             this.label29.ForeColor = System.Drawing.Color.Black;
-            this.label29.Location = new System.Drawing.Point(593, 201);
+            this.label29.Location = new System.Drawing.Point(488, 202);
             this.label29.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label29.Name = "label29";
             this.label29.Size = new System.Drawing.Size(58, 39);
@@ -466,7 +441,7 @@
             this.label28.BackColor = System.Drawing.Color.Transparent;
             this.label28.Font = new System.Drawing.Font("MS Reference Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
             this.label28.ForeColor = System.Drawing.Color.Black;
-            this.label28.Location = new System.Drawing.Point(593, 256);
+            this.label28.Location = new System.Drawing.Point(488, 257);
             this.label28.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label28.Name = "label28";
             this.label28.Size = new System.Drawing.Size(58, 39);
@@ -478,7 +453,7 @@
             this.label27.BackColor = System.Drawing.Color.Transparent;
             this.label27.Font = new System.Drawing.Font("MS Reference Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
             this.label27.ForeColor = System.Drawing.Color.Black;
-            this.label27.Location = new System.Drawing.Point(593, 311);
+            this.label27.Location = new System.Drawing.Point(488, 312);
             this.label27.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label27.Name = "label27";
             this.label27.Size = new System.Drawing.Size(58, 39);
@@ -490,7 +465,7 @@
             this.label26.BackColor = System.Drawing.Color.Transparent;
             this.label26.Font = new System.Drawing.Font("MS Reference Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
             this.label26.ForeColor = System.Drawing.Color.Black;
-            this.label26.Location = new System.Drawing.Point(593, 422);
+            this.label26.Location = new System.Drawing.Point(488, 423);
             this.label26.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label26.Name = "label26";
             this.label26.Size = new System.Drawing.Size(58, 39);
@@ -502,7 +477,7 @@
             this.label25.BackColor = System.Drawing.Color.Transparent;
             this.label25.Font = new System.Drawing.Font("MS Reference Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
             this.label25.ForeColor = System.Drawing.Color.Black;
-            this.label25.Location = new System.Drawing.Point(593, 366);
+            this.label25.Location = new System.Drawing.Point(488, 367);
             this.label25.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label25.Name = "label25";
             this.label25.Size = new System.Drawing.Size(58, 39);
@@ -514,7 +489,7 @@
             this.label24.BackColor = System.Drawing.Color.Transparent;
             this.label24.Font = new System.Drawing.Font("MS Reference Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
             this.label24.ForeColor = System.Drawing.Color.Black;
-            this.label24.Location = new System.Drawing.Point(593, 474);
+            this.label24.Location = new System.Drawing.Point(488, 475);
             this.label24.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label24.Name = "label24";
             this.label24.Size = new System.Drawing.Size(58, 39);
@@ -526,7 +501,7 @@
             this.label23.BackColor = System.Drawing.Color.Transparent;
             this.label23.Font = new System.Drawing.Font("MS Reference Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
             this.label23.ForeColor = System.Drawing.Color.Black;
-            this.label23.Location = new System.Drawing.Point(593, 528);
+            this.label23.Location = new System.Drawing.Point(488, 529);
             this.label23.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label23.Name = "label23";
             this.label23.Size = new System.Drawing.Size(58, 39);
@@ -538,7 +513,7 @@
             this.label22.BackColor = System.Drawing.Color.Transparent;
             this.label22.Font = new System.Drawing.Font("MS Reference Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
             this.label22.ForeColor = System.Drawing.Color.Black;
-            this.label22.Location = new System.Drawing.Point(593, 586);
+            this.label22.Location = new System.Drawing.Point(488, 587);
             this.label22.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label22.Name = "label22";
             this.label22.Size = new System.Drawing.Size(58, 39);
@@ -550,7 +525,7 @@
             this.label21.BackColor = System.Drawing.Color.Transparent;
             this.label21.Font = new System.Drawing.Font("MS Reference Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
             this.label21.ForeColor = System.Drawing.Color.Black;
-            this.label21.Location = new System.Drawing.Point(593, 99);
+            this.label21.Location = new System.Drawing.Point(488, 100);
             this.label21.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label21.Name = "label21";
             this.label21.Size = new System.Drawing.Size(58, 39);
@@ -562,7 +537,7 @@
             this.label20.BackColor = System.Drawing.Color.Transparent;
             this.label20.Font = new System.Drawing.Font("MS Reference Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
             this.label20.ForeColor = System.Drawing.Color.Black;
-            this.label20.Location = new System.Drawing.Point(400, 99);
+            this.label20.Location = new System.Drawing.Point(322, 100);
             this.label20.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label20.Name = "label20";
             this.label20.Size = new System.Drawing.Size(58, 39);
@@ -574,7 +549,7 @@
             this.label19.BackColor = System.Drawing.Color.Transparent;
             this.label19.Font = new System.Drawing.Font("MS Reference Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
             this.label19.ForeColor = System.Drawing.Color.Black;
-            this.label19.Location = new System.Drawing.Point(400, 148);
+            this.label19.Location = new System.Drawing.Point(322, 149);
             this.label19.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label19.Name = "label19";
             this.label19.Size = new System.Drawing.Size(58, 39);
@@ -586,7 +561,7 @@
             this.label18.BackColor = System.Drawing.Color.Transparent;
             this.label18.Font = new System.Drawing.Font("MS Reference Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
             this.label18.ForeColor = System.Drawing.Color.Black;
-            this.label18.Location = new System.Drawing.Point(400, 201);
+            this.label18.Location = new System.Drawing.Point(322, 202);
             this.label18.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(58, 39);
@@ -598,7 +573,7 @@
             this.label17.BackColor = System.Drawing.Color.Transparent;
             this.label17.Font = new System.Drawing.Font("MS Reference Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
             this.label17.ForeColor = System.Drawing.Color.Black;
-            this.label17.Location = new System.Drawing.Point(400, 256);
+            this.label17.Location = new System.Drawing.Point(322, 257);
             this.label17.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(58, 39);
@@ -610,7 +585,7 @@
             this.label16.BackColor = System.Drawing.Color.Transparent;
             this.label16.Font = new System.Drawing.Font("MS Reference Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
             this.label16.ForeColor = System.Drawing.Color.Black;
-            this.label16.Location = new System.Drawing.Point(400, 311);
+            this.label16.Location = new System.Drawing.Point(322, 312);
             this.label16.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(58, 39);
@@ -622,7 +597,7 @@
             this.label15.BackColor = System.Drawing.Color.Transparent;
             this.label15.Font = new System.Drawing.Font("MS Reference Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
             this.label15.ForeColor = System.Drawing.Color.Black;
-            this.label15.Location = new System.Drawing.Point(400, 366);
+            this.label15.Location = new System.Drawing.Point(322, 367);
             this.label15.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(58, 39);
@@ -634,7 +609,7 @@
             this.label14.BackColor = System.Drawing.Color.Transparent;
             this.label14.Font = new System.Drawing.Font("MS Reference Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
             this.label14.ForeColor = System.Drawing.Color.Black;
-            this.label14.Location = new System.Drawing.Point(400, 422);
+            this.label14.Location = new System.Drawing.Point(322, 423);
             this.label14.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(58, 39);
@@ -646,7 +621,7 @@
             this.label13.BackColor = System.Drawing.Color.Transparent;
             this.label13.Font = new System.Drawing.Font("MS Reference Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
             this.label13.ForeColor = System.Drawing.Color.Black;
-            this.label13.Location = new System.Drawing.Point(400, 474);
+            this.label13.Location = new System.Drawing.Point(322, 475);
             this.label13.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(58, 39);
@@ -658,7 +633,7 @@
             this.label12.BackColor = System.Drawing.Color.Transparent;
             this.label12.Font = new System.Drawing.Font("MS Reference Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
             this.label12.ForeColor = System.Drawing.Color.Black;
-            this.label12.Location = new System.Drawing.Point(400, 528);
+            this.label12.Location = new System.Drawing.Point(322, 529);
             this.label12.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(58, 39);
@@ -670,7 +645,7 @@
             this.label11.BackColor = System.Drawing.Color.Transparent;
             this.label11.Font = new System.Drawing.Font("MS Reference Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
             this.label11.ForeColor = System.Drawing.Color.Black;
-            this.label11.Location = new System.Drawing.Point(400, 586);
+            this.label11.Location = new System.Drawing.Point(322, 587);
             this.label11.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(58, 39);
@@ -682,7 +657,7 @@
             this.n2_3.BackColor = System.Drawing.Color.Transparent;
             this.n2_3.Font = new System.Drawing.Font("MS Reference Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
             this.n2_3.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.n2_3.Location = new System.Drawing.Point(492, 99);
+            this.n2_3.Location = new System.Drawing.Point(414, 100);
             this.n2_3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.n2_3.Name = "n2_3";
             this.n2_3.Size = new System.Drawing.Size(70, 39);
@@ -694,7 +669,7 @@
             this.n2_5.BackColor = System.Drawing.Color.Transparent;
             this.n2_5.Font = new System.Drawing.Font("MS Reference Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
             this.n2_5.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.n2_5.Location = new System.Drawing.Point(492, 148);
+            this.n2_5.Location = new System.Drawing.Point(414, 149);
             this.n2_5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.n2_5.Name = "n2_5";
             this.n2_5.Size = new System.Drawing.Size(70, 39);
@@ -706,7 +681,7 @@
             this.n2_2.BackColor = System.Drawing.Color.Transparent;
             this.n2_2.Font = new System.Drawing.Font("MS Reference Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
             this.n2_2.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.n2_2.Location = new System.Drawing.Point(492, 201);
+            this.n2_2.Location = new System.Drawing.Point(414, 202);
             this.n2_2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.n2_2.Name = "n2_2";
             this.n2_2.Size = new System.Drawing.Size(70, 39);
@@ -718,7 +693,7 @@
             this.n2_6.BackColor = System.Drawing.Color.Transparent;
             this.n2_6.Font = new System.Drawing.Font("MS Reference Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
             this.n2_6.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.n2_6.Location = new System.Drawing.Point(492, 256);
+            this.n2_6.Location = new System.Drawing.Point(414, 257);
             this.n2_6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.n2_6.Name = "n2_6";
             this.n2_6.Size = new System.Drawing.Size(70, 39);
@@ -730,7 +705,7 @@
             this.n2_1.BackColor = System.Drawing.Color.Transparent;
             this.n2_1.Font = new System.Drawing.Font("MS Reference Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
             this.n2_1.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.n2_1.Location = new System.Drawing.Point(492, 311);
+            this.n2_1.Location = new System.Drawing.Point(414, 312);
             this.n2_1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.n2_1.Name = "n2_1";
             this.n2_1.Size = new System.Drawing.Size(70, 39);
@@ -742,7 +717,7 @@
             this.n2_7.BackColor = System.Drawing.Color.Transparent;
             this.n2_7.Font = new System.Drawing.Font("MS Reference Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
             this.n2_7.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.n2_7.Location = new System.Drawing.Point(492, 474);
+            this.n2_7.Location = new System.Drawing.Point(414, 475);
             this.n2_7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.n2_7.Name = "n2_7";
             this.n2_7.Size = new System.Drawing.Size(70, 39);
@@ -754,7 +729,7 @@
             this.n2_10.BackColor = System.Drawing.Color.Transparent;
             this.n2_10.Font = new System.Drawing.Font("MS Reference Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
             this.n2_10.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.n2_10.Location = new System.Drawing.Point(492, 528);
+            this.n2_10.Location = new System.Drawing.Point(414, 529);
             this.n2_10.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.n2_10.Name = "n2_10";
             this.n2_10.Size = new System.Drawing.Size(70, 39);
@@ -766,7 +741,7 @@
             this.n2_8.BackColor = System.Drawing.Color.Transparent;
             this.n2_8.Font = new System.Drawing.Font("MS Reference Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
             this.n2_8.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.n2_8.Location = new System.Drawing.Point(492, 586);
+            this.n2_8.Location = new System.Drawing.Point(414, 587);
             this.n2_8.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.n2_8.Name = "n2_8";
             this.n2_8.Size = new System.Drawing.Size(70, 39);
@@ -778,7 +753,7 @@
             this.n2_4.BackColor = System.Drawing.Color.Transparent;
             this.n2_4.Font = new System.Drawing.Font("MS Reference Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
             this.n2_4.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.n2_4.Location = new System.Drawing.Point(492, 366);
+            this.n2_4.Location = new System.Drawing.Point(414, 367);
             this.n2_4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.n2_4.Name = "n2_4";
             this.n2_4.Size = new System.Drawing.Size(70, 39);
@@ -790,7 +765,7 @@
             this.n2_9.BackColor = System.Drawing.Color.Transparent;
             this.n2_9.Font = new System.Drawing.Font("MS Reference Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
             this.n2_9.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.n2_9.Location = new System.Drawing.Point(492, 422);
+            this.n2_9.Location = new System.Drawing.Point(414, 423);
             this.n2_9.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.n2_9.Name = "n2_9";
             this.n2_9.Size = new System.Drawing.Size(70, 39);
@@ -802,7 +777,7 @@
             this.n1_5.BackColor = System.Drawing.Color.Transparent;
             this.n1_5.Font = new System.Drawing.Font("MS Reference Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
             this.n1_5.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.n1_5.Location = new System.Drawing.Point(314, 148);
+            this.n1_5.Location = new System.Drawing.Point(236, 149);
             this.n1_5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.n1_5.Name = "n1_5";
             this.n1_5.Size = new System.Drawing.Size(70, 39);
@@ -814,7 +789,7 @@
             this.n1_2.BackColor = System.Drawing.Color.Transparent;
             this.n1_2.Font = new System.Drawing.Font("MS Reference Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
             this.n1_2.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.n1_2.Location = new System.Drawing.Point(314, 201);
+            this.n1_2.Location = new System.Drawing.Point(236, 202);
             this.n1_2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.n1_2.Name = "n1_2";
             this.n1_2.Size = new System.Drawing.Size(70, 39);
@@ -826,7 +801,7 @@
             this.n1_6.BackColor = System.Drawing.Color.Transparent;
             this.n1_6.Font = new System.Drawing.Font("MS Reference Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
             this.n1_6.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.n1_6.Location = new System.Drawing.Point(314, 256);
+            this.n1_6.Location = new System.Drawing.Point(236, 257);
             this.n1_6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.n1_6.Name = "n1_6";
             this.n1_6.Size = new System.Drawing.Size(70, 39);
@@ -838,7 +813,7 @@
             this.n1_1.BackColor = System.Drawing.Color.Transparent;
             this.n1_1.Font = new System.Drawing.Font("MS Reference Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
             this.n1_1.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.n1_1.Location = new System.Drawing.Point(314, 311);
+            this.n1_1.Location = new System.Drawing.Point(236, 312);
             this.n1_1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.n1_1.Name = "n1_1";
             this.n1_1.Size = new System.Drawing.Size(70, 39);
@@ -850,7 +825,7 @@
             this.n1_4.BackColor = System.Drawing.Color.Transparent;
             this.n1_4.Font = new System.Drawing.Font("MS Reference Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
             this.n1_4.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.n1_4.Location = new System.Drawing.Point(314, 366);
+            this.n1_4.Location = new System.Drawing.Point(236, 367);
             this.n1_4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.n1_4.Name = "n1_4";
             this.n1_4.Size = new System.Drawing.Size(70, 39);
@@ -862,7 +837,7 @@
             this.n1_9.BackColor = System.Drawing.Color.Transparent;
             this.n1_9.Font = new System.Drawing.Font("MS Reference Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
             this.n1_9.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.n1_9.Location = new System.Drawing.Point(314, 422);
+            this.n1_9.Location = new System.Drawing.Point(236, 423);
             this.n1_9.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.n1_9.Name = "n1_9";
             this.n1_9.Size = new System.Drawing.Size(70, 39);
@@ -874,7 +849,7 @@
             this.n1_7.BackColor = System.Drawing.Color.Transparent;
             this.n1_7.Font = new System.Drawing.Font("MS Reference Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
             this.n1_7.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.n1_7.Location = new System.Drawing.Point(314, 474);
+            this.n1_7.Location = new System.Drawing.Point(236, 475);
             this.n1_7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.n1_7.Name = "n1_7";
             this.n1_7.Size = new System.Drawing.Size(70, 39);
@@ -886,7 +861,7 @@
             this.n1_10.BackColor = System.Drawing.Color.Transparent;
             this.n1_10.Font = new System.Drawing.Font("MS Reference Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
             this.n1_10.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.n1_10.Location = new System.Drawing.Point(314, 528);
+            this.n1_10.Location = new System.Drawing.Point(236, 529);
             this.n1_10.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.n1_10.Name = "n1_10";
             this.n1_10.Size = new System.Drawing.Size(70, 39);
@@ -898,7 +873,7 @@
             this.n1_8.BackColor = System.Drawing.Color.Transparent;
             this.n1_8.Font = new System.Drawing.Font("MS Reference Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
             this.n1_8.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.n1_8.Location = new System.Drawing.Point(314, 586);
+            this.n1_8.Location = new System.Drawing.Point(236, 587);
             this.n1_8.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.n1_8.Name = "n1_8";
             this.n1_8.Size = new System.Drawing.Size(70, 39);
@@ -910,12 +885,40 @@
             this.n1_3.BackColor = System.Drawing.Color.Transparent;
             this.n1_3.Font = new System.Drawing.Font("MS Reference Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
             this.n1_3.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.n1_3.Location = new System.Drawing.Point(314, 99);
+            this.n1_3.Location = new System.Drawing.Point(236, 100);
             this.n1_3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.n1_3.Name = "n1_3";
             this.n1_3.Size = new System.Drawing.Size(70, 39);
             this.n1_3.TabIndex = 112;
             this.n1_3.Text = "11";
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.Transparent;
+            this.panel1.BackgroundImage = global::MateKids.Properties.Resources.letrero_colgante;
+            this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panel1.Controls.Add(this.intentos);
+            this.panel1.Controls.Add(this.marcador);
+            this.panel1.Controls.Add(this.lblpuntaje);
+            this.panel1.Controls.Add(this.lblintentos);
+            this.panel1.Location = new System.Drawing.Point(696, 172);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(282, 251);
+            this.panel1.TabIndex = 172;
+            // 
+            // Regresar
+            // 
+            this.Regresar.BackColor = System.Drawing.Color.Transparent;
+            this.Regresar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Regresar.Image = global::MateKids.Properties.Resources.back__1_;
+            this.Regresar.Location = new System.Drawing.Point(11, 11);
+            this.Regresar.Margin = new System.Windows.Forms.Padding(2);
+            this.Regresar.Name = "Regresar";
+            this.Regresar.Size = new System.Drawing.Size(59, 58);
+            this.Regresar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.Regresar.TabIndex = 111;
+            this.Regresar.TabStop = false;
+            this.Regresar.Click += new System.EventHandler(this.Regresar_Click_1);
             // 
             // Form5_1
             // 
@@ -923,7 +926,9 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::MateKids.Properties.Resources.fondo_tablas;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1000, 675);
+            this.ClientSize = new System.Drawing.Size(1018, 652);
+            this.Controls.Add(this.Regresar);
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.res_5);
             this.Controls.Add(this.res_2);
             this.Controls.Add(this.res_6);
@@ -984,21 +989,17 @@
             this.Controls.Add(this.n1_10);
             this.Controls.Add(this.n1_8);
             this.Controls.Add(this.n1_3);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.Regresar);
-            this.Controls.Add(this.lblintentos);
-            this.Controls.Add(this.lblpuntaje);
-            this.Controls.Add(this.intentos);
-            this.Controls.Add(this.marcador);
             this.Controls.Add(this.Terminar);
             this.Controls.Add(this.titulo_tabla);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Form5_1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form5_1";
             this.Load += new System.EventHandler(this.Form5_1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.titulo_tabla)).EndInit();
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Regresar)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -1013,8 +1014,6 @@
         private System.Windows.Forms.Label lblpuntaje;
         private System.Windows.Forms.Label intentos;
         private System.Windows.Forms.Label marcador;
-        private System.Windows.Forms.PictureBox Regresar;
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox res_5;
         private System.Windows.Forms.TextBox res_2;
         private System.Windows.Forms.TextBox res_6;
@@ -1075,5 +1074,7 @@
         private System.Windows.Forms.Label n1_10;
         private System.Windows.Forms.Label n1_8;
         private System.Windows.Forms.Label n1_3;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.PictureBox Regresar;
     }
 }

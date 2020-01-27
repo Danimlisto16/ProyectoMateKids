@@ -418,8 +418,6 @@ namespace MateKids.Minijuego_5
                             MessageBox.Show("Intentalo de nuevo \nTienes: " + error + " errores");
                         }
                     }
-                    
-
                     if (intento == 0)
                     {
                         MessageBox.Show("Te haz quedado sin intentos :C");
@@ -429,9 +427,7 @@ namespace MateKids.Minijuego_5
                 lblpuntaje.Text = "" + puntaje;
                 if (intento == 3 )
                 {
-                    
-                    MessageBox.Show("FELICITACIONES\nLo haz resuelto a la primera");
-                    
+                    MessageBox.Show("FELICITACIONES\nLo haz resuelto a la primera");   
                 }
                 if (error==0)
                 {
@@ -449,12 +445,19 @@ namespace MateKids.Minijuego_5
             
         }
 
-        private void Regresar_Click(object sender, EventArgs e)
+      
+
+        private void Regresar_Click_1(object sender, EventArgs e)
         {
-            Minijuego_5 Ventana = new Minijuego_5();
-            this.Hide();
-            Ventana.ShowDialog();
-            this.Close();
+            DialogResult dialogResult = MessageBox.Show("Seguro que deseas salir?", "Regresar", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if (dialogResult == DialogResult.Yes)
+            {
+                Minijuego_5 Ventana = new Minijuego_5();
+                this.Hide();
+                Ventana.ShowDialog();
+                this.Close();
+            }
+            
         }
 
         private void res10_KeyPress(object sender, KeyPressEventArgs e)

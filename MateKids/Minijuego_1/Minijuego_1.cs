@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Media;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -134,6 +135,17 @@ namespace MateKids.Minijuego_1
         {
             marcador++;
         }
+        private void sonidoCorrecto()
+        {
+            SoundPlayer simpleSound = new SoundPlayer(Properties.Resources.correcto);
+            simpleSound.Play();
+        }
+        private void sonidoIncorrecto()
+        {
+            SoundPlayer simpleSound = new SoundPlayer(Properties.Resources.incorrecto);
+            simpleSound.Play();
+        }
+
 
         private void Validar_respuesta(Button btn, object sender, EventArgs e)
         {
@@ -143,10 +155,13 @@ namespace MateKids.Minijuego_1
                 Incrementar_marcador();
                 lblPuntaje.Text = marcador.ToString();
                 IniciarJuego_Click(sender, e);
+                sonidoCorrecto();
+                
             }
             else
             {
-                MessageBox.Show("Intentalo otra vez", "Respuesta Incorrecta");
+                //MessageBox.Show("Intentalo otra vez", "Respuesta Incorrecta");
+                sonidoIncorrecto();
             }
         }
 
@@ -168,7 +183,8 @@ namespace MateKids.Minijuego_1
             if (tiempo == 0)
             {
                 tmrTiempoJuego.Stop();
-                MessageBox.Show("Juego terminado... tu marcador es: " + marcador.ToString());
+                MessageBox.Show("Juego terminado... tu marcador es: " + marcador.ToString(),"Juego Terminado",MessageBoxButtons.OK, MessageBoxIcon.Information);
+                //MessageBox.Show("Seguro que deseas salir?", "Cerrar Multiplicax", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
                 actBotones(false);
                 Reiniciar.Visible = true;
             }
@@ -193,6 +209,25 @@ namespace MateKids.Minijuego_1
         private void Minijuego_1_FormClosed(object sender, FormClosedEventArgs e)
         {
             tmrTiempoJuego.Stop();
+        }
+
+        private void Regresar_Click(object sender, EventArgs e)
+        {
+            DialogResult dialogResult = MessageBox.Show("Seguro que deseas salir?", "Cerrar Multiplicax", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if (dialogResult == DialogResult.Yes)
+            {
+                this.Close();
+            }
+        }
+
+        private void Regresar_MouseEnter(object sender, EventArgs e)
+        {
+            Regresar.Size = new System.Drawing.Size(75, 58);
+        }
+
+        private void Regresar_MouseLeave(object sender, EventArgs e)
+        {
+            Regresar.Size = new System.Drawing.Size(65, 48);
         }
     }
 }

@@ -24,6 +24,12 @@ namespace MateKids.Miinijuego_7
             ventanasAleatorias();
             ventanaSiguiente();
         }
+
+        private void Regresar_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
         private void ventanasAleatorias()
         {
             Random r = new Random();

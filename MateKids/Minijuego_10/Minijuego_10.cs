@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Media;
 using System.Windows.Forms;
 
 namespace MateKids.Minijuego_10
@@ -16,7 +17,7 @@ namespace MateKids.Minijuego_10
             pictureBox2.Parent = this;
             pictureBox3.Parent = this;
             pictureBox4.Parent = this;
-            pictureBox5.Parent = this;
+            
         }
 
         Random r = new Random();
@@ -39,6 +40,19 @@ namespace MateKids.Minijuego_10
             pictureBox4.Visible = false;
         }
 
+        private void sonidoCorrecto()
+        {
+            SoundPlayer simpleSound = new SoundPlayer(Properties.Resources.correcto);
+            simpleSound.Play();
+        }
+
+        private void sonidoIncorrecto()
+        {
+            SoundPlayer simpleSound = new SoundPlayer(Properties.Resources.incorrecto);
+            simpleSound.Play();
+        }
+
+
         private void pictureBox3_Click(object sender, EventArgs e)
         {
             if (txtDivisor.Text == " " || txtDivisor.Text =="" || txtDivisor.Text == "  ")
@@ -54,18 +68,18 @@ namespace MateKids.Minijuego_10
                 {
                     txtDivisor.BackColor = System.Drawing.Color.MediumSpringGreen;
                     genAleatorio();
+                    sonidoCorrecto();
                 }
                 else
                 {
+                    sonidoIncorrecto();
                     txtDivisor.BackColor = System.Drawing.Color.Pink;
+
                 }
             }
         }
 
-        private void txtDivisor_TextChanged(object sender, EventArgs e)
-        {
-
-        }
+       
 
         private void txtDivisor_KeyPress(object sender, KeyPressEventArgs e)
         {
@@ -82,12 +96,12 @@ namespace MateKids.Minijuego_10
 
         private void pictureBox5_MouseEnter(object sender, EventArgs e)
         {
-             pictureBox5.Size = new System.Drawing.Size(60, 66);
+             Regresar.Size = new System.Drawing.Size(60, 66);
         }
 
         private void pictureBox5_MouseLeave(object sender, EventArgs e)
         {
-            pictureBox5.Size = new System.Drawing.Size(52, 58);
+            Regresar.Size = new System.Drawing.Size(52, 58);
         }
 
         private void pictureBox3_MouseEnter(object sender, EventArgs e)
@@ -110,10 +124,23 @@ namespace MateKids.Minijuego_10
             pictureBox4.Size = new System.Drawing.Size(130, 122);
         }
 
-        private void pictureBox1_Click(object sender, EventArgs e)
+        private void Regresar_MouseLeave(object sender, EventArgs e)
         {
-
+            Regresar.Size = new System.Drawing.Size(65, 48);
         }
 
+        private void Regresar_MouseEnter(object sender, EventArgs e)
+        {
+            Regresar.Size = new System.Drawing.Size(75, 58);
+        }
+
+        private void Regresar_Click(object sender, EventArgs e)
+        {
+            DialogResult dialogResult = MessageBox.Show("Seguro que deseas salir?", "Cerrar Encuentrax", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if (dialogResult == DialogResult.Yes)
+            {
+                this.Close();
+            }
+        }
     }
 }

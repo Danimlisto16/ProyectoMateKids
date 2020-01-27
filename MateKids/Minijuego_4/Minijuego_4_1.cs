@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Media;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -29,27 +30,21 @@ namespace MateKids.Minijuego_4
         
         private void Minijuego_4_1_Load(object sender, EventArgs e)
         {
-
-        }
-
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-                // hacer transparentes
            
-
+           
         }
-
 
         Random r = new Random();
 
         private void btnIniciar_Click(object sender, EventArgs e)
         {
+            sonidoInicial();
             tmrTiempoJuego.Start();
             tmrPosicion.Start();
             genMultiplicacion();
-            btnIniciar.Visible = false;
-            
+            btnIniciar.Visible = false;  
         }
+
 
         private void tmrPosicion_Tick(object sender, EventArgs e)
         {
@@ -124,17 +119,20 @@ namespace MateKids.Minijuego_4
             aciertos++;
             lblAciertos.Text = "Aciertos " + aciertos.ToString();
             actualizarDisparos();
+            sonidoCorrecto();
         }
         private void actualizarFallos()
         {
             fallados++;
             lblFallos.Text = "Fallados " + fallados.ToString();
             actualizarDisparos();
+            sonidoIncorrecto();
         }
         private void actualizarDisparos()
         {
             disparos++;
             lblDisparos.Text = "Disparos" + disparos.ToString();
+            
         }
 
         private void lblOpcion2_Click(object sender, EventArgs e)
@@ -157,11 +155,55 @@ namespace MateKids.Minijuego_4
             this.Close();
         }
 
+
+        private void sonidoInicial(){
+            SoundPlayer simpleSound = new SoundPlayer(Properties.Resources.iniciar);
+            simpleSound.Play();
+        }
+
+        private void sonidoCorrecto()
+        {
+            SoundPlayer simpleSound = new SoundPlayer(Properties.Resources.correcto);
+            simpleSound.Play();
+        }
+
+        private void sonidoIncorrecto()
+        {
+            SoundPlayer simpleSound = new SoundPlayer(Properties.Resources.incorrecto);
+            simpleSound.Play();
+        }
+
+        private void pbxFondo_Paint(object sender, PaintEventArgs e)
+        {
+            
+            
+        }
+
+        private void pnlMitad1_Click(object sender, EventArgs e)
+        {
+            actualizarFallos();
+        }
+
+        private void pnlMitad2_Click(object sender, EventArgs e)
+        {
+            actualizarFallos();
+        }
+
+      
+        private void Regresar_Click_1(object sender, EventArgs e)
+        {
+            DialogResult dialogResult = MessageBox.Show("Seguro deseas salir?", "Cerrar Shooterex", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if (dialogResult == DialogResult.Yes)
+            {
+                this.Close();
+            }
+
+        }
+
         private void clickRespuesta(string texto)
         {
             if (Int16.Parse(texto) == respuesta)
             {
-                genMultiplicacion();
                 actualizarAciertos();
                 genMultiplicacion();
             }

@@ -81,6 +81,15 @@ namespace MateKids.Properties {
         }
         
         /// <summary>
+        ///   Busca un recurso adaptado de tipo System.IO.UnmanagedMemoryStream similar a System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream correcto {
+            get {
+                return ResourceManager.GetStream("correcto", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
         internal static System.Drawing.Bitmap d1 {
@@ -187,6 +196,15 @@ namespace MateKids.Properties {
             get {
                 object obj = ResourceManager.GetObject("dibujos", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.IO.UnmanagedMemoryStream similar a System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream disparo {
+            get {
+                return ResourceManager.GetStream("disparo", resourceCulture);
             }
         }
         
@@ -421,6 +439,24 @@ namespace MateKids.Properties {
         }
         
         /// <summary>
+        ///   Busca un recurso adaptado de tipo System.IO.UnmanagedMemoryStream similar a System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream incorrecto {
+            get {
+                return ResourceManager.GetStream("incorrecto", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.IO.UnmanagedMemoryStream similar a System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream iniciar {
+            get {
+                return ResourceManager.GetStream("iniciar", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
         internal static System.Drawing.Bitmap lasalle_latacunga {
@@ -436,6 +472,16 @@ namespace MateKids.Properties {
         internal static System.Drawing.Bitmap letrero {
             get {
                 object obj = ResourceManager.GetObject("letrero", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap letrero_colgante {
+            get {
+                object obj = ResourceManager.GetObject("letrero_colgante", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

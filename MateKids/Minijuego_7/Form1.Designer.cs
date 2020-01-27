@@ -48,9 +48,11 @@
             this.imagenlinea2 = new System.Windows.Forms.PictureBox();
             this.imagenlinea1 = new System.Windows.Forms.PictureBox();
             this.imagendivision = new System.Windows.Forms.PictureBox();
+            this.Regresar = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.imagenlinea2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.imagenlinea1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.imagendivision)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Regresar)).BeginInit();
             this.SuspendLayout();
             // 
             // lblpuntaje
@@ -297,12 +299,27 @@
             this.imagendivision.TabIndex = 21;
             this.imagendivision.TabStop = false;
             // 
+            // Regresar
+            // 
+            this.Regresar.BackColor = System.Drawing.Color.Transparent;
+            this.Regresar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Regresar.Image = global::MateKids.Properties.Resources.back__1_;
+            this.Regresar.Location = new System.Drawing.Point(11, 11);
+            this.Regresar.Margin = new System.Windows.Forms.Padding(2);
+            this.Regresar.Name = "Regresar";
+            this.Regresar.Size = new System.Drawing.Size(59, 58);
+            this.Regresar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.Regresar.TabIndex = 111;
+            this.Regresar.TabStop = false;
+            // 
             // Form_1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(882, 639);
+            this.ControlBox = false;
+            this.Controls.Add(this.Regresar);
             this.Controls.Add(this.lblpuntaje);
             this.Controls.Add(this.lblintentos);
             this.Controls.Add(this.intentos);
@@ -323,7 +340,7 @@
             this.Controls.Add(this.mtb_res1);
             this.Controls.Add(this.TerminarDivision);
             this.Controls.Add(this.imagendivision);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Form_1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -332,6 +349,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.imagenlinea2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.imagenlinea1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.imagendivision)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Regresar)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -359,5 +377,6 @@
         private System.Windows.Forms.MaskedTextBox mtb_res1;
         private System.Windows.Forms.Button TerminarDivision;
         private System.Windows.Forms.PictureBox imagendivision;
+        private System.Windows.Forms.PictureBox Regresar;
     }
 }

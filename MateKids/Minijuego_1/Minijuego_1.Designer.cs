@@ -45,9 +45,11 @@
             this.pbxTiempo = new System.Windows.Forms.PictureBox();
             this.tmrTiempoJuego = new System.Windows.Forms.Timer(this.components);
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.Regresar = new System.Windows.Forms.PictureBox();
             this.pnlControles.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbxTiempo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Regresar)).BeginInit();
             this.SuspendLayout();
             // 
             // lblTiempo
@@ -216,6 +218,23 @@
             this.pictureBox1.TabIndex = 29;
             this.pictureBox1.TabStop = false;
             // 
+            // Regresar
+            // 
+            this.Regresar.BackColor = System.Drawing.Color.White;
+            this.Regresar.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.Regresar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Regresar.Image = global::MateKids.Properties.Resources.back__1_;
+            this.Regresar.Location = new System.Drawing.Point(11, 11);
+            this.Regresar.Margin = new System.Windows.Forms.Padding(2);
+            this.Regresar.Name = "Regresar";
+            this.Regresar.Size = new System.Drawing.Size(59, 41);
+            this.Regresar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.Regresar.TabIndex = 110;
+            this.Regresar.TabStop = false;
+            this.Regresar.Click += new System.EventHandler(this.Regresar_Click);
+            this.Regresar.MouseEnter += new System.EventHandler(this.Regresar_MouseEnter);
+            this.Regresar.MouseLeave += new System.EventHandler(this.Regresar_MouseLeave);
+            // 
             // Minijuego_1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -223,6 +242,8 @@
             this.BackgroundImage = global::MateKids.Properties.Resources.dibujos;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(912, 546);
+            this.ControlBox = false;
+            this.Controls.Add(this.Regresar);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.lblTiempo);
             this.Controls.Add(this.pbxTiempo);
@@ -233,6 +254,7 @@
             this.Controls.Add(this.btnOpcion2);
             this.Controls.Add(this.btnOpcion1);
             this.Controls.Add(this.lblOperacion);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Minijuego_1";
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Show;
@@ -243,6 +265,7 @@
             this.pnlControles.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbxTiempo)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Regresar)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -264,5 +287,6 @@
         private System.Windows.Forms.Label lblOperacion;
         private System.Windows.Forms.Timer tmrTiempoJuego;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox Regresar;
     }
 }

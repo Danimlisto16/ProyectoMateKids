@@ -40,7 +40,9 @@
             this.Opcion1 = new System.Windows.Forms.Button();
             this.lblrespuesta = new System.Windows.Forms.Label();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.Regresar = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.Siguiente)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Regresar)).BeginInit();
             this.SuspendLayout();
             // 
             // Siguiente
@@ -48,9 +50,10 @@
             this.Siguiente.BackColor = System.Drawing.Color.Transparent;
             this.Siguiente.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Siguiente.Image = global::MateKids.Properties.Resources.rightarrow3_78482;
-            this.Siguiente.Location = new System.Drawing.Point(1209, 336);
+            this.Siguiente.Location = new System.Drawing.Point(907, 273);
+            this.Siguiente.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Siguiente.Name = "Siguiente";
-            this.Siguiente.Size = new System.Drawing.Size(131, 134);
+            this.Siguiente.Size = new System.Drawing.Size(98, 109);
             this.Siguiente.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.Siguiente.TabIndex = 93;
             this.Siguiente.TabStop = false;
@@ -63,9 +66,10 @@
             this.lblpuntaje.BackColor = System.Drawing.Color.Transparent;
             this.lblpuntaje.Font = new System.Drawing.Font("Century Gothic", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblpuntaje.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.lblpuntaje.Location = new System.Drawing.Point(1274, 138);
+            this.lblpuntaje.Location = new System.Drawing.Point(956, 112);
+            this.lblpuntaje.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblpuntaje.Name = "lblpuntaje";
-            this.lblpuntaje.Size = new System.Drawing.Size(35, 40);
+            this.lblpuntaje.Size = new System.Drawing.Size(30, 33);
             this.lblpuntaje.TabIndex = 92;
             this.lblpuntaje.Text = "3";
             // 
@@ -75,9 +79,10 @@
             this.lblintentos.BackColor = System.Drawing.Color.Transparent;
             this.lblintentos.Font = new System.Drawing.Font("Century Gothic", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblintentos.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.lblintentos.Location = new System.Drawing.Point(1274, 258);
+            this.lblintentos.Location = new System.Drawing.Point(956, 210);
+            this.lblintentos.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblintentos.Name = "lblintentos";
-            this.lblintentos.Size = new System.Drawing.Size(35, 40);
+            this.lblintentos.Size = new System.Drawing.Size(30, 33);
             this.lblintentos.TabIndex = 91;
             this.lblintentos.Text = "3";
             // 
@@ -87,9 +92,10 @@
             this.intentos.BackColor = System.Drawing.Color.Transparent;
             this.intentos.Font = new System.Drawing.Font("Century Gothic", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.intentos.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.intentos.Location = new System.Drawing.Point(1160, 204);
+            this.intentos.Location = new System.Drawing.Point(870, 166);
+            this.intentos.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.intentos.Name = "intentos";
-            this.intentos.Size = new System.Drawing.Size(164, 39);
+            this.intentos.Size = new System.Drawing.Size(136, 32);
             this.intentos.TabIndex = 90;
             this.intentos.Text = "INTENTOS";
             // 
@@ -99,9 +105,10 @@
             this.marcador.BackColor = System.Drawing.Color.Transparent;
             this.marcador.Font = new System.Drawing.Font("Century Gothic", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.marcador.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.marcador.Location = new System.Drawing.Point(1120, 89);
+            this.marcador.Location = new System.Drawing.Point(840, 72);
+            this.marcador.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.marcador.Name = "marcador";
-            this.marcador.Size = new System.Drawing.Size(210, 39);
+            this.marcador.Size = new System.Drawing.Size(174, 32);
             this.marcador.TabIndex = 89;
             this.marcador.Text = "MARCADOR";
             // 
@@ -113,9 +120,10 @@
             this.Opcion3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.Opcion3.Font = new System.Drawing.Font("Sitka Subheading", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
             this.Opcion3.ForeColor = System.Drawing.Color.Black;
-            this.Opcion3.Location = new System.Drawing.Point(578, 515);
+            this.Opcion3.Location = new System.Drawing.Point(434, 418);
+            this.Opcion3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Opcion3.Name = "Opcion3";
-            this.Opcion3.Size = new System.Drawing.Size(201, 84);
+            this.Opcion3.Size = new System.Drawing.Size(151, 68);
             this.Opcion3.TabIndex = 88;
             this.Opcion3.Text = "6 libros";
             this.Opcion3.UseVisualStyleBackColor = false;
@@ -129,9 +137,10 @@
             this.Opcion2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.Opcion2.Font = new System.Drawing.Font("Sitka Subheading", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
             this.Opcion2.ForeColor = System.Drawing.Color.Black;
-            this.Opcion2.Location = new System.Drawing.Point(578, 425);
+            this.Opcion2.Location = new System.Drawing.Point(434, 345);
+            this.Opcion2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Opcion2.Name = "Opcion2";
-            this.Opcion2.Size = new System.Drawing.Size(201, 84);
+            this.Opcion2.Size = new System.Drawing.Size(151, 68);
             this.Opcion2.TabIndex = 87;
             this.Opcion2.Text = "5 libros";
             this.Opcion2.UseVisualStyleBackColor = false;
@@ -141,9 +150,10 @@
             // 
             this.problema.BackColor = System.Drawing.Color.Transparent;
             this.problema.Font = new System.Drawing.Font("Rockwell Extra Bold", 19.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.problema.Location = new System.Drawing.Point(26, 91);
+            this.problema.Location = new System.Drawing.Point(20, 74);
+            this.problema.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.problema.Name = "problema";
-            this.problema.Size = new System.Drawing.Size(1068, 160);
+            this.problema.Size = new System.Drawing.Size(801, 130);
             this.problema.TabIndex = 86;
             this.problema.Text = "En 5.º grado, los chicos están ubicados en 7 mesas. Si Julio dejó 35 libros, y en" +
     " todas las mesas debe haber la misma cantidad de libros, ¿cuántos dejó para cada" +
@@ -157,9 +167,10 @@
             this.Opcion1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.Opcion1.Font = new System.Drawing.Font("Sitka Subheading", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
             this.Opcion1.ForeColor = System.Drawing.Color.Black;
-            this.Opcion1.Location = new System.Drawing.Point(578, 336);
+            this.Opcion1.Location = new System.Drawing.Point(434, 273);
+            this.Opcion1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Opcion1.Name = "Opcion1";
-            this.Opcion1.Size = new System.Drawing.Size(201, 84);
+            this.Opcion1.Size = new System.Drawing.Size(151, 68);
             this.Opcion1.TabIndex = 85;
             this.Opcion1.Text = "7 libros";
             this.Opcion1.UseVisualStyleBackColor = false;
@@ -170,9 +181,10 @@
             this.lblrespuesta.BackColor = System.Drawing.Color.Transparent;
             this.lblrespuesta.Enabled = false;
             this.lblrespuesta.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblrespuesta.Location = new System.Drawing.Point(388, 20);
+            this.lblrespuesta.Location = new System.Drawing.Point(291, 16);
+            this.lblrespuesta.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblrespuesta.Name = "lblrespuesta";
-            this.lblrespuesta.Size = new System.Drawing.Size(473, 39);
+            this.lblrespuesta.Size = new System.Drawing.Size(355, 32);
             this.lblrespuesta.TabIndex = 94;
             this.lblrespuesta.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.lblrespuesta.Visible = false;
@@ -182,13 +194,28 @@
             this.timer1.Interval = 1000;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
+            // Regresar
+            // 
+            this.Regresar.BackColor = System.Drawing.Color.Transparent;
+            this.Regresar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Regresar.Image = global::MateKids.Properties.Resources.back__1_;
+            this.Regresar.Location = new System.Drawing.Point(11, 16);
+            this.Regresar.Margin = new System.Windows.Forms.Padding(2);
+            this.Regresar.Name = "Regresar";
+            this.Regresar.Size = new System.Drawing.Size(65, 48);
+            this.Regresar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.Regresar.TabIndex = 132;
+            this.Regresar.TabStop = false;
+            this.Regresar.Click += new System.EventHandler(this.Regresar_Click);
+            // 
             // Form3_7
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::MateKids.Properties.Resources.Photo_from_album__Летние_пейзажи__природа__on_Yandex_Disk;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1367, 688);
+            this.ClientSize = new System.Drawing.Size(1025, 559);
+            this.Controls.Add(this.Regresar);
             this.Controls.Add(this.lblrespuesta);
             this.Controls.Add(this.Siguiente);
             this.Controls.Add(this.lblpuntaje);
@@ -199,12 +226,14 @@
             this.Controls.Add(this.Opcion2);
             this.Controls.Add(this.problema);
             this.Controls.Add(this.Opcion1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Form3_7";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form3_7";
             this.Load += new System.EventHandler(this.Form3_7Load);
             ((System.ComponentModel.ISupportInitialize)(this.Siguiente)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Regresar)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -223,5 +252,6 @@
         private System.Windows.Forms.Button Opcion1;
         private System.Windows.Forms.Label lblrespuesta;
         private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.PictureBox Regresar;
     }
 }

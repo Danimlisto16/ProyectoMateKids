@@ -128,6 +128,19 @@ namespace MateKids.Minijuego_2
 
             }
         }
+
+        private void Regresar_Click(object sender, EventArgs e)
+        {
+            DialogResult dialogResult = MessageBox.Show("Seguro que deseas salir?", "Cerrar Multipractis", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if (dialogResult == DialogResult.Yes)
+            {
+                this.Hide();
+                Minijuego_2 m = new Minijuego_2();
+                m.ShowDialog();
+                this.Close();
+            }
+        }
+
         private void Form2_1_Load(object sender, EventArgs e)
         {
             lblintentos.Text = "" + intento;

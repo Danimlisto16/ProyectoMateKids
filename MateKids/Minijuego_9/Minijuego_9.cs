@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Media;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -64,21 +65,25 @@ namespace MateKids.Minijuego_9
             aciertos++;
             lblAciertos.Text = "Aciertos " + aciertos.ToString();
             actualizarDisparos();
+            sonidoCorrecto();
         }
         private void actualizarFallos()
         {
             fallados++;
             lblFallos.Text = "Fallados " + fallados.ToString();
             actualizarDisparos();
+            sonidoIncorrecto();
         }
         private void actualizarDisparos()
         {
             disparos++;
             lblDisparos.Text = "Disparos" + disparos.ToString();
+            sonidoDisparo();
         }
 
-        private void btnIniciar_Click_1(object sender, EventArgs e)
+        private void btnIniciar_Click(object sender, EventArgs e)
         {
+            sonidoInicial();
             tmrTiempoJuego.Start();
             tmrPosicion.Start();
             genDivision();
@@ -104,16 +109,32 @@ namespace MateKids.Minijuego_9
         }
 
 
-        private void btnReiniciar_Click(object sender, EventArgs e)
+       
+        private void sonidoInicial()
         {
-            this.Hide();
-            frmTiempo t = new frmTiempo();
-            t.ShowDialog();
-            this.Close();
-
+            SoundPlayer simpleSound = new SoundPlayer(Properties.Resources.iniciar);
+            simpleSound.Play();
         }
 
-       
+        private void sonidoCorrecto()
+        {
+            SoundPlayer simpleSound = new SoundPlayer(Properties.Resources.correcto);
+            simpleSound.Play();
+        }
+
+        private void sonidoIncorrecto()
+        {
+            SoundPlayer simpleSound = new SoundPlayer(Properties.Resources.incorrecto);
+            simpleSound.Play();
+        }
+
+        private void sonidoDisparo()
+        {
+            SoundPlayer simpleSound = new SoundPlayer(Properties.Resources.disparo);
+            simpleSound.Play();
+        }
+
+
 
         private void tmrPosicion_Tick_1(object sender, EventArgs e)
         {
@@ -159,7 +180,49 @@ namespace MateKids.Minijuego_9
             this.Close();
         }
 
-        private void lblOpcion1_Click_1(object sender, EventArgs e)
+       
+
+        private void lblOpcion2_Click(object sender, EventArgs e)
+        {
+            clickRespuesta(lblOpcion2.Text);
+        }
+
+        private void btnSalir_Click_1(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void pnlMitad1_Click_1(object sender, EventArgs e)
+        {
+            actualizarFallos();
+
+        }
+
+        private void pnlMitad2_Click_1(object sender, EventArgs e)
+        {
+            actualizarFallos();
+        }
+
+        private void btnReiniciar_Click_1(object sender, EventArgs e)
+        {
+            this.Hide();
+            frmTiempo t = new frmTiempo();
+            t.ShowDialog();
+            this.Close();
+
+        }
+
+        private void Regresar_Click(object sender, EventArgs e)
+        {
+            DialogResult dialogResult = MessageBox.Show("Seguro deseas salir?", "Cerrar DivShooter", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if (dialogResult == DialogResult.Yes)
+            {
+                this.Close();
+            }
+
+        }
+
+        private void lblOpcion1_Click(object sender, EventArgs e)
         {
             clickRespuesta(lblOpcion1.Text);
         }
@@ -176,9 +239,5 @@ namespace MateKids.Minijuego_9
                 actualizarFallos();
             }
         }
-
-       
-
-
     }
 }
