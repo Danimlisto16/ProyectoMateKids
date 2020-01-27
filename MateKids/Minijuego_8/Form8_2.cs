@@ -225,6 +225,18 @@ namespace MateKids.Minijuego_8
             }
         }
         int segundos = 180;
+
+        private void Regresar_Click(object sender, EventArgs e)
+        {
+            DialogResult dialogResult = MessageBox.Show("Seguro que deseas salir?", "Cerrar ", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if (dialogResult == DialogResult.Yes)
+            {
+                Minijuego_8 m = new Minijuego_8();
+                m.ShowDialog();
+                this.Close();
+            }
+        }
+
         int detener;
         private void Form8_2Load(object sender, EventArgs e)
         {

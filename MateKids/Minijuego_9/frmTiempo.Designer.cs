@@ -95,9 +95,12 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(756, 206);
+            this.ControlBox = false;
             this.Controls.Add(this.btnJugar);
             this.Controls.Add(this.gbxTiempo);
             this.Name = "frmTiempo";
+            this.Resizable = false;
+            this.Style = MetroFramework.MetroColorStyle.Blue;
             this.Text = "TIEMPO DE JUEGO";
             this.TextAlign = System.Windows.Forms.VisualStyles.HorizontalAlign.Center;
             this.Load += new System.EventHandler(this.frmTiempo_Load);

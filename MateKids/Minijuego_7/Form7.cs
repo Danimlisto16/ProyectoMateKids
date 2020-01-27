@@ -127,6 +127,17 @@ namespace MateKids.Miinijuego_7
             }
         }
 
+        private void Regresar_Click(object sender, EventArgs e)
+        {
+            DialogResult dialogResult = MessageBox.Show("Seguro que deseas salir?", "Cerrar ", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if (dialogResult == DialogResult.Yes)
+            {
+                this.Hide();
+                Minijuego7 m = new Minijuego7();
+                m.ShowDialog();
+                this.Close();
+            }
+        }
 
         private void Form7_Load(object sender, EventArgs e)
         {

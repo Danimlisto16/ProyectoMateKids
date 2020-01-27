@@ -119,13 +119,24 @@ namespace MateKids.Miinijuego_7
             if (numeros[num] == 10)
             {
                 Form10 Ventana = new Form10(numeros, intento, nventana, puntaje);
-
                 this.Hide();
                 Ventana.ShowDialog();
                 this.Close();
-
             }
         }
+
+        private void Regresar_Click(object sender, EventArgs e)
+        {
+            DialogResult dialogResult = MessageBox.Show("Seguro que deseas salir?", "Cerrar ", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if (dialogResult == DialogResult.Yes)
+            {
+                this.Hide();
+                Minijuego7 m = new Minijuego7();
+                m.ShowDialog();
+                this.Close();
+            }
+        }
+
         private void Form9_Load(object sender, EventArgs e)
         {
             lblintentos.Text = "" + intento;

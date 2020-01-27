@@ -310,6 +310,7 @@
             this.Regresar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.Regresar.TabIndex = 169;
             this.Regresar.TabStop = false;
+            this.Regresar.Click += new System.EventHandler(this.Regresar_Click);
             // 
             // Form5
             // 
