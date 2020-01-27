@@ -220,7 +220,7 @@
             // 
             // Regresar
             // 
-            this.Regresar.BackColor = System.Drawing.Color.White;
+            this.Regresar.BackColor = System.Drawing.Color.DeepSkyBlue;
             this.Regresar.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.Regresar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Regresar.Image = global::MateKids.Properties.Resources.back__1_;
@@ -256,6 +256,7 @@
             this.Controls.Add(this.lblOperacion);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Margin = new System.Windows.Forms.Padding(2);
+            this.MaximizeBox = false;
             this.Name = "Minijuego_1";
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Show;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

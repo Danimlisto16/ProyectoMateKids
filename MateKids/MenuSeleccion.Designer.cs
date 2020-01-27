@@ -30,6 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MenuSeleccion));
             this.lblContacto = new MetroFramework.Controls.MetroLabel();
+            this.Regresar = new System.Windows.Forms.PictureBox();
             this.titulo_minijuego_9 = new System.Windows.Forms.PictureBox();
             this.icono_minijuego_9 = new System.Windows.Forms.PictureBox();
             this.titulo_minijuego_8 = new System.Windows.Forms.PictureBox();
@@ -51,6 +52,7 @@
             this.titulo_minijuego_1 = new System.Windows.Forms.PictureBox();
             this.icono_minijuego_1 = new System.Windows.Forms.PictureBox();
             this.titulo_juego = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.Regresar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.titulo_minijuego_9)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.icono_minijuego_9)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.titulo_minijuego_8)).BeginInit();
@@ -85,6 +87,20 @@
             this.lblContacto.Click += new System.EventHandler(this.lblContacto_Click);
             this.lblContacto.MouseEnter += new System.EventHandler(this.lblContacto_MouseEnter);
             this.lblContacto.MouseLeave += new System.EventHandler(this.lblContacto_MouseLeave);
+            // 
+            // Regresar
+            // 
+            this.Regresar.BackColor = System.Drawing.Color.Transparent;
+            this.Regresar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Regresar.Image = global::MateKids.Properties.Resources.close_window_52px;
+            this.Regresar.Location = new System.Drawing.Point(1198, 14);
+            this.Regresar.Margin = new System.Windows.Forms.Padding(2);
+            this.Regresar.Name = "Regresar";
+            this.Regresar.Size = new System.Drawing.Size(44, 44);
+            this.Regresar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.Regresar.TabIndex = 172;
+            this.Regresar.TabStop = false;
+            this.Regresar.Click += new System.EventHandler(this.Regresar_Click);
             // 
             // titulo_minijuego_9
             // 
@@ -333,6 +349,8 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1251, 683);
+            this.ControlBox = false;
+            this.Controls.Add(this.Regresar);
             this.Controls.Add(this.titulo_minijuego_9);
             this.Controls.Add(this.icono_minijuego_9);
             this.Controls.Add(this.lblContacto);
@@ -355,12 +373,13 @@
             this.Controls.Add(this.titulo_minijuego_1);
             this.Controls.Add(this.icono_minijuego_1);
             this.Controls.Add(this.titulo_juego);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "MenuSeleccion";
             this.Resizable = false;
-            this.Text = " ";
             this.Load += new System.EventHandler(this.MenuSeleccion_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.Regresar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.titulo_minijuego_9)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.icono_minijuego_9)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.titulo_minijuego_8)).EndInit();
@@ -410,6 +429,7 @@
         private MetroFramework.Controls.MetroLabel lblContacto;
         private System.Windows.Forms.PictureBox icono_minijuego_9;
         private System.Windows.Forms.PictureBox titulo_minijuego_9;
+        private System.Windows.Forms.PictureBox Regresar;
     }
 }
 

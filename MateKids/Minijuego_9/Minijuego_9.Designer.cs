@@ -35,7 +35,6 @@
             this.btnReiniciar = new System.Windows.Forms.Button();
             this.btnIniciar = new System.Windows.Forms.Button();
             this.pbxFondo = new System.Windows.Forms.Panel();
-            this.Regresar = new System.Windows.Forms.PictureBox();
             this.pnlMitad1 = new System.Windows.Forms.Panel();
             this.pnlGlobo1 = new System.Windows.Forms.Panel();
             this.lblOpcion1 = new System.Windows.Forms.Label();
@@ -52,8 +51,8 @@
             this.lblDisparos = new System.Windows.Forms.Label();
             this.lblAciertos = new System.Windows.Forms.Label();
             this.lblFallos = new System.Windows.Forms.Label();
+            this.Regresar = new System.Windows.Forms.PictureBox();
             this.pbxFondo.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.Regresar)).BeginInit();
             this.pnlMitad1.SuspendLayout();
             this.pnlGlobo1.SuspendLayout();
             this.pnlTitulo.SuspendLayout();
@@ -63,6 +62,7 @@
             this.pnlGlobo2.SuspendLayout();
             this.pnlMarcador.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbxTiempo)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Regresar)).BeginInit();
             this.SuspendLayout();
             // 
             // tmrPosicion
@@ -114,20 +114,6 @@
             this.pbxFondo.Name = "pbxFondo";
             this.pbxFondo.Size = new System.Drawing.Size(1348, 592);
             this.pbxFondo.TabIndex = 112;
-            // 
-            // Regresar
-            // 
-            this.Regresar.BackColor = System.Drawing.Color.White;
-            this.Regresar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Regresar.Image = global::MateKids.Properties.Resources.back__1_;
-            this.Regresar.Location = new System.Drawing.Point(20, 7);
-            this.Regresar.Margin = new System.Windows.Forms.Padding(2);
-            this.Regresar.Name = "Regresar";
-            this.Regresar.Size = new System.Drawing.Size(59, 48);
-            this.Regresar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.Regresar.TabIndex = 113;
-            this.Regresar.TabStop = false;
-            this.Regresar.Click += new System.EventHandler(this.Regresar_Click);
             // 
             // pnlMitad1
             // 
@@ -307,6 +293,20 @@
             this.lblFallos.TabIndex = 99;
             this.lblFallos.Text = "Fallados 0";
             // 
+            // Regresar
+            // 
+            this.Regresar.BackColor = System.Drawing.Color.White;
+            this.Regresar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Regresar.Image = global::MateKids.Properties.Resources.back__1_;
+            this.Regresar.Location = new System.Drawing.Point(20, 7);
+            this.Regresar.Margin = new System.Windows.Forms.Padding(2);
+            this.Regresar.Name = "Regresar";
+            this.Regresar.Size = new System.Drawing.Size(59, 48);
+            this.Regresar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.Regresar.TabIndex = 113;
+            this.Regresar.TabStop = false;
+            this.Regresar.Click += new System.EventHandler(this.Regresar_Click);
+            // 
             // Minijuego_9
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -323,7 +323,6 @@
             this.TopMost = true;
             this.Load += new System.EventHandler(this.Form1_Load);
             this.pbxFondo.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.Regresar)).EndInit();
             this.pnlMitad1.ResumeLayout(false);
             this.pnlGlobo1.ResumeLayout(false);
             this.pnlTitulo.ResumeLayout(false);
@@ -333,6 +332,7 @@
             this.pnlGlobo2.ResumeLayout(false);
             this.pnlMarcador.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pbxTiempo)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Regresar)).EndInit();
             this.ResumeLayout(false);
 
         }

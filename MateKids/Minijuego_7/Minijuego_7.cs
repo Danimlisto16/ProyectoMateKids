@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace MateKids.Miinijuego_7
 {
-    public partial class Minijuego7 : Form
+    public partial class Minijuego7 : MetroFramework.Forms.MetroForm
     {
         int intento = 3, nventana = 0, puntaje = 0;
         int[] numeros = new int[5];
@@ -28,6 +28,11 @@ namespace MateKids.Miinijuego_7
         private void Regresar_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void Minijuego7_Load(object sender, EventArgs e)
+        {
+
         }
 
         private void ventanasAleatorias()

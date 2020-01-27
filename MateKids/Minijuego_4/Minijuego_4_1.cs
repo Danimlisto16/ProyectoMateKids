@@ -77,9 +77,9 @@ namespace MateKids.Minijuego_4
             {
                 pnlGlobo1.Visible = false;
                 pnlGlobo2.Visible = false;
-
                 tmrPosicion.Stop();
                 tmrTiempoJuego.Stop();
+                btnReiniciar.Visible = true;
                 MessageBox.Show("Se acabó el tiempo!");
             }
             

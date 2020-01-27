@@ -229,5 +229,10 @@ namespace MateKids
             Minijuego_9.frmTiempo m = new Minijuego_9.frmTiempo();
             m.ShowDialog();
         }
+
+        private void Regresar_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

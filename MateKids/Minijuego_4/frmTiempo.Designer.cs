@@ -99,6 +99,7 @@
             this.ClientSize = new System.Drawing.Size(756, 206);
             this.Controls.Add(this.btnJugar);
             this.Controls.Add(this.gbxTiempo);
+            this.MaximizeBox = false;
             this.Name = "frmTiempo";
             this.Resizable = false;
             this.Text = "TIEMPO DE JUEGO";

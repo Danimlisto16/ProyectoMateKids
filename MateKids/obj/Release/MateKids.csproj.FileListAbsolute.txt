@@ -138,4 +138,3 @@ C:\Users\matgr\OneDrive\Documentos\GitHub\ProyectoMateKids\MateKids\obj\Release\
 C:\Users\matgr\OneDrive\Documentos\GitHub\ProyectoMateKids\MateKids\obj\Release\MateKids.csproj.CopyComplete
 C:\Users\matgr\OneDrive\Documentos\GitHub\ProyectoMateKids\MateKids\obj\Release\MateKids.exe
 C:\Users\matgr\OneDrive\Documentos\GitHub\ProyectoMateKids\MateKids\obj\Release\MateKids.pdb
-C:\Users\wwwda\Desktop\ProMateKids\MateKids\obj\Release\MateKids.csprojAssemblyReference.cache

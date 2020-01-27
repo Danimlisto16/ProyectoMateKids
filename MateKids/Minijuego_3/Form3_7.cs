@@ -71,6 +71,10 @@ namespace MateKids.Minijuego_3
             if (nventana == 5 && (intento == 2 || intento == 1))
             {
                 MessageBox.Show("    MUY BIEN\nHaz completado todos los problemas.");
+                this.Hide();
+                Minijuego_3 m = new Minijuego_3();
+                m.ShowDialog();
+                this.Close();
             }
             if (intento == 0)
             {

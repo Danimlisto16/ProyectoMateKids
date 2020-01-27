@@ -323,6 +323,7 @@
             this.ClientSize = new System.Drawing.Size(1388, 672);
             this.Controls.Add(this.Regresar);
             this.Controls.Add(this.pbxFondo);
+            this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "Minijuego_4_1";
             this.Resizable = false;

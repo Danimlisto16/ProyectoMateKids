@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace MateKids.Miinijuego_7
 {
-    public partial class Form7 : Form
+    public partial class Form7 : MetroFramework.Forms.MetroForm
     {
         int error = 0, intento, nventana, puntaje;
 
@@ -338,6 +338,10 @@ namespace MateKids.Miinijuego_7
                     if (intento == 2)
                     {
                         MessageBox.Show("MUY BIEN\n, Haz resuelto todas las divisiones.");
+                        this.Hide();
+                        Minijuego7 m = new Minijuego7();
+                        m.ShowDialog();
+                        this.Close();
                     }
 
                     if (intento == 1)

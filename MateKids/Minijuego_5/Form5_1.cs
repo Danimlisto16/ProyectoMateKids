@@ -434,6 +434,10 @@ namespace MateKids.Minijuego_5
                     if (intento == 2 || intento == 1)
                     {
                         MessageBox.Show("MUY BIEN\nHaz completado la tabla de multiplicar del " + ntabla);
+                        this.Hide();
+                        Minijuego_5 m = new Minijuego_5();
+                        m.ShowDialog();
+                        this.Close();
                     }
                 }
                 

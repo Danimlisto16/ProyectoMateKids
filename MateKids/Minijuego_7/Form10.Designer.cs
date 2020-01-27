@@ -358,8 +358,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(882, 639);
+            this.ControlBox = false;
             this.Controls.Add(this.Regresar);
             this.Controls.Add(this.TerminarDivision);
             this.Controls.Add(this.SiguienteDivision);
@@ -384,11 +384,11 @@
             this.Controls.Add(this.mtb_res2);
             this.Controls.Add(this.mtb_res1);
             this.Controls.Add(this.imagendivision);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Margin = new System.Windows.Forms.Padding(2);
+            this.MinimizeBox = false;
             this.Name = "Form10";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form10";
+            this.Resizable = false;
             this.Load += new System.EventHandler(this.Form10_Load);
             ((System.ComponentModel.ISupportInitialize)(this.imagenlinea2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.imagenlinea1)).EndInit();

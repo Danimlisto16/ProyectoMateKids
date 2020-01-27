@@ -82,6 +82,7 @@
             // 
             // btnJugar
             // 
+            this.btnJugar.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.btnJugar.Location = new System.Drawing.Point(308, 165);
             this.btnJugar.Name = "btnJugar";
             this.btnJugar.Size = new System.Drawing.Size(134, 31);
@@ -98,6 +99,8 @@
             this.ControlBox = false;
             this.Controls.Add(this.btnJugar);
             this.Controls.Add(this.gbxTiempo);
+            this.HelpButton = true;
+            this.MaximizeBox = false;
             this.Name = "frmTiempo";
             this.Resizable = false;
             this.Style = MetroFramework.MetroColorStyle.Blue;

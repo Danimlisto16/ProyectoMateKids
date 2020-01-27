@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace MateKids.Miinijuego_7
 {
-    public partial class Form9 : Form
+    public partial class Form9 : MetroFramework.Forms.MetroForm
     {
         int error = 0, intento, nventana, puntaje;
 

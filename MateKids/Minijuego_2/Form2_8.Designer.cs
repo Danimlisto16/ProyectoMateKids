@@ -60,7 +60,7 @@
             // 
             this.TerminarDivision.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TerminarDivision.Location = new System.Drawing.Point(482, 573);
-            this.TerminarDivision.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.TerminarDivision.Margin = new System.Windows.Forms.Padding(2);
             this.TerminarDivision.Name = "TerminarDivision";
             this.TerminarDivision.Size = new System.Drawing.Size(85, 30);
             this.TerminarDivision.TabIndex = 152;
@@ -120,7 +120,7 @@
             // 
             this.SiguienteDivision.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.SiguienteDivision.Location = new System.Drawing.Point(680, 335);
-            this.SiguienteDivision.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.SiguienteDivision.Margin = new System.Windows.Forms.Padding(2);
             this.SiguienteDivision.Name = "SiguienteDivision";
             this.SiguienteDivision.Size = new System.Drawing.Size(132, 30);
             this.SiguienteDivision.TabIndex = 147;
@@ -134,7 +134,7 @@
             this.mtm_res_5.BackColor = System.Drawing.Color.AliceBlue;
             this.mtm_res_5.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.mtm_res_5.Location = new System.Drawing.Point(131, 472);
-            this.mtm_res_5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.mtm_res_5.Margin = new System.Windows.Forms.Padding(2);
             this.mtm_res_5.Mask = "9";
             this.mtm_res_5.Name = "mtm_res_5";
             this.mtm_res_5.Size = new System.Drawing.Size(42, 80);
@@ -147,7 +147,7 @@
             this.mtm_prod2_4.BackColor = System.Drawing.Color.AliceBlue;
             this.mtm_prod2_4.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.mtm_prod2_4.Location = new System.Drawing.Point(131, 349);
-            this.mtm_prod2_4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.mtm_prod2_4.Margin = new System.Windows.Forms.Padding(2);
             this.mtm_prod2_4.Mask = "9";
             this.mtm_prod2_4.Name = "mtm_prod2_4";
             this.mtm_prod2_4.Size = new System.Drawing.Size(42, 80);
@@ -160,7 +160,7 @@
             this.mtm_res_1.BackColor = System.Drawing.Color.AliceBlue;
             this.mtm_res_1.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.mtm_res_1.Location = new System.Drawing.Point(363, 472);
-            this.mtm_res_1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.mtm_res_1.Margin = new System.Windows.Forms.Padding(2);
             this.mtm_res_1.Mask = "9";
             this.mtm_res_1.Name = "mtm_res_1";
             this.mtm_res_1.Size = new System.Drawing.Size(42, 80);
@@ -173,7 +173,7 @@
             this.mtm_res_2.BackColor = System.Drawing.Color.AliceBlue;
             this.mtm_res_2.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.mtm_res_2.Location = new System.Drawing.Point(304, 472);
-            this.mtm_res_2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.mtm_res_2.Margin = new System.Windows.Forms.Padding(2);
             this.mtm_res_2.Mask = "9";
             this.mtm_res_2.Name = "mtm_res_2";
             this.mtm_res_2.Size = new System.Drawing.Size(42, 80);
@@ -186,7 +186,7 @@
             this.mtm_res_3.BackColor = System.Drawing.Color.AliceBlue;
             this.mtm_res_3.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.mtm_res_3.Location = new System.Drawing.Point(250, 472);
-            this.mtm_res_3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.mtm_res_3.Margin = new System.Windows.Forms.Padding(2);
             this.mtm_res_3.Mask = "9";
             this.mtm_res_3.Name = "mtm_res_3";
             this.mtm_res_3.Size = new System.Drawing.Size(42, 80);
@@ -199,7 +199,7 @@
             this.mtm_res_4.BackColor = System.Drawing.Color.AliceBlue;
             this.mtm_res_4.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.mtm_res_4.Location = new System.Drawing.Point(188, 472);
-            this.mtm_res_4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.mtm_res_4.Margin = new System.Windows.Forms.Padding(2);
             this.mtm_res_4.Mask = "9";
             this.mtm_res_4.Name = "mtm_res_4";
             this.mtm_res_4.Size = new System.Drawing.Size(42, 80);
@@ -223,7 +223,7 @@
             this.mtm_prod2_3.BackColor = System.Drawing.Color.AliceBlue;
             this.mtm_prod2_3.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.mtm_prod2_3.Location = new System.Drawing.Point(189, 349);
-            this.mtm_prod2_3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.mtm_prod2_3.Margin = new System.Windows.Forms.Padding(2);
             this.mtm_prod2_3.Mask = "9";
             this.mtm_prod2_3.Name = "mtm_prod2_3";
             this.mtm_prod2_3.Size = new System.Drawing.Size(42, 80);
@@ -236,7 +236,7 @@
             this.mtm_prod1_4.BackColor = System.Drawing.Color.AliceBlue;
             this.mtm_prod1_4.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.mtm_prod1_4.Location = new System.Drawing.Point(189, 251);
-            this.mtm_prod1_4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.mtm_prod1_4.Margin = new System.Windows.Forms.Padding(2);
             this.mtm_prod1_4.Mask = "9";
             this.mtm_prod1_4.Name = "mtm_prod1_4";
             this.mtm_prod1_4.Size = new System.Drawing.Size(42, 80);
@@ -249,7 +249,7 @@
             this.mtm_prod2_2.BackColor = System.Drawing.Color.AliceBlue;
             this.mtm_prod2_2.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.mtm_prod2_2.Location = new System.Drawing.Point(250, 349);
-            this.mtm_prod2_2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.mtm_prod2_2.Margin = new System.Windows.Forms.Padding(2);
             this.mtm_prod2_2.Mask = "9";
             this.mtm_prod2_2.Name = "mtm_prod2_2";
             this.mtm_prod2_2.Size = new System.Drawing.Size(42, 80);
@@ -262,7 +262,7 @@
             this.mtm_prod2_1.BackColor = System.Drawing.Color.AliceBlue;
             this.mtm_prod2_1.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.mtm_prod2_1.Location = new System.Drawing.Point(304, 349);
-            this.mtm_prod2_1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.mtm_prod2_1.Margin = new System.Windows.Forms.Padding(2);
             this.mtm_prod2_1.Mask = "9";
             this.mtm_prod2_1.Name = "mtm_prod2_1";
             this.mtm_prod2_1.Size = new System.Drawing.Size(42, 80);
@@ -275,7 +275,7 @@
             this.mtm_prod1_3.BackColor = System.Drawing.Color.AliceBlue;
             this.mtm_prod1_3.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.mtm_prod1_3.Location = new System.Drawing.Point(247, 251);
-            this.mtm_prod1_3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.mtm_prod1_3.Margin = new System.Windows.Forms.Padding(2);
             this.mtm_prod1_3.Mask = "9";
             this.mtm_prod1_3.Name = "mtm_prod1_3";
             this.mtm_prod1_3.Size = new System.Drawing.Size(42, 80);
@@ -288,7 +288,7 @@
             this.mtm_prod1_2.BackColor = System.Drawing.Color.AliceBlue;
             this.mtm_prod1_2.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.mtm_prod1_2.Location = new System.Drawing.Point(304, 251);
-            this.mtm_prod1_2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.mtm_prod1_2.Margin = new System.Windows.Forms.Padding(2);
             this.mtm_prod1_2.Mask = "9";
             this.mtm_prod1_2.Name = "mtm_prod1_2";
             this.mtm_prod1_2.Size = new System.Drawing.Size(42, 80);
@@ -301,7 +301,7 @@
             this.mtm_prod1_1.BackColor = System.Drawing.Color.AliceBlue;
             this.mtm_prod1_1.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.mtm_prod1_1.Location = new System.Drawing.Point(363, 251);
-            this.mtm_prod1_1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.mtm_prod1_1.Margin = new System.Windows.Forms.Padding(2);
             this.mtm_prod1_1.Mask = "9";
             this.mtm_prod1_1.Name = "mtm_prod1_1";
             this.mtm_prod1_1.Size = new System.Drawing.Size(42, 80);
@@ -313,7 +313,7 @@
             // 
             this.imagenlinea2.Image = global::MateKids.Properties.Resources.linea2;
             this.imagenlinea2.Location = new System.Drawing.Point(128, 433);
-            this.imagenlinea2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.imagenlinea2.Margin = new System.Windows.Forms.Padding(2);
             this.imagenlinea2.Name = "imagenlinea2";
             this.imagenlinea2.Size = new System.Drawing.Size(310, 34);
             this.imagenlinea2.TabIndex = 142;
@@ -323,7 +323,7 @@
             // 
             this.imagendivision.Image = global::MateKids.Properties.Resources.m8;
             this.imagendivision.Location = new System.Drawing.Point(187, 36);
-            this.imagendivision.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.imagendivision.Margin = new System.Windows.Forms.Padding(2);
             this.imagendivision.Name = "imagendivision";
             this.imagendivision.Size = new System.Drawing.Size(244, 232);
             this.imagendivision.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -348,8 +348,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(882, 639);
+            this.ControlBox = false;
             this.Controls.Add(this.Regresar);
             this.Controls.Add(this.TerminarDivision);
             this.Controls.Add(this.lblpuntaje);
@@ -373,11 +373,11 @@
             this.Controls.Add(this.mtm_prod1_2);
             this.Controls.Add(this.mtm_prod1_1);
             this.Controls.Add(this.imagendivision);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
+            this.Margin = new System.Windows.Forms.Padding(2);
+            this.MaximizeBox = false;
             this.Name = "Form2_8";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form2_8";
+            this.Resizable = false;
             this.Load += new System.EventHandler(this.Form2_1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.imagenlinea2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.imagendivision)).EndInit();

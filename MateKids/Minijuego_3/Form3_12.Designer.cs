@@ -64,7 +64,7 @@
             this.Siguiente.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Siguiente.Image = global::MateKids.Properties.Resources.rightarrow3_78482;
             this.Siguiente.Location = new System.Drawing.Point(907, 300);
-            this.Siguiente.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Siguiente.Margin = new System.Windows.Forms.Padding(2);
             this.Siguiente.Name = "Siguiente";
             this.Siguiente.Size = new System.Drawing.Size(98, 109);
             this.Siguiente.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -134,7 +134,7 @@
             this.Opcion3.Font = new System.Drawing.Font("Sitka Subheading", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
             this.Opcion3.ForeColor = System.Drawing.Color.Black;
             this.Opcion3.Location = new System.Drawing.Point(434, 445);
-            this.Opcion3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Opcion3.Margin = new System.Windows.Forms.Padding(2);
             this.Opcion3.Name = "Opcion3";
             this.Opcion3.Size = new System.Drawing.Size(151, 68);
             this.Opcion3.TabIndex = 98;
@@ -151,7 +151,7 @@
             this.Opcion2.Font = new System.Drawing.Font("Sitka Subheading", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
             this.Opcion2.ForeColor = System.Drawing.Color.Black;
             this.Opcion2.Location = new System.Drawing.Point(434, 372);
-            this.Opcion2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Opcion2.Margin = new System.Windows.Forms.Padding(2);
             this.Opcion2.Name = "Opcion2";
             this.Opcion2.Size = new System.Drawing.Size(151, 68);
             this.Opcion2.TabIndex = 97;
@@ -179,7 +179,7 @@
             this.Opcion1.Font = new System.Drawing.Font("Sitka Subheading", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
             this.Opcion1.ForeColor = System.Drawing.Color.Black;
             this.Opcion1.Location = new System.Drawing.Point(434, 300);
-            this.Opcion1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Opcion1.Margin = new System.Windows.Forms.Padding(2);
             this.Opcion1.Name = "Opcion1";
             this.Opcion1.Size = new System.Drawing.Size(151, 68);
             this.Opcion1.TabIndex = 95;
@@ -213,6 +213,7 @@
             this.BackgroundImage = global::MateKids.Properties.Resources.Photo_from_album__Летние_пейзажи__природа__on_Yandex_Disk;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1025, 559);
+            this.ControlBox = false;
             this.Controls.Add(this.Regresar);
             this.Controls.Add(this.lblrespuesta);
             this.Controls.Add(this.Siguiente);
@@ -224,8 +225,8 @@
             this.Controls.Add(this.Opcion2);
             this.Controls.Add(this.problema);
             this.Controls.Add(this.Opcion1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Form3_12";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form3_12";

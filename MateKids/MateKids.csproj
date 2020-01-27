@@ -634,6 +634,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="bin\Debug\close_window_52px.png" />
     <Content Include="Minijuego_5\letrero_colgante.png" />
     <Content Include="Minijuego_5\tabla10.png" />
     <Content Include="Minijuego_5\tabla2.png" />
@@ -646,6 +647,8 @@
     <Content Include="Minijuego_5\tabla9.png" />
     <None Include="Resources\disparo.wav" />
     <None Include="Resources\letrero_colgante.png" />
+    <None Include="Resources\borrador.jpg" />
+    <None Include="Resources\borrador1.jpg" />
     <Content Include="Sonidos\correcto.wav" />
     <Content Include="Sonidos\incorrecto.wav" />
     <Content Include="Sonidos\iniciar.wav" />

@@ -220,7 +220,7 @@
             // 
             // Regresar
             // 
-            this.Regresar.BackColor = System.Drawing.Color.White;
+            this.Regresar.BackColor = System.Drawing.Color.DeepSkyBlue;
             this.Regresar.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.Regresar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Regresar.Image = global::MateKids.Properties.Resources.back__1_;

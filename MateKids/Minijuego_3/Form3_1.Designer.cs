@@ -51,7 +51,7 @@
             this.Siguiente.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Siguiente.Image = global::MateKids.Properties.Resources.rightarrow3_78482;
             this.Siguiente.Location = new System.Drawing.Point(907, 273);
-            this.Siguiente.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Siguiente.Margin = new System.Windows.Forms.Padding(2);
             this.Siguiente.Name = "Siguiente";
             this.Siguiente.Size = new System.Drawing.Size(98, 109);
             this.Siguiente.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -121,7 +121,7 @@
             this.Opcion3.Font = new System.Drawing.Font("Sitka Subheading", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
             this.Opcion3.ForeColor = System.Drawing.Color.Black;
             this.Opcion3.Location = new System.Drawing.Point(434, 418);
-            this.Opcion3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Opcion3.Margin = new System.Windows.Forms.Padding(2);
             this.Opcion3.Name = "Opcion3";
             this.Opcion3.Size = new System.Drawing.Size(151, 68);
             this.Opcion3.TabIndex = 79;
@@ -138,7 +138,7 @@
             this.Opcion2.Font = new System.Drawing.Font("Sitka Subheading", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
             this.Opcion2.ForeColor = System.Drawing.Color.Black;
             this.Opcion2.Location = new System.Drawing.Point(434, 345);
-            this.Opcion2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Opcion2.Margin = new System.Windows.Forms.Padding(2);
             this.Opcion2.Name = "Opcion2";
             this.Opcion2.Size = new System.Drawing.Size(151, 68);
             this.Opcion2.TabIndex = 78;
@@ -153,10 +153,11 @@
             this.problema.Location = new System.Drawing.Point(20, 74);
             this.problema.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.problema.Name = "problema";
-            this.problema.Size = new System.Drawing.Size(801, 124);
+            this.problema.Size = new System.Drawing.Size(801, 153);
             this.problema.TabIndex = 77;
-            this.problema.Text = "Una señora compró 8 paquetes con seis sodas cada uno, para llevar a una fiesta, ¿" +
-    "Cuántas sodas llevará a la fiesta?";
+            this.problema.Text = "Una señora compró 8 paquetes con seis sodas cada uno.\r\nPronto se llevará las soda" +
+    "s a una fiesta \r\n¿Cuántas sodas llevará a la fiesta?\r\n";
+            this.problema.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
             // 
             // Opcion1
             // 
@@ -167,7 +168,7 @@
             this.Opcion1.Font = new System.Drawing.Font("Sitka Subheading", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
             this.Opcion1.ForeColor = System.Drawing.Color.Black;
             this.Opcion1.Location = new System.Drawing.Point(434, 273);
-            this.Opcion1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Opcion1.Margin = new System.Windows.Forms.Padding(2);
             this.Opcion1.Name = "Opcion1";
             this.Opcion1.Size = new System.Drawing.Size(151, 68);
             this.Opcion1.TabIndex = 76;
@@ -226,7 +227,7 @@
             this.Controls.Add(this.problema);
             this.Controls.Add(this.Opcion1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Form3_1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form3_1";
