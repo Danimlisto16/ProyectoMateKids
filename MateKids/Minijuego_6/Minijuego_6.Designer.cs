@@ -46,10 +46,12 @@
             this.tmrTiempoJuego = new System.Windows.Forms.Timer(this.components);
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.Regresar = new System.Windows.Forms.PictureBox();
+            this.panel1 = new System.Windows.Forms.Panel();
             this.pnlControles.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbxTiempo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Regresar)).BeginInit();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // lblTiempo
@@ -224,16 +226,25 @@
             this.Regresar.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.Regresar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Regresar.Image = global::MateKids.Properties.Resources.back__1_;
-            this.Regresar.Location = new System.Drawing.Point(8, 10);
+            this.Regresar.Location = new System.Drawing.Point(13, 16);
             this.Regresar.Margin = new System.Windows.Forms.Padding(2);
             this.Regresar.Name = "Regresar";
-            this.Regresar.Size = new System.Drawing.Size(59, 44);
+            this.Regresar.Size = new System.Drawing.Size(64, 48);
             this.Regresar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.Regresar.TabIndex = 111;
             this.Regresar.TabStop = false;
             this.Regresar.Click += new System.EventHandler(this.Regresar_Click);
             this.Regresar.MouseEnter += new System.EventHandler(this.Regresar_MouseEnter);
             this.Regresar.MouseLeave += new System.EventHandler(this.Regresar_MouseLeave);
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.White;
+            this.panel1.Controls.Add(this.Regresar);
+            this.panel1.Location = new System.Drawing.Point(9, 9);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(101, 79);
+            this.panel1.TabIndex = 112;
             // 
             // Minijuego_6
             // 
@@ -243,7 +254,7 @@
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(912, 557);
             this.ControlBox = false;
-            this.Controls.Add(this.Regresar);
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.lblTiempo);
             this.Controls.Add(this.pbxTiempo);
@@ -266,6 +277,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pbxTiempo)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Regresar)).EndInit();
+            this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -288,5 +300,6 @@
         private System.Windows.Forms.Timer tmrTiempoJuego;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox Regresar;
+        private System.Windows.Forms.Panel panel1;
     }
 }
