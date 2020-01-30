@@ -38,6 +38,8 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.Regresar = new System.Windows.Forms.PictureBox();
+            this.mtTip = new MetroFramework.Components.MetroToolTip();
+            this.lblModalidad = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
@@ -78,12 +80,13 @@
             // 
             this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox3.Image = global::MateKids.Properties.Resources.igual2;
-            this.pictureBox3.Location = new System.Drawing.Point(650, 177);
+            this.pictureBox3.Location = new System.Drawing.Point(650, 161);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(174, 174);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox3.TabIndex = 6;
             this.pictureBox3.TabStop = false;
+            this.mtTip.SetToolTip(this.pictureBox3, "Click para comprobar\r\n");
             this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
             this.pictureBox3.MouseEnter += new System.EventHandler(this.pictureBox3_MouseEnter);
             this.pictureBox3.MouseLeave += new System.EventHandler(this.pictureBox3_MouseLeave);
@@ -103,9 +106,9 @@
             // 
             this.pictureBox4.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox4.Image = global::MateKids.Properties.Resources.playsimbol;
-            this.pictureBox4.Location = new System.Drawing.Point(469, 370);
+            this.pictureBox4.Location = new System.Drawing.Point(122, 11);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(130, 122);
+            this.pictureBox4.Size = new System.Drawing.Size(57, 48);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox4.TabIndex = 8;
             this.pictureBox4.TabStop = false;
@@ -158,6 +161,24 @@
             this.Regresar.MouseEnter += new System.EventHandler(this.Regresar_MouseEnter);
             this.Regresar.MouseLeave += new System.EventHandler(this.Regresar_MouseLeave);
             // 
+            // mtTip
+            // 
+            this.mtTip.AutoPopDelay = 1000;
+            this.mtTip.InitialDelay = 2000;
+            this.mtTip.ReshowDelay = 1000;
+            this.mtTip.StripAmpersands = true;
+            this.mtTip.Style = MetroFramework.MetroColorStyle.Pink;
+            this.mtTip.Theme = MetroFramework.MetroThemeStyle.Light;
+            // 
+            // lblModalidad
+            // 
+            this.lblModalidad.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblModalidad.Location = new System.Drawing.Point(1011, 466);
+            this.lblModalidad.Name = "lblModalidad";
+            this.lblModalidad.Size = new System.Drawing.Size(123, 29);
+            this.lblModalidad.TabIndex = 113;
+            this.lblModalidad.Text = "Modo: LIBRE";
+            // 
             // Minijuego_10
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -165,6 +186,7 @@
             this.BackgroundImage = global::MateKids.Properties.Resources.playa;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1146, 504);
+            this.Controls.Add(this.lblModalidad);
             this.Controls.Add(this.Regresar);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -202,5 +224,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.PictureBox Regresar;
+        private MetroFramework.Components.MetroToolTip mtTip;
+        private System.Windows.Forms.Label lblModalidad;
     }
 }

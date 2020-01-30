@@ -213,10 +213,7 @@ namespace MateKids.Minijuego_5
 
         private void res9_KeyPress(object sender, KeyPressEventArgs e)
         {
-            if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar))
-            {
-                e.Handled = true;
-            }
+
         }
 
         private void Terminar_Click(object sender, EventArgs e)
@@ -464,12 +461,34 @@ namespace MateKids.Minijuego_5
             
         }
 
+        private void res_3_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void res_5_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void res_5_KeyPress(object sender, KeyPressEventArgs e)
+        {
+
+        }
+
         private void res10_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            soloNumeros(sender,e);
+        }
+
+        private void soloNumeros(object sender,KeyPressEventArgs e)
         {
             if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar))
             {
                 e.Handled = true;
             }
         }
+
+
     }
 }

@@ -209,6 +209,7 @@ namespace MateKids.Minijuego_6
             else
             {
                 sonidoIncorrecto();
+                
             }
         }
 

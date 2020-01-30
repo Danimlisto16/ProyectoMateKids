@@ -52,6 +52,7 @@
             this.lblAciertos = new System.Windows.Forms.Label();
             this.lblFallos = new System.Windows.Forms.Label();
             this.Regresar = new System.Windows.Forms.PictureBox();
+            this.lblModalidad = new System.Windows.Forms.Label();
             this.pbxFondo.SuspendLayout();
             this.pnlMitad1.SuspendLayout();
             this.pnlGlobo1.SuspendLayout();
@@ -104,6 +105,7 @@
             // 
             this.pbxFondo.BackgroundImage = global::MateKids.Properties.Resources.fondo;
             this.pbxFondo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pbxFondo.Controls.Add(this.lblModalidad);
             this.pbxFondo.Controls.Add(this.pnlMitad1);
             this.pbxFondo.Controls.Add(this.pnlTitulo);
             this.pbxFondo.Controls.Add(this.pnlLetrero);
@@ -307,6 +309,15 @@
             this.Regresar.TabStop = false;
             this.Regresar.Click += new System.EventHandler(this.Regresar_Click);
             // 
+            // lblModalidad
+            // 
+            this.lblModalidad.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblModalidad.Location = new System.Drawing.Point(1200, 563);
+            this.lblModalidad.Name = "lblModalidad";
+            this.lblModalidad.Size = new System.Drawing.Size(148, 29);
+            this.lblModalidad.TabIndex = 113;
+            this.lblModalidad.Text = "Modo: TIEMPO";
+            // 
             // Minijuego_9
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -360,5 +371,6 @@
         private System.Windows.Forms.Label lblFallos;
         private System.Windows.Forms.Panel pbxFondo;
         private System.Windows.Forms.PictureBox Regresar;
+        private System.Windows.Forms.Label lblModalidad;
     }
 }

@@ -17,7 +17,13 @@ namespace MateKids.Minijuego_10
             pictureBox2.Parent = this;
             pictureBox3.Parent = this;
             pictureBox4.Parent = this;
-            
+            this.mtTip.SetToolTip(pictureBox4, "Click para iniciar el juego");
+            this.mtTip.SetToolTip(pictureBox3, "Click para calcular");
+            this.mtTip.UseAnimation = true;
+            this.mtTip.UseFading = true;
+            mtTip.IsBalloon = true; 
+            mtTip.AutoPopDelay = 2000;
+            mtTip.InitialDelay = 500;
         }
 
         Random r = new Random();
@@ -116,22 +122,22 @@ namespace MateKids.Minijuego_10
 
         private void pictureBox4_MouseEnter(object sender, EventArgs e)
         {
-            pictureBox4.Size = new System.Drawing.Size(138, 130);
+            pictureBox4.Size = new System.Drawing.Size(57, 48);
         }
 
         private void pictureBox4_MouseLeave(object sender, EventArgs e)
         {
-            pictureBox4.Size = new System.Drawing.Size(130, 122);
+            pictureBox4.Size = new System.Drawing.Size(67, 58);
         }
 
         private void Regresar_MouseLeave(object sender, EventArgs e)
         {
-            Regresar.Size = new System.Drawing.Size(65, 48);
+            Regresar.Size = new System.Drawing.Size(57, 48);
         }
 
         private void Regresar_MouseEnter(object sender, EventArgs e)
         {
-            Regresar.Size = new System.Drawing.Size(75, 58);
+            Regresar.Size = new System.Drawing.Size(67, 58);
         }
 
         private void Regresar_Click(object sender, EventArgs e)

@@ -32,6 +32,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.Regresar = new System.Windows.Forms.PictureBox();
+            this.lblModalidad = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Regresar)).BeginInit();
             this.SuspendLayout();
@@ -49,7 +50,7 @@
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(279, 68);
             this.button1.TabIndex = 9;
-            this.button1.Text = "Iniciar Minijuego";
+            this.button1.Text = "Iniciar ";
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.iniciar_minijuego_Click);
             // 
@@ -93,6 +94,15 @@
             this.Regresar.TabStop = false;
             this.Regresar.Click += new System.EventHandler(this.Regresar_Click);
             // 
+            // lblModalidad
+            // 
+            this.lblModalidad.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblModalidad.Location = new System.Drawing.Point(840, 521);
+            this.lblModalidad.Name = "lblModalidad";
+            this.lblModalidad.Size = new System.Drawing.Size(173, 29);
+            this.lblModalidad.TabIndex = 133;
+            this.lblModalidad.Text = "Modo: ACIERTOS";
+            // 
             // Minijuego_3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -100,6 +110,7 @@
             this.BackgroundImage = global::MateKids.Properties.Resources.Photo_from_album__Летние_пейзажи__природа__on_Yandex_Disk;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1025, 559);
+            this.Controls.Add(this.lblModalidad);
             this.Controls.Add(this.Regresar);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
@@ -121,5 +132,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox Regresar;
+        private System.Windows.Forms.Label lblModalidad;
     }
 }

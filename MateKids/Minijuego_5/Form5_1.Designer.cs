@@ -191,6 +191,8 @@
             this.res_5.Name = "res_5";
             this.res_5.Size = new System.Drawing.Size(76, 43);
             this.res_5.TabIndex = 115;
+            this.res_5.TextChanged += new System.EventHandler(this.res_5_TextChanged);
+            this.res_5.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.soloNumeros);
             // 
             // res_2
             // 
@@ -201,6 +203,7 @@
             this.res_2.Name = "res_2";
             this.res_2.Size = new System.Drawing.Size(76, 43);
             this.res_2.TabIndex = 116;
+            this.res_2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.soloNumeros);
             // 
             // res_6
             // 
@@ -211,6 +214,7 @@
             this.res_6.Name = "res_6";
             this.res_6.Size = new System.Drawing.Size(76, 43);
             this.res_6.TabIndex = 118;
+            this.res_6.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.soloNumeros);
             // 
             // res_1
             // 
@@ -221,6 +225,7 @@
             this.res_1.Name = "res_1";
             this.res_1.Size = new System.Drawing.Size(76, 43);
             this.res_1.TabIndex = 120;
+            this.res_1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.soloNumeros);
             // 
             // res_4
             // 
@@ -231,6 +236,7 @@
             this.res_4.Name = "res_4";
             this.res_4.Size = new System.Drawing.Size(76, 43);
             this.res_4.TabIndex = 123;
+            this.res_4.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.soloNumeros);
             // 
             // res_9
             // 
@@ -241,6 +247,7 @@
             this.res_9.Name = "res_9";
             this.res_9.Size = new System.Drawing.Size(76, 43);
             this.res_9.TabIndex = 125;
+            this.res_9.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.soloNumeros);
             // 
             // res_7
             // 
@@ -251,6 +258,7 @@
             this.res_7.Name = "res_7";
             this.res_7.Size = new System.Drawing.Size(76, 43);
             this.res_7.TabIndex = 126;
+            this.res_7.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.soloNumeros);
             // 
             // res_10
             // 
@@ -261,6 +269,7 @@
             this.res_10.Name = "res_10";
             this.res_10.Size = new System.Drawing.Size(76, 43);
             this.res_10.TabIndex = 128;
+            this.res_10.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.res_5_KeyPress);
             // 
             // res_8
             // 
@@ -271,6 +280,7 @@
             this.res_8.Name = "res_8";
             this.res_8.Size = new System.Drawing.Size(76, 43);
             this.res_8.TabIndex = 131;
+            this.res_8.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.soloNumeros);
             // 
             // lres_3
             // 
@@ -411,6 +421,7 @@
             this.res_3.Name = "res_3";
             this.res_3.Size = new System.Drawing.Size(76, 43);
             this.res_3.TabIndex = 113;
+            this.res_3.TextChanged += new System.EventHandler(this.res_3_TextChanged);
             // 
             // label30
             // 

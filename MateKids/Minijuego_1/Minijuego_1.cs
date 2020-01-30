@@ -145,8 +145,6 @@ namespace MateKids.Minijuego_1
             SoundPlayer simpleSound = new SoundPlayer(Properties.Resources.incorrecto);
             simpleSound.Play();
         }
-
-
         private void Validar_respuesta(Button btn, object sender, EventArgs e)
         {
             int opcion = Convert.ToInt32(btn.Text);
@@ -155,13 +153,14 @@ namespace MateKids.Minijuego_1
                 Incrementar_marcador();
                 lblPuntaje.Text = marcador.ToString();
                 IniciarJuego_Click(sender, e);
-                sonidoCorrecto();
-                
+                sonidoCorrecto();    
             }
             else
             {
                 //MessageBox.Show("Intentalo otra vez", "Respuesta Incorrecta");
                 sonidoIncorrecto();
+                tiempo--;
+                //lblTiempo.BackColor = System.Drawing.Color.White;
             }
         }
 
@@ -180,6 +179,7 @@ namespace MateKids.Minijuego_1
         {
             tiempo--;
             lblTiempo.Text = tiempo.ToString();
+            
             if (tiempo == 0)
             {
                 tmrTiempoJuego.Stop();
@@ -228,6 +228,11 @@ namespace MateKids.Minijuego_1
         private void Regresar_MouseLeave(object sender, EventArgs e)
         {
             Regresar.Size = new System.Drawing.Size(65, 48);
+        }
+
+        private void tmrTiempo_Tick(object sender, EventArgs e)
+        {
+           
         }
     }
 }

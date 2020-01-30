@@ -32,6 +32,7 @@
             this.texto_descripcion = new System.Windows.Forms.Label();
             this.titulo_minijuego8 = new System.Windows.Forms.PictureBox();
             this.Regresar = new System.Windows.Forms.PictureBox();
+            this.lblModalidad = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.titulo_minijuego8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Regresar)).BeginInit();
             this.SuspendLayout();
@@ -45,11 +46,11 @@
             this.iniciar_minijuego.Font = new System.Drawing.Font("Sitka Subheading", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
             this.iniciar_minijuego.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.iniciar_minijuego.Location = new System.Drawing.Point(365, 462);
-            this.iniciar_minijuego.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.iniciar_minijuego.Margin = new System.Windows.Forms.Padding(2);
             this.iniciar_minijuego.Name = "iniciar_minijuego";
             this.iniciar_minijuego.Size = new System.Drawing.Size(279, 68);
             this.iniciar_minijuego.TabIndex = 15;
-            this.iniciar_minijuego.Text = "Iniciar Minijuego";
+            this.iniciar_minijuego.Text = "Iniciar ";
             this.iniciar_minijuego.UseVisualStyleBackColor = false;
             this.iniciar_minijuego.Click += new System.EventHandler(this.iniciar_minijuego_Click);
             // 
@@ -72,7 +73,7 @@
             this.titulo_minijuego8.BackColor = System.Drawing.Color.Transparent;
             this.titulo_minijuego8.Image = global::MateKids.Properties.Resources.divitest_juego;
             this.titulo_minijuego8.Location = new System.Drawing.Point(282, 22);
-            this.titulo_minijuego8.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.titulo_minijuego8.Margin = new System.Windows.Forms.Padding(2);
             this.titulo_minijuego8.Name = "titulo_minijuego8";
             this.titulo_minijuego8.Size = new System.Drawing.Size(469, 134);
             this.titulo_minijuego8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -93,6 +94,15 @@
             this.Regresar.TabStop = false;
             this.Regresar.Click += new System.EventHandler(this.Regresar_Click);
             // 
+            // lblModalidad
+            // 
+            this.lblModalidad.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblModalidad.Location = new System.Drawing.Point(840, 521);
+            this.lblModalidad.Name = "lblModalidad";
+            this.lblModalidad.Size = new System.Drawing.Size(173, 29);
+            this.lblModalidad.TabIndex = 114;
+            this.lblModalidad.Text = "Modo: ACIERTOS";
+            // 
             // Minijuego_8
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -100,12 +110,13 @@
             this.BackgroundImage = global::MateKids.Properties.Resources.Photo_from_album__Летние_пейзажи__природа__on_Yandex_Disk;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1025, 559);
+            this.Controls.Add(this.lblModalidad);
             this.Controls.Add(this.Regresar);
             this.Controls.Add(this.iniciar_minijuego);
             this.Controls.Add(this.texto_descripcion);
             this.Controls.Add(this.titulo_minijuego8);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Minijuego_8";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Minijuego_8";
@@ -121,5 +132,6 @@
         private System.Windows.Forms.Label texto_descripcion;
         private System.Windows.Forms.PictureBox titulo_minijuego8;
         private System.Windows.Forms.PictureBox Regresar;
+        private System.Windows.Forms.Label lblModalidad;
     }
 }

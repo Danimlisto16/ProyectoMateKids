@@ -33,6 +33,7 @@
             this.texto_descripcion = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.Regresar = new System.Windows.Forms.PictureBox();
+            this.lblModalidad = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Regresar)).BeginInit();
             this.SuspendLayout();
@@ -87,12 +88,22 @@
             this.Regresar.TabStop = false;
             this.Regresar.Click += new System.EventHandler(this.Regresar_Click);
             // 
+            // lblModalidad
+            // 
+            this.lblModalidad.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblModalidad.Location = new System.Drawing.Point(525, 506);
+            this.lblModalidad.Name = "lblModalidad";
+            this.lblModalidad.Size = new System.Drawing.Size(173, 29);
+            this.lblModalidad.TabIndex = 113;
+            this.lblModalidad.Text = "Modo: ACIERTOS";
+            // 
             // Minijuego_2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(706, 545);
+            this.ClientSize = new System.Drawing.Size(702, 541);
             this.ControlBox = false;
+            this.Controls.Add(this.lblModalidad);
             this.Controls.Add(this.Regresar);
             this.Controls.Add(this.iniciar_minijuego);
             this.Controls.Add(this.texto_descripcion);
@@ -118,5 +129,6 @@
         private System.Windows.Forms.Label texto_descripcion;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox Regresar;
+        private System.Windows.Forms.Label lblModalidad;
     }
 }

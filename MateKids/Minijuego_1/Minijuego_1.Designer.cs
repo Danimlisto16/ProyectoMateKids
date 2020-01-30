@@ -47,6 +47,8 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.Regresar = new System.Windows.Forms.PictureBox();
             this.metroPanel1 = new MetroFramework.Controls.MetroPanel();
+            this.tmrTiempo = new System.Windows.Forms.Timer(this.components);
+            this.lblModalidad = new System.Windows.Forms.Label();
             this.pnlControles.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbxTiempo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -222,14 +224,14 @@
             // 
             // Regresar
             // 
-            this.Regresar.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.Regresar.BackColor = System.Drawing.Color.White;
             this.Regresar.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.Regresar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Regresar.Image = global::MateKids.Properties.Resources.back__1_;
-            this.Regresar.Location = new System.Drawing.Point(28, 18);
+            this.Regresar.Location = new System.Drawing.Point(68, 22);
             this.Regresar.Margin = new System.Windows.Forms.Padding(2);
             this.Regresar.Name = "Regresar";
-            this.Regresar.Size = new System.Drawing.Size(59, 41);
+            this.Regresar.Size = new System.Drawing.Size(59, 52);
             this.Regresar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.Regresar.TabIndex = 110;
             this.Regresar.TabStop = false;
@@ -243,13 +245,27 @@
             this.metroPanel1.HorizontalScrollbarBarColor = true;
             this.metroPanel1.HorizontalScrollbarHighlightOnWheel = false;
             this.metroPanel1.HorizontalScrollbarSize = 10;
-            this.metroPanel1.Location = new System.Drawing.Point(12, 12);
+            this.metroPanel1.Location = new System.Drawing.Point(30, 12);
             this.metroPanel1.Name = "metroPanel1";
-            this.metroPanel1.Size = new System.Drawing.Size(109, 76);
+            this.metroPanel1.Size = new System.Drawing.Size(197, 102);
             this.metroPanel1.TabIndex = 111;
             this.metroPanel1.VerticalScrollbarBarColor = true;
             this.metroPanel1.VerticalScrollbarHighlightOnWheel = false;
             this.metroPanel1.VerticalScrollbarSize = 10;
+            // 
+            // tmrTiempo
+            // 
+            this.tmrTiempo.Interval = 500;
+            this.tmrTiempo.Tick += new System.EventHandler(this.tmrTiempo_Tick);
+            // 
+            // lblModalidad
+            // 
+            this.lblModalidad.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblModalidad.Location = new System.Drawing.Point(752, 508);
+            this.lblModalidad.Name = "lblModalidad";
+            this.lblModalidad.Size = new System.Drawing.Size(148, 29);
+            this.lblModalidad.TabIndex = 112;
+            this.lblModalidad.Text = "Modo: TIEMPO";
             // 
             // Minijuego_1
             // 
@@ -259,6 +275,7 @@
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(912, 546);
             this.ControlBox = false;
+            this.Controls.Add(this.lblModalidad);
             this.Controls.Add(this.metroPanel1);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.lblTiempo);
@@ -307,5 +324,7 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox Regresar;
         private MetroFramework.Controls.MetroPanel metroPanel1;
+        private System.Windows.Forms.Timer tmrTiempo;
+        private System.Windows.Forms.Label lblModalidad;
     }
 }
